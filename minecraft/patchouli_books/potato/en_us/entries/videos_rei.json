@@ -1,0 +1,17 @@
+{
+    "name": "REI Video",
+    "icon": "minecraft:crafting_table",
+    "category": "patchouli:videos",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Roughly Enough Items (REI) is a block, item, and recipe viewing mod. This is a very basic and older video but what he shows is still relevant: $(l:https://www.youtube.com/watch?v=6ferGeOe12I)$(br)REI Showcase$(/l)$(br2)$(l)Advanced Search$()$(br)$(li)Mod: @[modname] Non-case sensitive, searching via mod, for example @materialisation to search for items added by materialisation."
+        },{
+            "type": "text",
+            "text": "$(li)Tooltip: #[text] Non-case sensitive, searching via tooltip, for example #protection to search for protection books.$(li)Tags: tag Non-case sensitive, searching via tags, for example $logs to search for logs.$(li)Regex: r/regex/ Case sensitive, searching via regex, for example r/(Golden )?Apple) to search for golden apples or apples.$(li)Quotes: Allowing spaces, for example \"#protection iii\" to search with spaces. Or: | Or, for example apple|$logs to search for apples or logs."
+        },{
+            "type": "text",
+            "text": "$(l)Options$()$(li)Hover over Gear icon by \"Search...\" to see several options - Click on it to see more$()$(li)Crafting Table icon toggles \"Showing All\" and \"Showing Craftable\" - hovering shows different search bar location options.$(br2)For more information visit $(l:https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) CurseForge.com$(/l)"
+        }
+    ]
+}
