@@ -1,0 +1,79 @@
+# Ignore these folders
+builds/*server*.zip
+minecraft/backups/*
+minecraft/.bobby/*
+minecraft/.fabric/*
+minecraft/.mixin.out/*
+minecraft/backup/*
+minecraft/config/*
+minecraft/coremods/*
+minecraft/craftpresence/*
+minecraft/crash-reports/*
+minecraft/data/*
+minecraft/fancymenu_data/*
+minecraft/fancymenu_setups/*
+minecraft/kubejs/exported/*
+minecraft/local/*
+minecraft/logs/*
+minecraft/moddata/*
+minecraft/mods/*
+minecraft/mods*/*
+minecraft/ModTranslations/*
+minecraft/resourcepacks/*
+minecraft/saves/*
+minecraft/schematics/*
+minecraft/screenshots/*
+minecraft/server-resource-packs/*
+minecraft/shaderpacks/*
+minecraft/texturepacks/*
+minecraft/Xaero*/*
+natives/*
+server/config/*
+server/logs/*
+server/mods/*
+server/world/*
+
+# ignore these symbolic linked folders
+minecraft/resourcepacks
+server/kubejs
+server/patchouli_books
+
+# Ignore these files
+*.code-workspace
+*.log
+.packignore
+instance.cfg
+mmc-pack.json
+modlist.html
+minecraft/icon.png
+minecraft/irisUpdateInfo.json
+minecraft/keys.txt
+minecraft/knownkeys.txt
+minecraft/options.amecsapi.txt
+minecraft/options.justenoughkeys.txt
+minecraft/options.txt
+minecraft/patchouli_data.json
+minecraft/pfmUpdateInfo.json
+minecraft/polymer-resourcepack.zip
+minecraft/realms_persistence.json
+minecraft/rhino.local.properties
+minecraft/servers.dat
+minecraft/servers.dat_old
+minecraft/usercache.json
+minecraft/usernamecache.json
+server/*.zip
+
+# Stop ignoring these folders
+!minecraft/config/drippyloadingscreen/
+!minecraft/config/fancymenu/
+# !minecraft/config/emerald_tools
+!minecraft/patchouli_books/
+!minecraft/config/yosbr/
+
+# Ignore these sub-folders of above section
+minecraft/config/fancymenu/locals/*
+
+# Stop ignoring these files
+!minecraft/config/bcc.json
+!server/config/bcc.json
+!server/config/carrier.json
