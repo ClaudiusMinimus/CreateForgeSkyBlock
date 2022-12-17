@@ -1,0 +1,3 @@
+function gamerz_riot:randomizer/gz-a4-mobamount-1-1
+execute as @s at @s run summon minecraft:spider ~ ~1.6 ~ {Passengers:[{id:"minecraft:skeleton",HandItems:[{id:"minecraft:bow",tag:{Enchantments:[{id:power,lvl:1}]},Count:1},{}],ArmorItems:[{id:"minecraft:chainmail_boots",Count:1},{},{},{id:"minecraft:leather_helmet",tag:{display:{color:2871105},Enchantments:[{id:projectile_protection,lvl:2}]},Count:1}],Tags:["gz-a4-newmob"]}]}
+tag @e[tag=gz-a4-newmob] remove gz-a4-newmob

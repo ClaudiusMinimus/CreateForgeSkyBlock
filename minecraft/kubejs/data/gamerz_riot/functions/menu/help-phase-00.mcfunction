@@ -1,0 +1,3 @@
+playsound minecraft:ui.button.click master @s ~ ~ ~ 0.2 0.7 0.2
+
+execute if entity @e run tellraw @s [{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Phase 0: Tutorial","color":"gold"},{"text":"\n Everything has a beginning.\n","color":"gray"},{"text":"\n New Blocks: ","color":"green"},{"text":"Chest, Grass Block, Gravel, Oak Log, Clay","color":"white"},{"text":"\n New Items: ","color":"green"},{"text":"Apple, Egg, Oak Sapling, Wheat Seeds, Water Bucket","color":"white"},{"text":"\n New Mobs: ","color":"green"},{"text":"Pig","color":"white"},{"text":"\n\n "},{"text":"[Back]","color":"red","clickEvent":{"action":"run_command","value":"/trigger gz-a4 set 10"},"hoverEvent":{"action":"show_text","value":"Click to go back."}},{"text":"\n"}]

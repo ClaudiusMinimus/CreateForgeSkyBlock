@@ -1,0 +1,15 @@
+execute as @e[scores={gz-a4=60}] run function gamerz_riot:menu/help-phase-00
+execute as @e[scores={gz-a4=61}] run function gamerz_riot:menu/help-phase-01
+execute as @e[scores={gz-a4=62}] run function gamerz_riot:menu/help-phase-02
+execute as @e[scores={gz-a4=63}] run function gamerz_riot:menu/help-phase-03
+execute as @e[scores={gz-a4=64}] run function gamerz_riot:menu/help-phase-04
+execute as @e[scores={gz-a4=65}] run function gamerz_riot:menu/help-phase-05
+execute as @e[scores={gz-a4=66}] run function gamerz_riot:menu/help-phase-06
+execute as @e[scores={gz-a4=67}] run function gamerz_riot:menu/help-phase-07
+execute as @e[scores={gz-a4=68}] run function gamerz_riot:menu/help-phase-08
+execute as @e[scores={gz-a4=69}] run function gamerz_riot:menu/help-phase-09
+execute as @e[scores={gz-a4=70}] run function gamerz_riot:menu/help-phase-10
+execute as @e[scores={gz-a4=71}] run function gamerz_riot:menu/help-phase-11
+execute as @e[scores={gz-a4=72}] run function gamerz_riot:menu/help-phase-12
+execute as @e[scores={gz-a4=73}] run function gamerz_riot:menu/help-phase-13
+execute as @e[scores={gz-a4=74}] run function gamerz_riot:menu/help-phase-14

@@ -1,0 +1,4 @@
+execute if entity @e run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
+execute if entity @e run tellraw @a {"text":"\n You reached the Afterphases!","color":"gold"}
+execute if entity @e run tellraw @a {"text":" The infinite block threw off its shackles and pulsates with energy.","color":"yellow"}
+execute if entity @e run tellraw @a {"text":"\n ","italic":"true","extra":[{"text":"[?] Click here to open the help menu.","color":"gray","clickEvent":{"action":"run_command","value":"/trigger gz-a4 set 1"},"hoverEvent":{"action":"show_text","value":"Opens the help menu."}}]}

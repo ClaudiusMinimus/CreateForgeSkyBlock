@@ -1,0 +1,3 @@
+function gamerz_riot:randomizer/gz-a4-mobamount-1-1
+execute as @s at @s run summon minecraft:skeleton_horse ~ ~1.6 ~ {Tame:1,Passengers:[{id:"minecraft:skeleton",HandItems:[{id:"minecraft:bow",tag:{Enchantments:[{id:power,lvl:1}]},Count:1},{}],ArmorItems:[{tag:{Enchantments:[{id:feather_falling,lvl:2}]},id:"minecraft:golden_boots",Count:1},{},{},{id:"minecraft:chainmail_helmet",Count:1,tag:{Enchantments:[{id:protection,lvl:2},{id:unbreaking,lvl:1}]}}],Tags:["gz-a4-newmob"]}]}
+tag @e[tag=gz-a4-newmob] remove gz-a4-newmob

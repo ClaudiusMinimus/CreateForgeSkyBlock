@@ -1,0 +1,1 @@
+execute as @e[limit=1] at @s run tellraw @a[distance=..500] {"text":"A Monster Wächter vanished...","color":"red"}

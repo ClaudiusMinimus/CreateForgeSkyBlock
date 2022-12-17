@@ -1,0 +1,6 @@
+function gamerz_riot:randomizer/gz-a4-mobamount-1-1
+execute as @s at @s run summon minecraft:chicken ~ ~1.6 ~ {IsChickenJockey:1,Passengers:[{id:"minecraft:zombie",IsBaby:1,LeftHanded:1,Attributes:[{Name:"generic.movementSpeed",Base:0.5f}],HandItems:[{id:"minecraft:golden_sword",tag:{Enchantments:[{id:unbreaking,lvl:1}]},Count:1},{}],ArmorItems:[{id:"minecraft:leather_boots",tag:{display:{color:0}},Count:1},{id:"minecraft:leather_leggings",tag:{display:{color:16777024}},Count:1},{tag:{Enchantments:[{id:projectile_protection,lvl:1}],display:{color:2334755}},id:"minecraft:leather_chestplate",Count:1},{id:"minecraft:chainmail_helmet",Count:1}],Tags:["gz-a4-newmob"]}]}
+execute as @e[tag=gz-a4-newmob,distance=..30] at @s if entity @e run data merge entity @s {"CustomName":"{\"text\":\"Monster Guard\",\"color\":\"dark_purple\"}","CustomNameVisible":1}
+scoreboard players set @e[tag=gz-a4-newmob] gz-a4-pm-life 9000
+execute as @e[tag=gz-a4-newmob] at @s run function gamerz_riot:effects/party-mob-spawn
+tag @e[tag=gz-a4-newmob] remove gz-a4-newmob
