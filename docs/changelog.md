@@ -1,0 +1,64 @@
+## Create on a Potato PC: Sky Edition for Forge 1.19.2-0.2.0
+Dec. 15, 2022
+- Mods Added: 
+  - AngelRing2-1.19.2-2.1.4.jar
+  - appleskin-forge-mc1.19-2.4.2.jar
+  - architectury-6.4.62-forge.jar
+  - balm-4.5.3.jar
+  - bwncr-forge-1.19.2-3.14.1.jar
+  - clienttweaks-forge-1.19-8.1.0.jar
+  - cloth-config-8.2.88-forge.jar
+  - Clumps-forge-1.19.2-9.0.0+14.jar
+  - comforts-forge-6.0.3+1.19.2.jar
+  - Controlling-forge-1.19.2-10.0+7.jar
+  - craftingtweaks-forge-1.19-15.1.0.jar
+  - create-1.19.2-0.5.0.g.jar
+  - curios-forge-1.19.2-5.1.1.0.jar
+  - defaultoptions-forge-1.19-15.0.0.jar
+  - DefaultWorldType-1.19.1-3.1.0.jar
+  - drippyloadingscreen_forge_1.6.6_MC_1.19-1.19.2.jar
+  - EasierVillagerTrading-forge-1.19.2-1.2.0.jar
+  - EasyEmerald-Forge-1.19.2-1.4.15.jar
+  - fancymenu_forge_2.13.0_MC_1.19-1.19.2.jar
+  - ftb-chunks-forge-1902.3.13-build.207.jar
+  - ftb-essentials-1902.1.10-build.47.jar
+  - ftb-library-forge-1902.3.10-build.162.jar
+  - ftb-quests-forge-1902.4.3-build.140.jar
+  - ftb-ranks-forge-1902.1.14-build.70.jar
+  - ftb-teams-forge-1902.2.10-build.76.jar
+  - ftbbackups2-forge-1.19.2-1.0.17.jar
+  - GameMenuModOption-1.19-1.18.jar
+  - global_packs-forge-1.19.2-1.14.2_forge.jar
+  - inventorysorter-1.19.2-21.0.4.jar
+  - item-filters-forge-1902.2.9-build.46.jar
+  - jei-1.19.2-forge-11.4.0.288.jar
+  - konkrete_forge_1.6.0_MC_1.19-1.19.2.jar
+  - kubejs-forge-1902.6.0-build.132.jar
+  - LibX-1.19.2-4.2.8.jar
+  - moreoverlays-1.21.3-mc1.19.jar
+  - MouseTweaks-forge-mc1.19-2.23.jar
+  - NoChatReports-FORGE-1.19.2-v1.5.1.jar
+  - [OneBlock Reborn](https://www.curseforge.com/minecraft/worlds/oneblock-reborn) technically not a mod, but is mechanism used for making a skyblock
+  - Patchouli-1.19.2-77.jar
+  - polylib-forge-1900.0.2-build.42.jar
+  - polymorph-forge-0.46.1+1.19.2.jar
+  - rhino-forge-1902.2.2-build.264.jar
+  - shulkerboxtooltip-forge-3.2.2+1.19.2.jar
+  - shutupexperimentalsettings-1.0.5.jar
+  - SkyblockBuilder-1.19.2-4.2.6.jar
+  - SkyGUIs-1.19.1-2.1.2.jar
+  - starlight-1.1.1+forge.cf5b10b.jar
+  - theoneprobe-1.19-6.2.2.jar
+  - toms_storage-1.19-1.3.10.jar
+- Mods Updated: 
+- Mods Removed: 
+- Other Changes: 
+  - Forge 43.2.0
+  - Imported and tweaked from Create on a Potato PC: Fabric Edition
+    - Quests
+    - Patchouli Book
+    - Kubejs recipes
+    - Fancy Menu artwork and layouts (if pack proves popular, then will be updated)
+    - Drippy artwork and layouts (if pack proves popular, then will be updated)
+    - Added art and link for OneBlock Reborn on Fancy Menu main menu
+  - Added kubejs recipes for Create blocks not generated with OneBlock
