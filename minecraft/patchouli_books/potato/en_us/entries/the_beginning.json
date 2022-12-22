@@ -10,19 +10,19 @@
         },
         {
             "type": "patchouli:spotlight",
-            "item": "emerald_tools:copper_paxel",
+            "item": "easy_emerald:copper_paxel",
             "title": "Copper Paxel",
             "text": "Make a Copper Paxel as soon as you can! The Copper Paxel is a multi-tool (combination: pickaxe, axe, and shovel) and will allow you to continuously mine, regardless of the block spawned."
         },
         {
             "type": "patchouli:spotlight",
-            "item": "emerald_tools:copper_chestplate",
+            "item": "easy_emerald:copper_body",
             "title": "Tools",
             "text": "Once you get a copper paxel, try to get the full set of copper armor, weapons, and tools. Copper is easy to get and is repaired in a crafting grid with ingots. Go to the $(l:https://www.curseforge.com/minecraft/mc-mods/easy-emerald-tools)Emerald Tools page$(/l) to see the mod content, material durability, and much more! Try searching REI with \"@em\""
         },
         {
             "type": "patchouli:spotlight",
-            "item": "emerald_tools:copper_sword",
+            "item": "easy_emerald:copper_sword",
             "title": "Tools",
             "text": "Mobs do spawn while mining the re-spawnable block. There fore, be prepared!"
         }
