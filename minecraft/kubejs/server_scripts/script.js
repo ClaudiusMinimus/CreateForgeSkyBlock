@@ -11,66 +11,58 @@ ServerEvents.recipes(event => {
 	// remove items in array
 	REMOVED_ITEMS.forEach(id => event.remove({ output: id }));
 
-})
+});
 
 console.info("Remove reciped");
 
 ServerEvents.recipes(event => {
-	// Change recipes here
-	
-	// Craft shapeless: 2 zinc ingots crafted from 1 copper and iron ingot each
-	event.shapeless('2x create:zinc_ingot', ['minecraft:copper_ingot', 'minecraft:iron_ingot'])
 
-	console.info("Zinc recipe added");
-
-	// Craft shapeless: 2 limestone blocks crafted from 1 diorite and stone block each
-	event.shapeless('2x create:limestone', ['minecraft:diorite', 'minecraft:stone'])	
-
-	console.info("limestone recipe added");
-
-	// Craft shaped: 8 Veridium with 1 raw copper and 8 cobblestone
-	event.shaped('8x create:veridium', [
-		'CSS',
+	// Craft shaped end portal frame	
+	event.shaped('minecraft:end_portal_frame', [
 		'SSS',
+		'SES',
 		'SSS'
 	], {
-		S: 'minecraft:cobblestone',
-		C: 'minecraft:raw_copper'
-	})
+		S: 'minecraft:end_stone',
+		E: 'minecraft:ender_eye'
+	})	
 
-	console.info("veridium recipe added");
-
-	// Craft shaped: 5 ochrum with 1 raw copper and 5 tuff
-	event.shaped('5x create:ochrum', [
-		'GTT',
-		'TTT'
+	// craft deepslate
+	event.shaped('4x minecraft:deepslate', [
+		'TT',
+		'TT'
 	], {
-		T: 'minecraft:tuff',
-		G: 'minecraft:raw_gold'
+		T: 'minecraft:tuff'
 	})
 
-	console.info("ochrum recipe added");
-
-	// Craft shaped: 4 crimsite with 1 raw iron and 4 cobblestone
-	event.shaped('4x create:crimsite', [
-		'ISS',
-		'SS '
+	// craft hanging_roots
+	event.shaped('minecraft:hanging_roots', [
+		' S ',
+		'S S'
 	], {
-		S: 'minecraft:cobblestone',
-		I: 'minecraft:raw_iron'
+		S: 'minecraft:stick'
 	})
 
-	console.info("crimsite recipe added");
+	//  - minecraft:sculk_catalyst craft (4 x sculk) + 1 diamond + (4 x quartz) = 1 x sculk_catalyst
 
-	// Craft shaped: 3 asurine with 1 zinc ingot and 3 cobblestone
-	event.shaped('3x create:asurine', [
-		'ZSS',
-		'S  '
+	// Craft shaped sculk catalyst 	
+	event.shaped('minecraft:sculk_catalyst', [
+		'SQS',
+		'QDQ',
+		'SQS'
 	], {
-		Z: 'create:zinc_ingot',
-		S: 'minecraft:cobblestone'
+		S: 'minecraft:sculk',
+		Q: 'minecraft:quartz',
+		D: 'minecraft:diamond'
+	})	
+
+	// Craft shaped rooted_dirt 	
+	event.shaped('2x minecraft:rooted_dirt', [
+		'HD',
+		'DH'
+	], {
+		H: 'minecraft:hanging_roots',
+		D: 'minecraft:dirt'
 	})
 
-	console.info("asurine recipe added");
-
-})
+});
