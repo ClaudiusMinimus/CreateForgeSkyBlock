@@ -68,76 +68,6 @@ customization {
 }
 
 customization {
-  identifier = %id=376322%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = mid-left
-  x = 158
-  action = movebutton
-  y = 33
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 70
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/assets/buttons/quith.png
-  backgroundnormal = config/fancymenu/assets/buttons/quit.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-left
-  x = 78
-  action = movebutton
-  y = -67
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  width = 150
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/assets/buttons/sph.png
-  backgroundnormal = config/fancymenu/assets/buttons/sp.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-left
   x = 78
@@ -165,6 +95,11 @@ customization {
   action = setbuttontexture
   backgroundhovered = config/fancymenu/assets/buttons/accessibilityh.png
   backgroundnormal = config/fancymenu/assets/buttons/accessibility.png
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
 }
 
 customization {
@@ -198,6 +133,36 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-left
+  x = 158
+  action = movebutton
+  y = 33
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 70
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/buttons/quith.png
+  backgroundnormal = config/fancymenu/assets/buttons/quit.png
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-left
   x = 78
@@ -228,6 +193,36 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 78
+  action = movebutton
+  y = -67
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/buttons/sph.png
+  backgroundnormal = config/fancymenu/assets/buttons/sp.png
+}
+
+customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-left
   x = 78
@@ -255,6 +250,11 @@ customization {
   action = setbuttontexture
   backgroundhovered = config/fancymenu/assets/buttons/modsh.png
   backgroundnormal = config/fancymenu/assets/buttons/mods.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
 }
 
 customization {
@@ -457,7 +457,7 @@ customization {
   y = 3
   scale = 1.0
   alignment = left
-  value = Create on a Potato PC - Sky Edition 1.19.2-0.2.0
+  value = Create on a Potato PC - Sky Edition 1.19.2-0.3.0
 }
 
 customization {
@@ -474,51 +474,5 @@ customization {
   action = addsplash
   y = 79
   text = Sky Edition
-}
-
-customization {
-  orientation = mid-left
-  restartbackgroundanimations = false
-  delayappearanceseconds = 1.0
-  buttonaction = openlink
-  backgroundhovered = config/fancymenu/assets/buttons/gamerroith.png
-  description = Visit Gamerz_Riot's projects page
-  label = 
-  loopbackgroundanimations = false
-  fadein = true
-  fadeinspeed = 1.0
-  x = 83
-  width = 140
-  actionid = 4906094f-c2f0-4a6a-8a6c-d21105dfc0f61671038647156
-  action = addbutton
-  y = 113
-  delayappearance = true
-  backgroundnormal = config/fancymenu/assets/buttons/gamerroit.png
-  value = https://www.curseforge.com/members/gamerz_riot/projects
-  delayappearanceeverytime = false
-  height = 14
-}
-
-customization {
-  orientation = mid-left
-  restartbackgroundanimations = true
-  delayappearanceseconds = 1.0
-  buttonaction = openlink
-  backgroundhovered = config/fancymenu/assets/buttons/oneblockfeaturing.png
-  description = For more information, visit%n%OneBlock Reborn project page
-  label = 
-  loopbackgroundanimations = true
-  fadein = true
-  fadeinspeed = 1.0
-  x = 78
-  width = 150
-  actionid = 2964fbc7-4a15-4846-a3f4-f0be3c4d81f61671123284054
-  action = addbutton
-  y = 83
-  delayappearance = true
-  backgroundnormal = config/fancymenu/assets/buttons/oneblockfeaturingh.png
-  value = https://www.curseforge.com/minecraft/worlds/oneblock-reborn
-  delayappearanceeverytime = false
-  height = 30
 }
 

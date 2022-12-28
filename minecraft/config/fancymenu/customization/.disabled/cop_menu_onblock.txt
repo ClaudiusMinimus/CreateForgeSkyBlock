@@ -457,7 +457,7 @@ customization {
   y = 3
   scale = 1.0
   alignment = left
-  value = Create on a Potato PC - Sky Edition 1.19.2-0.2.0
+  value = Create on a Potato PC - Sky Edition 1.19.2-0.3.0
 }
 
 customization {
@@ -481,21 +481,44 @@ customization {
   restartbackgroundanimations = false
   delayappearanceseconds = 1.0
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/assets/oneblockbuttonh.png
-  description = Before creating a world the OneBlock Reborn datapack%n%must be download and saved to:%n%minecraft/global_packs/required_data/OneBlock_Reborn.zip
+  backgroundhovered = config/fancymenu/assets/buttons/gamerroith.png
+  description = Visit Gamerz_Riot's projects page
   label = 
   loopbackgroundanimations = false
   fadein = true
   fadeinspeed = 1.0
-  x = 79
-  width = 148
+  x = 83
+  width = 140
   actionid = 4906094f-c2f0-4a6a-8a6c-d21105dfc0f61671038647156
   action = addbutton
-  y = 89
+  y = 113
   delayappearance = true
-  backgroundnormal = config/fancymenu/assets/oneblockbutton.png
+  backgroundnormal = config/fancymenu/assets/buttons/gamerroit.png
+  value = https://www.curseforge.com/members/gamerz_riot/projects
+  delayappearanceeverytime = false
+  height = 14
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 1.0
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/buttons/oneblockfeaturing.png
+  description = For more information, visit%n%OneBlock Reborn project page
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = 78
+  width = 150
+  actionid = 2964fbc7-4a15-4846-a3f4-f0be3c4d81f61671123284054
+  action = addbutton
+  y = 83
+  delayappearance = true
+  backgroundnormal = config/fancymenu/assets/buttons/oneblockfeaturingh.png
   value = https://www.curseforge.com/minecraft/worlds/oneblock-reborn
   delayappearanceeverytime = false
-  height = 19
+  height = 30
 }
 

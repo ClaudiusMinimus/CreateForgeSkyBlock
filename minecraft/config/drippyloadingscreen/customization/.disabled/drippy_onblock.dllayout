@@ -57,3 +57,14 @@ customization {
   bouncing = true
 }
 
+customization {
+  path = config/fancymenu/assets/oneblockbutton.png
+  orientation = mid-left
+  x = 59
+  width = 300
+  action = addtexture
+  actionid = cce245a6-f5eb-4ec6-90d0-4ecfc4e2b6641671154638824
+  y = 74
+  height = 40
+}
+
