@@ -1,0 +1,52 @@
+string,float,string,float,string,float,string,string_mesh,boolean,int time
+output1,chance1,output2,chance2,output3,chance3,inputItem,meshUsed,isWaterlogged,processTime
+minecraft:acacia_sapling,0.02,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:allium,0.01,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:amethyst_shard,0.01,null,0,null,0,minecraft:gravel,brass_mesh,false,400
+minecraft:azalea,0.01,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:bamboo,0.02,minecraft:bamboo_sapling,0.01,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:bee_nest,0.005,null,0,null,0,minecraft:dirt,zinc_mesh,false,200
+minecraft:beetroot_seeds,0.01,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:big_dripleaf,0.01,null,0,null,0,minecraft:dirt,brass_mesh,true,200
+minecraft:birch_sapling,0.02,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:brain_coral_wall_fan,0.01,null,0,null,0,minecraft:dirt,brass_mesh,true,200
+minecraft:bubble_coral_fan,0.01,null,0,null,0,minecraft:dirt,brass_mesh,true,200
+minecraft:budding_amethyst,0.005,null,0,null,0,minecraft:amethyst_block,amethyst_mesh,false,400
+minecraft:cactus,0.01,null,0,null,0,minecraft:sand,andesite_mesh,false,200
+minecraft:carrots,0.01,null,0,null,0,minecraft:dirt,string_mesh ,false,200
+minecraft:cobweb,0.01,null,0,null,0,minecraft:dirt,string_mesh ,false,200
+minecraft:cocoa,0.01,null,0,null,0,minecraft:sand,string_mesh ,false,200
+minecraft:diamond,0.005,null,0,null,0,minecraft:gravel,amethyst_mesh,false,200
+minecraft:dark_oak_sapling,0.02,minecraft:dark_oak_sapling,0.02,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:dirt,0.02,null,0,null,0,minecraft:gravel,string_mesh,false,200
+minecraft:emerald,0.005,null,0,null,0,minecraft:gravel,amethyst_mesh,false,200
+minecraft:fern,0.01,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:fire_coral_fan,0.01,null,0,null,0,minecraft:dirt,brass_mesh,true,200
+minecraft:flowering_azalea,0.01,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:glow_lichen,0.005,null,0,null,0,minecraft:gravel,andesite_mesh,false,200
+minecraft:horn_coral_fan,0.01,null,0,null,0,minecraft:dirt,brass_mesh,true,200
+minecraft:jungle_sapling,0.02,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:large_fern,0.02,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:lilac,0.02,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:lily_of_the_valley,0.02,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:lily_pad,0.02,null,0,null,0,minecraft:dirt,string_mesh,true,200
+minecraft:mangrove_propagule,0.02,null,0,null,0,minecraft:dirt,string_mesh,true,200
+minecraft:melon_seeds,0.02,minecraft:pumpkin_seeds,0.01,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:oak_sapling,0.02,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:pointed_dripstone,0.01,null,0,null,0,minecraft:gravel,brass_mesh,true,200
+minecraft:pumpkin_seeds,0.02,minecraft:melon_seeds,0.01,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:raw_copper,0.25,create:experience_nugget,0.05,null,0,minecraft:gravel,amethyst_mesh,false,200
+minecraft:raw_gold,0.2,create:experience_nugget,0.05,null,0,minecraft:gravel,amethyst_mesh,false,200
+minecraft:raw_iron,0.3,create:experience_nugget,0.05,null,0,minecraft:gravel,amethyst_mesh,false,200
+create:raw_zinc,0.25,create:experience_nugget,0.05,null,0,minecraft:gravel,amethyst_mesh,false,200
+minecraft:rose_bush,0.02,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:sculk,0.01,minecraft:sculk_vein,0.005,null,0,minecraft:red_sand,amethyst_mesh,false,200
+minecraft:snowball,0.1,null,0,null,0,minecraft:gravel,zinc_mesh,true,200
+minecraft:sponge,0.01,null,0,null,0,minecraft:gravel,brass_mesh,true,200
+minecraft:spore_blossom,0.005,null,0,null,0,minecraft:gravel,amethyst_mesh,false,200
+minecraft:spruce_sapling,0.02,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:sugar_cane,0.02,null,0,null,0,minecraft:dirt,string_mesh,true,200
+minecraft:sunflower,0.02,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:sweet_berry_bush,0.02,null,0,null,0,minecraft:dirt,string_mesh,false,200
+minecraft:tube_coral_fan,0.01,null,0,null,0,minecraft:dirt,brass_mesh,true,200
+minecraft:vine,0.01,null,0,null,0,minecraft:dirt,string_mesh,false,200

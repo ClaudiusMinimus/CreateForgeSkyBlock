@@ -1,0 +1,11 @@
+ - minecraft:bell smelt peculiar bell = 1 x bell
+ - minecraft:calcite washing 1x diorite = 1 x calcite
+ - minecraft:deepslate automated packing  4 x cobblestone = 3 x deepslate
+ - minecraft:end_portal_frame automated packing 1 endstone + 1 eye of ender = end_portal_frame
+ - minecraft:hanging_roots automated packing  3 x sticks = 1 x hanging_roots
+ - minecraft:ice automated packing  9 x snow balls = 1 x ice
+ - minecraft:moss_block mixing 1 x any leaves + 250mb water = 1 x moss_block
+ - minecraft:powder_snow washing 1 x snow block = 1 x powder_snow
+ - minecraft:rooted_dirt craft shapeless 1 x hanging_roots + 1 x dirt = 1 x rooted_dirt
+ - minecraft:sculk_catalyst craft (4 x sculk) + 1 diamond + (4 x quartz) = 1 x sculk_catalyst
+ - minecraft:tuff washing 1 x cobblestone = 1 x tuff
