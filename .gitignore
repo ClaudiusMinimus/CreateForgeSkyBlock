@@ -1,3 +1,8 @@
+# temp do not track while messing with files
+datapacks/*
+# temp do track files/folder here
+!datapacks/script_builder/
+
 # Ignore these folders
 builds/*server*.zip
 minecraft/backups/*
