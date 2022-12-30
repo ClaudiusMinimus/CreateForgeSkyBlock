@@ -1,4 +1,56 @@
+# Create on a Potato PC: Sky Edition Change Log
+
+## Create on a Potato PC: Sky Edition 1.19.2-0.4.0
+Dec. 29, 2022
+- Mods Added: 
+  - awesomedungeonend-forge-1.19.2-3.0.0.jar
+  - Bookshelf-Forge-1.19.2-16.2.16.jar
+  - BorderlessWindow-1.19.1-1.5.2.jar
+  - configured-2.0.1-1.19.2.jar
+  - craftingstation-1.19.2-6.jar
+  - create-stuff-additions1.19.2_v2.0.1c.jar
+  - createsifter-1.19.2-1.3.3.g.jar
+  - EditSign-1.19.2-2.6.0.jar
+  - EnchantmentDescriptions-Forge-1.19.2-13.0.14.jar
+  - gravestone-1.19.2-1.0.1.jar
+  - libraryferret-forge-1.19.2-3.0.0.jar
+  - light-overlay-7.0.1-forge.jar
+  - Placebo-1.19.2-7.0.1.jar
+  - PowderPower-Forge-1.19.2-3.6.13.jar
+  - repurposed_structures_forge-6.3.8+1.19.2.jar
+  - ShiftedLib-1.0.2-1.19.2.jar
+  - signtools-forge.1.19-1.0.2.jar
+  - spawnermod-1.19.0-1.9.1+Forge.jar
+  - Witherproofed-2.7.4-1.19.2.jar
+  - WitherSkeletonTweaks-1.19.2-8.0.0.jar
+- Mods Updated:
+  - create-1.19.2-0.5.0.g.jar
+  - fancymenu_forge_2.13.2_MC_1.19-1.19.2.jar
+  - ftb-chunks-forge-1902.3.14-build.218.jar
+  - ftb-library-forge-1902.3.11-build.166.jar
+  - ftb-quests-forge-1902.4.4-build.150.jar
+  - ftb-teams-forge-1902.2.11-build.87.jar
+  - jei-1.19.2-forge-11.5.0.297.jar
+  - kubejs-forge-1902.6.0-build.135.jar
+- Mods Removed: 
+  - OceanblockReborn-1.19.2-1.0.0.jar (no longer using an infinite block to get materials)
+- Other Changes: 
+  - Added recipes for use with Create
+  - Added recipes for use with Create Sifter
+  - Updated quests
+
+## Create on a Potato PC: Sky Edition 1.19.2-0.3.0
+Dec. 22, 2022
+- Mods Added: 
+  - OceanblockReborn-1.19.2-1.0.0.jar (replaced gamerz_riot's datapack and the neeed for mod, global packs)
+- Mods Updated: 
+- Mods Removed: 
+  - global_packs-forge-1.19.2-1.14.2_forge.jar (no longer needed)
+  - moreoverlays-1.21.3-mc1.19.jar (somehow fabric mod was installed)
+- Other Changes: 
+
 ## Create on a Potato PC: Sky Edition for Forge 1.19.2-0.2.0
+
 Dec. 15, 2022
 - Mods Added: 
   - AngelRing2-1.19.2-2.1.4.jar
