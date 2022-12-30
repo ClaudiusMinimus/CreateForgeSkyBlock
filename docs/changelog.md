@@ -3,7 +3,6 @@
 ## Create on a Potato PC: Sky Edition 1.19.2-0.4.0
 Dec. 29, 2022
 - Mods Added: 
-  - awesomedungeonend-forge-1.19.2-3.0.0.jar
   - Bookshelf-Forge-1.19.2-16.2.16.jar
   - BorderlessWindow-1.19.1-1.5.2.jar
   - configured-2.0.1-1.19.2.jar
