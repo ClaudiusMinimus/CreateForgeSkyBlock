@@ -14,22 +14,7 @@ customization {
 }
 
 customization {
-  identifier = %id=505120%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=50510011%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=505100%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=5051001%
   action = hidebutton
 }
 
