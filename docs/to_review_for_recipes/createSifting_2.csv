@@ -1,0 +1,72 @@
+output1	chance1	inputItem	meshUsed	isWaterlogged
+
+minecraft:budding_amethyst	0.005	minecraft:amethyst_block	amethyst_mesh	false
+
+minecraft:spore_blossom	0.005	minecraft:gravel	amethyst_mesh	false
+
+
+minecraft:sweet_berries	0.02	minecraft:dirt	string_mesh	false
+
+DONE
+
+minecraft:vine	0.01	minecraft:dirt	string_mesh	false
+
+minecraft:bee_nest	0.005	minecraft:dirt	zinc_mesh	false
+
+sea_pickle
+
+minecraft:allium	0.01	minecraft:dirt	string_mesh	false
+minecraft:lilac	0.02	minecraft:dirt	string_mesh	false
+minecraft:lily_of_the_valley	0.02	minecraft:dirt	string_mesh	false
+minecraft:rose_bush	0.02	minecraft:dirt	string_mesh	false
+
+create:raw_zinc	0.25	minecraft:gravel	amethyst_mesh	false
+minecraft:diamond	0.005	minecraft:gravel	amethyst_mesh	false
+minecraft:emerald	0.005	minecraft:gravel	amethyst_mesh	false
+minecraft:raw_copper	0.25	minecraft:gravel	amethyst_mesh	false
+minecraft:raw_gold	0.2	minecraft:gravel	amethyst_mesh	false
+minecraft:raw_iron	0.3	minecraft:gravel	amethyst_mesh	false
+minecraft:sculk	0.01	minecraft:red_sand	amethyst_mesh	false
+minecraft:glow_lichen	0.02	minecraft:gravel	andesite_mesh	false
+minecraft:cactus	0.01	minecraft:sand	andesite_mesh	false
+minecraft:amethyst_shard	0.01	minecraft:gravel	brass_mesh	false
+minecraft:dirt	0.02	minecraft:gravel	string_mesh	false
+minecraft:acacia_sapling	0.02	minecraft:dirt	string_mesh	false
+minecraft:bamboo	0.02	minecraft:dirt	string_mesh	false
+minecraft:beetroot_seeds	0.01	minecraft:dirt	string_mesh	false
+minecraft:birch_sapling	0.02	minecraft:dirt	string_mesh	false
+minecraft:dark_oak_sapling	0.02	minecraft:dirt	string_mesh	false
+minecraft:fern	0.01	minecraft:dirt	string_mesh	false
+minecraft:jungle_sapling	0.02	minecraft:dirt	string_mesh	false
+minecraft:lily_pad	0.02	minecraft:dirt	string_mesh	true
+minecraft:melon_seeds	0.02	minecraft:dirt	string_mesh	false
+minecraft:oak_sapling	0.02	minecraft:dirt	string_mesh	false
+minecraft:pumpkin_seeds	0.02	minecraft:dirt	string_mesh	false
+minecraft:spruce_sapling	0.02	minecraft:dirt	string_mesh	false
+minecraft:sugar_cane	0.02	minecraft:dirt	string_mesh	true
+minecraft:sunflower	0.02	minecraft:dirt	string_mesh	false
+
+minecraft:carrots	0.01	minecraft:dirt	string_mesh 	false
+minecraft:cobweb	0.01	minecraft:dirt	string_mesh 	false
+minecraft:cocoa_beans	0.01	minecraft:sand	string_mesh 	false
+
+
+minecraft:mangrove_propagule	0.02	minecraft:dirt	string_mesh	true
+minecraft:snowball	0.1	minecraft:gravel	zinc_mesh	false
+
+minecraft:pointed_dripstone	0.01	minecraft:gravel	brass_mesh	true
+minecraft:sponge	0.01	minecraft:gravel	brass_mesh	true
+minecraft:big_dripleaf	0.01	minecraft:dirt	brass_mesh	true
+minecraft:brain_coral_block	0.01	minecraft:dirt	brass_mesh	true
+minecraft:bubble_coral_block	0.01	minecraft:dirt	brass_mesh	true
+minecraft:fire_coral_block	0.01	minecraft:dirt	brass_mesh	true
+minecraft:horn_coral_block	0.01	minecraft:dirt	brass_mesh	true
+minecraft:tube_coral_block	0.01	minecraft:dirt	brass_mesh	true
+minecraft:brain_coral_fan	0.01	minecraft:dirt	brass_mesh	true
+minecraft:bubble_coral_fan	0.01	minecraft:dirt	brass_mesh	true
+minecraft:fire_coral_fan	0.01	minecraft:dirt	brass_mesh	true
+minecraft:horn_coral_fan	0.01	minecraft:dirt	brass_mesh	true
+minecraft:tube_coral_fan	0.01	minecraft:dirt	brass_mesh	true
+
+CANNOT OBTAIN By SIFTING
+
