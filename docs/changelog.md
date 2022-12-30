@@ -1,6 +1,6 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-0.4.0
+## Create on a Potato PC: Sky Edition 1.19.2-0.4.1
 Dec. 29, 2022
 - Mods Added: 
   - Bookshelf-Forge-1.19.2-16.2.16.jar
