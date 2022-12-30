@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
         }
     });
     
-    // hard coded for testing
+    // hard coded for 
     // event.recipes.createsifterSifting([Item.of('minecraft:amethyst_shard').withChance(0.95).toJson()], ['kubejs:amethyst_mesh','minecraft:dirt']);
     // event.recipes.createsifterSifting([Item.of('minecraft:acacia_sapling').withChance(0.20).toJson()], ['createsifter:string_mesh','minecraft:dirt']);
     // event.recipes.createsifterSifting([Item.of('minecraft:bamboo').withChance(0.20).toJson()], ['createsifter:string_mesh','minecraft:dirt']);
