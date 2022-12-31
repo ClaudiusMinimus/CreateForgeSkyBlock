@@ -6,25 +6,25 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "At this point, Create on a Potato PC: Sky Edition plays like a vanilla SkyBlock, $(o)though with some great tools and weapons$(). Expect this section to be heavily edited in future releases. Player input is welcome!"
+            "text": "Sky Edition heavily relies on Create and Create Sifter for most everything. Lots of recipes have been added to help you progress. Everything you need to get started in on Potato Island. Protect your sheep, save everything, start looking for resources, and utilize JEI and your quest book! You should be able to get a $(l:tips_tricks)cobble generator$(/l) going pretty quick."
         },
         {
             "type": "patchouli:spotlight",
-            "item": "easy_emerald:copper_paxel",
-            "title": "Copper Paxel",
-            "text": "Make a Copper Paxel as soon as you can! The Copper Paxel is a multi-tool (combination: pickaxe, axe, and shovel) and will allow you to continuously mine, regardless of the block spawned."
+            "item": "ftbquests:book",
+            "title": "Quest Book",
+            "text": "Your quest book will become your best friend on Potato Island. Assign a Hotkey to your quest book: Menu > Controls... > Key Binds... > search \"quests\".$(br2)Start with \"Just Landed\" quests, but you will want to move on to the \"Create\" quests as soon as you can. The Create quests with square icons are the most important to start."
         },
         {
             "type": "patchouli:spotlight",
-            "item": "easy_emerald:copper_body",
-            "title": "Tools",
-            "text": "Once you get a copper paxel, try to get the full set of copper armor, weapons, and tools. Copper is easy to get and is repaired in a crafting grid with ingots. Go to the $(l:https://www.curseforge.com/minecraft/mc-mods/easy-emerald-tools)Emerald Tools page$(/l) to see the mod content, material durability, and much more! Try searching REI with \"@em\""
+            "item": "create:large_cogwheel",
+            "title": "Create Mod",
+            "text": "A wonderful feature in Create is Ponder. Put your cursor over the Large Cogwheel image, then press and hold the W key to view an animation using the cogwheel. Ponder is available for many Create blocks and items."
         },
         {
             "type": "patchouli:spotlight",
-            "item": "easy_emerald:copper_sword",
-            "title": "Tools",
-            "text": "Mobs do spawn while mining the re-spawnable block. There fore, be prepared!"
+            "item": "create:andesite_alloy",
+            "title": "Andesite Alloy",
+            "text": "Making Andesite Alloy is vital to get started in Create. There is very limited Andesite on the island, though there is Diorite which may prove invaluable for making this alloy!"
         }
     ]
 }

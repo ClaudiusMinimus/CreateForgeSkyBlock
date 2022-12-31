@@ -6,7 +6,35 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "In this section I will try to show some tips and tricks that may prove helpful."
+            "text": "In this section I will try to show some tips and tricks that may prove helpful.$(br2)$(l)Fool Proof Cobble Generator $() If you do not want to turn your precious-gollum lava into obsidian, then this fool proof cobble generator is for you!$(li)Dig a 1 x 3 x 1 hole $(li)Place a non-flamable stair as shown"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "title": "Fool Proof Cobble Gen",
+            "text": "$(li)Waterlog the stair $(li)Place lava as shown $(li)Mine cobble!",
+            "multiblock": {
+                "pattern": [
+                    [ "L0S" ]
+                ],
+                "mapping": {
+                    "G": "minecraft:grass_block",
+                    "W": "minecraft:water",
+                    "L": "minecraft:lava",
+                    "S": "minecraft:cobblestone_stairs[waterlogged=true]"
+                },
+                "symmetrical": true,
+                "enable_visualize": false
+            }
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Get to Y -64 Alive!",
+            "anchor": "y-64",
+            "text": "Making a $(l:videos_farms#mobs)mob farm$(/l) at the bottom of the world is best if you can remain alive. Here is a simple tip:$(li)Place a bucket of lava on the side of your island and let it flow to Y -65 - the void$(li)Have a bucket of water ready and pick up the lava and place the water$(li)The remaining lava will become a cobble pillar$(li)Pick up the water when the pillar is formed"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Place the water again, but 2 blocks away.$(li)Use the water as a ladder to desend$(li)At about Y -62 place some slabs or blocks on the side of the pillar$(li)Jump on placed blocks and don't die!"
         },
         {
             "type": "patchouli:text",
