@@ -3,8 +3,12 @@
 ## Create on a Potato PC: Sky Edition 1.19.2-0.5.0
 Dec. 30, 2022
 - Mods Added: 
-  - createdeco-1.2.12-1.19.2.jar
+  - BetterCompatibilityChecker-1.0.9-build.38+mc1.19.2.jar
+  - BHMenu-Forge-1.19.2-1.3.jar
+  - crashutilities-6.2.jar
   - createaddition-1.19.2-20221230a.jar
+  - createdeco-1.2.12-1.19.2.jar
+  - FpsReducer2-forge-1.19.2-2.1.jar
 - Other Changes:
   - Removed Copper tools and armor recipes, though they are still visible in JEI - working on it!
   - Cleaned up some old artifacts from the Fabric version
