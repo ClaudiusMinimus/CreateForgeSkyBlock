@@ -79,6 +79,7 @@ server/*.zip
 minecraft/config/fancymenu/locals/*
 
 # Stop ignoring these files
-!minecraft/config/bcc.json
-!server/config/bcc.json
+!minecraft/config/bcc-common.toml
+!minecraft/config/bhmenu-client.toml
+!server/config/bcc-common.toml
 !server/config/carrier.json
