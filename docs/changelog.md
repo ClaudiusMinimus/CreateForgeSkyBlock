@@ -1,6 +1,16 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-0.4.1
+## Create on a Potato PC: Sky Edition 1.19.2-0.5.0
+Dec. 30, 2022
+- Mods Added: 
+  - createdeco-1.2.12-1.19.2.jar
+  - createaddition-1.19.2-20221230a.jar
+- Other Changes:
+  - Removed Copper tools and armor recipes, though they are still visible in JEI - working on it!
+  - Cleaned up some old artifacts from the Fabric version
+  - Update Potato book to include new videos, farms, tips, and support pages.
+
+## Create on a Potato PC: Sky Edition 1.19.2-0.4.0
 Dec. 29, 2022
 - Mods Added: 
   - Bookshelf-Forge-1.19.2-16.2.16.jar
