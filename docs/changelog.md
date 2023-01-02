@@ -1,5 +1,13 @@
 # Create on a Potato PC: Sky Edition Change Log
 
+## Create on a Potato PC: Sky Edition 1.19.2-0.5.1
+Jan. 2, 2023
+- Other Changes: 
+  - Client side: JEI recipe updates
+  - Server side: theoneprobe-1.19-6.2.2.jar is required
+  - Rearranged some dependencies and significant updates for outdated quests
+  - Added guide book commands page
+
 ## Create on a Potato PC: Sky Edition 1.19.2-0.5.0
 Dec. 30, 2022
 - Mods Added: 
@@ -12,7 +20,7 @@ Dec. 30, 2022
 - Other Changes:
   - Removed Copper tools and armor recipes, though they are still visible in JEI - working on it!
   - Cleaned up some old artifacts from the Fabric version
-  - Update Potato book to include new videos, farms, tips, and support pages.
+  - Update Potato book to include new videos, farms, tips, and support pages
 
 ## Create on a Potato PC: Sky Edition 1.19.2-0.4.0
 Dec. 29, 2022
