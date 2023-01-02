@@ -2,6 +2,8 @@
 
 ## Create on a Potato PC: Sky Edition 1.19.2-0.5.1
 Jan. 2, 2023
+- Mods Added: 
+  - Server side only: theoneprobe-1.19-6.2.2.jar
 - Other Changes: 
   - Client side: JEI recipe updates
   - Server side: theoneprobe-1.19-6.2.2.jar is required
