@@ -16,7 +16,7 @@
 			tasks: [{
 				id: "00000000000000B1"
 				type: "item"
-				item: "minecraft:wheat"
+				item: "minecraft:golden_carrot"
 			}]
 			rewards: [{
 				id: "00000000000005E8"
