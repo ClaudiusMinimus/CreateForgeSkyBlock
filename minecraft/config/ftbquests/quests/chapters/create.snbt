@@ -690,15 +690,15 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 13.5d
+			x: 3.0d
+			y: 13.0d
 			dependencies: ["00000000000008DD"]
 			id: "00000000000008D1"
 			tasks: [{
 				id: "00000000000008D2"
 				type: "item"
 				item: "create:mechanical_crafter"
-				count: 9L
+				count: 18L
 			}]
 			rewards: [{
 				id: "00000000000008D5"
@@ -768,7 +768,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 0.5d
 			y: 10.5d
 			dependencies: ["00000000000007A5"]
 			id: "00000000000008DD"
@@ -786,9 +786,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 15.0d
-			dependencies: ["00000000000008D1"]
+			x: -2.5d
+			y: 14.5d
+			dependencies: ["00000000000008E8"]
 			id: "00000000000008DF"
 			tasks: [{
 				id: "00000000000008E0"
@@ -802,9 +802,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 15.5d
-			dependencies: ["00000000000008D1"]
+			x: 2.0d
+			y: 9.5d
+			dependencies: ["00000000000008DD"]
 			id: "00000000000008E1"
 			tasks: [{
 				id: "00000000000008E2"
@@ -819,9 +819,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 13.5d
-			dependencies: ["00000000000008D1"]
+			x: -0.5d
+			y: 14.5d
+			dependencies: ["00000000000008E8"]
 			id: "00000000000008E3"
 			tasks: [{
 				id: "00000000000008E4"
@@ -929,8 +929,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 12.0d
+			x: 3.0d
+			y: 14.5d
 			description: ["Have you ever needed a reach-assist? Just place in your off-hand and your main hand will reach further. Now ain't that cool!"]
 			dependencies: ["00000000000008D1"]
 			id: "1BBEEF19114688A9"
@@ -1192,8 +1192,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 13.5d
+			x: 1.5d
+			y: 13.0d
 			dependencies: ["00000000000008D1"]
 			id: "0D63EF41017B4EC9"
 			tasks: [{
@@ -1313,8 +1313,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 15.0d
+			x: 4.5d
+			y: 13.0d
 			dependencies: ["00000000000008D1"]
 			id: "51CA42B8F1642023"
 			tasks: [{
@@ -1352,7 +1352,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 3.0d
 			y: 11.5d
 			dependencies: ["00000000000008D1"]
 			id: "0AC25E42FE36BE47"
@@ -1471,7 +1471,7 @@
 		}
 		{
 			x: 2.0d
-			y: 9.5d
+			y: 7.5d
 			description: ["To learn more about the Toolbox, open your Create on a Potato PC book to Videos > Create > 0.3.2f update"]
 			dependencies: ["00000000000007A7"]
 			id: "5489879D11B3894A"
