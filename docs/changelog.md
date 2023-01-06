@@ -19,6 +19,7 @@ Jan. 06, 2023
   - Modified Create quests to reflect some changes since the trains update - more quests still to come.
   - Changed twerking to 25% and now ignore default tree saplings
   - Added emergency items: lava bucket, water bucket, and oak sapling
+  - Added recipe for ender pearls from emeralds using the alchemist wand
 
 ## Create on a Potato PC: Sky Edition 1.19.2-0.5.1
 Jan. 2, 2023
