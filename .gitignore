@@ -54,7 +54,6 @@ minecraft/icon.png
 minecraft/irisUpdateInfo.json
 minecraft/keys.txt
 minecraft/knownkeys.txt
-minecraft/config/NoChatReports/NCR-Common.json
 minecraft/config/NoChatReports/NCR-Encryption.json
 minecraft/config/NoChatReports/NCR-ServerWhitelist.json
 minecraft/config/NoChatReports/README.md
@@ -89,5 +88,8 @@ minecraft/config/fancymenu/locals/*
 !minecraft/config/bcc-common.toml
 !minecraft/config/bhmenu-client.toml
 !minecraft/config/squatgrow-common.yaml
+!minecraft/config/theoneprobe-client.toml
+!minecraft/config/NoChatReports/NCR-Client.json
 !server/config/bcc-common.toml
 !server/config/carrier.json
+
