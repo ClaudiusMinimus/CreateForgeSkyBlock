@@ -1,12 +1,8 @@
 {
   "type": "createsifter:sifting",
   "ingredients": [
-    {
-      "item": "kubejs:amethyst_mesh"
-    },
-    {
-      "item": "minecraft:gravel"
-    }
+    {"item": "kubejs:amethyst_mesh"},
+    {"item": "minecraft:gravel"}
   ],
   "processingTime": 500,
   "results": [

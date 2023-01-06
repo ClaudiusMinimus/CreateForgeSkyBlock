@@ -54,6 +54,10 @@ minecraft/icon.png
 minecraft/irisUpdateInfo.json
 minecraft/keys.txt
 minecraft/knownkeys.txt
+minecraft/config/NoChatReports/NCR-Common.json
+minecraft/config/NoChatReports/NCR-Encryption.json
+minecraft/config/NoChatReports/NCR-ServerWhitelist.json
+minecraft/config/NoChatReports/README.md
 minecraft/options.amecsapi.txt
 minecraft/options.justenoughkeys.txt
 minecraft/options.txt
@@ -74,8 +78,9 @@ server/*.zip
 !minecraft/config/fancymenu/
 !minecraft/config/fpsreducer/
 !minecraft/config/ftbquests/
-!minecraft/patchouli_books/
+!minecraft/config/NoChatReports/
 !minecraft/config/yosbr/
+!minecraft/patchouli_books/
 
 # Ignore these sub-folders of above section
 minecraft/config/fancymenu/locals/*
@@ -83,5 +88,6 @@ minecraft/config/fancymenu/locals/*
 # Stop ignoring these files
 !minecraft/config/bcc-common.toml
 !minecraft/config/bhmenu-client.toml
+!minecraft/config/squatgrow-common.yaml
 !server/config/bcc-common.toml
 !server/config/carrier.json
