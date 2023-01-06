@@ -1,5 +1,25 @@
 # Create on a Potato PC: Sky Edition Change Log
 
+## Create on a Potato PC: Sky Edition 1.19.2-0.6.0
+Jan. 06, 2023
+- Mods Added:
+  - create_mechanical_extruder-1.19.2-1.3.1.g.jar
+  - lootr-1.19-0.3.22.59.jar
+  - squatgrow-3.0.0-build.33+mc1.19.2.jar
+- Mods Updated:
+  - create-stuff-additions1.19.2_v2.0.2a.jar
+  - ftb-quests-forge-1902.4.5-build.156.jar
+- Mods Removed:
+- Other Changes:
+  - Adjusted No Chat Reports icon so it does not obscure the Better Compatibility Check icon
+  - Fixed Potato Island icon for skyblock builder
+  - Added recipes for Create Mechanical Extruder
+  - Disabled recipes for Create stone type blocks - now uses Create Extruder
+  - Adjusted Create Sifting recipes
+  - Modified Create quests to reflect some changes since the trains update - more quests still to come.
+  - Changed twerking to 25% and now ignore default tree saplings
+  - Added emergency items: lava bucket, water bucket, and oak sapling
+
 ## Create on a Potato PC: Sky Edition 1.19.2-0.5.1
 Jan. 2, 2023
 - Mods Added: 
