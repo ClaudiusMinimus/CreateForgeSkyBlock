@@ -12,6 +12,7 @@
     {"chance": 0.1,"item": "create:crushed_gold_ore"},
     {"chance": 0.1,"item": "minecraft:lapis_lazuli"},
     {"chance": 0.15,"item": "minecraft:coal"},
+    {"chance": 0.03,"item": "minecraft:clay_ball"},
     {"chance": 0.15,"item": "create:experience_nugget"},
     {"chance": 0.01, "item": "minecraft:amethyst_shard"}
   ]
