@@ -89,6 +89,7 @@ minecraft/config/fancymenu/locals/*
 !minecraft/config/bhmenu-client.toml
 !minecraft/config/squatgrow-common.yaml
 !minecraft/config/theoneprobe-client.toml
+!minecraft/config/theoneprobe-common.toml
 !minecraft/config/NoChatReports/NCR-Client.json
 !server/config/bcc-common.toml
 !server/config/carrier.json
