@@ -93,3 +93,4 @@ minecraft/config/fancymenu/locals/*
 !server/config/bcc-common.toml
 !server/config/carrier.json
 
+minecraft/config/defaultoptions/servers.dat
