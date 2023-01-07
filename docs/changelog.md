@@ -1,6 +1,6 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-0.6.0
+## Create on a Potato PC: Sky Edition 1.19.2-0.6.1
 Jan. 06, 2023
 - Mods Added:
   - create_mechanical_extruder-1.19.2-1.3.1.g.jar
@@ -20,6 +20,7 @@ Jan. 06, 2023
   - Changed twerking to 25% and now ignore default tree saplings
   - Added emergency items: lava bucket, water bucket, and oak sapling
   - Added recipe for ender pearls from emeralds using the alchemist wand
+  - Removed obsolete Create items from quests
 
 ## Create on a Potato PC: Sky Edition 1.19.2-0.5.1
 Jan. 2, 2023
