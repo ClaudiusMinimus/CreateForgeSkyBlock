@@ -6,6 +6,7 @@ Jan. 06, 2023
   - create_mechanical_extruder-1.19.2-1.3.1.g.jar
   - lootr-1.19-0.3.22.59.jar
   - squatgrow-3.0.0-build.33+mc1.19.2.jar
+  - swingthroughgrass-1.19.2-1.10.0.jar
 - Mods Updated:
   - create-stuff-additions1.19.2_v2.0.2a.jar
   - ftb-quests-forge-1902.4.5-build.156.jar
