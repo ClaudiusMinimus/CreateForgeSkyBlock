@@ -57,3 +57,27 @@ customization {
   bouncing = true
 }
 
+customization {
+  path = config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  orientation = bottom-left
+  x = 0
+  width = 94
+  action = addtexture
+  actionid = ee581057-1535-46c4-ac17-e51f62f9c0131673895522857
+  y = 0
+  height = 94
+}
+
+customization {
+  orientation = top-right
+  shadow = false
+  x = -3
+  textcolor = #ffffff
+  action = addtext
+  actionid = 5cb05e89-64c0-43df-a6ea-888dbe4aee991673895847775
+  y = 3
+  scale = 1.0
+  alignment = left
+  value = Create on a Potato PC - Sky Edition 1.19.2-0.7.0
+}
+

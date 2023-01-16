@@ -258,8 +258,13 @@ customization {
 }
 
 customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 2
   width = 108
   action = deep_customization_element:title_screen_branding
@@ -457,7 +462,7 @@ customization {
   y = 3
   scale = 1.0
   alignment = left
-  value = Create on a Potato PC - Sky Edition 1.19.2-0.6.1
+  value = Create on a Potato PC - Sky Edition 1.19.2-0.7.0
 }
 
 customization {
@@ -474,5 +479,23 @@ customization {
   action = addsplash
   y = 79
   text = Sky Edition
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  description = I love the character artwork%n%mangomeowie created for me.%n%If you need character art,%n%including full illustrations, please%n%visit https://mangomeowie.carrd.co/
+  label = 
+  loopbackgroundanimations = true
+  x = 0
+  width = 100
+  actionid = 3acc7ecf-4207-4322-a6fe-8208139cffa21673895312876
+  action = addbutton
+  y = -100
+  backgroundnormal = config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  value = https://mangomeowie.carrd.co/
+  height = 100
 }
 
