@@ -66,3 +66,20 @@ ServerEvents.recipes(event => {
 	})
 
 });
+
+BlockEvents.rightClicked ("block.right_click", (event) => {
+	const { block, hand, item, world, player } = event;
+	if (hand.name() != "MAIN_HAND") return;
+  
+	if (item == "create:wrench" && player.isCrouching()) {
+	  if (block.equals("minecraft:end_portal_frame")) {
+		const hasEnderEye = block.properties.eye;
+		block.set("minecraft:air");
+		player.give("minecraft:end_portal_frame");
+		if (hasEnderEye == "true") {
+		  player.give("minecraft:ender_eye");
+		}
+	  }
+	}
+  
+  });
