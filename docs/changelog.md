@@ -1,5 +1,27 @@
 # Create on a Potato PC: Sky Edition Change Log
 
+## Create on a Potato PC: Sky Edition 1.19.2-0.7.0
+Jan. 16, 2023
+- Mods Added:
+  - Quark-3.3-377.jar
+  - tempad-forge-1.19.2-1.4.3.jar
+- Mods Updated:
+  - AutoRegLib-1.8.2-55.jar
+  - create_mechanical_extruder-1.19.2-1.3.2.g.jar
+  - create-1.19.2-0.5.0.h.jar
+  - fancymenu_forge_2.13.3_MC_1.19-1.19.2.jar
+  - kubejs-forge-1902.6.0-build.140.jar
+  - Placebo-1.19.2-7.1.1.jar
+- Mods Removed:
+  - EditSign-1.19.2-2.6.0.jar (Quark handles this now)
+  - inventorysorter-1.19.2-21.0.4.jar (Quark handles this now)
+  - signtools-forge.1.19-1.0.2.jar (does not function as expected)
+- Other Changes:
+  - Forge 43.2.3
+  - Crush quartz blocks back into regular nether quartz
+  - Quark has mostly QOL features added. World gen and mobs are disabled
+  - Updated quests and added a few new ones to Hunting
+
 ## Create on a Potato PC: Sky Edition 1.19.2-0.6.1
 Jan. 06, 2023
 - Mods Added:
