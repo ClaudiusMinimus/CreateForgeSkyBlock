@@ -1,0 +1,54 @@
+{
+	id: "58F4BA9579F4284D"
+	order_index: 0
+	title: "Tools"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "easy_emerald:copper_paxel"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}
+						{
+							lvl: 2s
+							id: "minecraft:unbreaking"
+						}
+					]
+					display: {
+						Name: "{\"text\":\"Silk Touch Copper Paxel\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "easy_emerald:copper_paxel"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 1s
+							id: "minecraft:fortune"
+						}
+						{
+							lvl: 2s
+							id: "minecraft:efficiency"
+						}
+					]
+					display: {
+						Name: "{\"text\":\"Enchanted Copper Paxel\"}"
+					}
+				}
+			}
+		}
+	]
+}

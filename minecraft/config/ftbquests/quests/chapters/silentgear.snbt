@@ -145,6 +145,7 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "7B3D44C57C772CC0"
@@ -156,6 +157,7 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "2FC585CB214DE976"
@@ -167,19 +169,9 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 			]
-			rewards: [{
-				id: "0A62A8BAF4BB3F26"
-				type: "item"
-				item: {
-					id: "easy_emerald:copper_paxel"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 		}
 		{
 			x: 0.5d
@@ -469,6 +461,7 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "11A46E01D73AAC6A"
@@ -480,6 +473,7 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "3D8B06E5922DCD37"
@@ -491,6 +485,7 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -500,7 +495,26 @@
 					id: "powder_power:paxel_gemium"
 					Count: 1b
 					tag: {
+						RepairCost: 3
 						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:fortune"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+						]
 					}
 				}
 			}]
@@ -632,6 +646,7 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "22B2A856389EE15E"
@@ -643,6 +658,7 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "43A3CBC0E6C101DF"
@@ -654,6 +670,7 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -663,7 +680,29 @@
 					id: "powder_power:paxel_quadrilium"
 					Count: 1b
 					tag: {
+						RepairCost: 3
 						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 6s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:fortune"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Quadrilium Pa\"}"
+						}
 					}
 				}
 			}]
@@ -895,6 +934,7 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "7FDDE2951D9E3886"
@@ -906,6 +946,7 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "54125B0378D19336"
@@ -917,6 +958,7 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -926,7 +968,22 @@
 					id: "easy_emerald:amethyst_paxel"
 					Count: 1b
 					tag: {
+						RepairCost: 1
 						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+						]
 					}
 				}
 			}]

@@ -35,9 +35,9 @@
 				item: "minecraft:brown_mushroom"
 			}]
 			rewards: [{
-				id: "0000000000000674"
-				type: "xp"
-				xp: 100
+				id: "73CD633610987E51"
+				type: "item"
+				item: "minecraft:red_mushroom"
 			}]
 		}
 		{
@@ -50,9 +50,9 @@
 				item: "minecraft:chorus_fruit"
 			}]
 			rewards: [{
-				id: "0000000000000675"
-				type: "xp"
-				xp: 100
+				id: "17479BCEE5C0D3AB"
+				type: "item"
+				item: "powder_power:token_no_fall"
 			}]
 		}
 		{
@@ -65,9 +65,10 @@
 				item: "minecraft:carrot"
 			}]
 			rewards: [{
-				id: "0000000000000676"
-				type: "xp"
-				xp: 100
+				id: "37F238BDBE85A2D5"
+				type: "item"
+				item: "minecraft:rabbit_spawn_egg"
+				count: 2
 			}]
 		}
 		{
@@ -79,11 +80,23 @@
 				type: "item"
 				item: "minecraft:potato"
 			}]
-			rewards: [{
-				id: "0000000000000678"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3C5798EFB102295E"
+					type: "item"
+					item: "easy_emerald:emerald_potato"
+				}
+				{
+					id: "317FCFC3382EF692"
+					type: "item"
+					item: "easy_emerald:ruby_potato"
+				}
+				{
+					id: "749D2308BC7402C9"
+					type: "item"
+					item: "easy_emerald:amethyst_potato"
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -95,9 +108,9 @@
 				item: "minecraft:cocoa_beans"
 			}]
 			rewards: [{
-				id: "000000000000067C"
-				type: "xp"
-				xp: 100
+				id: "35EF612361C52236"
+				type: "item"
+				item: "minecraft:tadpole_bucket"
 			}]
 		}
 		{
@@ -110,9 +123,9 @@
 				item: "minecraft:beetroot"
 			}]
 			rewards: [{
-				id: "0000000000000685"
-				type: "xp"
-				xp: 100
+				id: "5C35101DF8B8054D"
+				type: "item"
+				item: "createaddition:seed_oil_bucket"
 			}]
 		}
 		{
@@ -125,9 +138,10 @@
 				item: "minecraft:melon_slice"
 			}]
 			rewards: [{
-				id: "0000000000000686"
-				type: "xp"
-				xp: 100
+				id: "39E8CF4B945B0E18"
+				type: "item"
+				item: "minecraft:pumpkin_seeds"
+				count: 4
 			}]
 		}
 		{
@@ -140,9 +154,10 @@
 				item: "minecraft:glow_berries"
 			}]
 			rewards: [{
-				id: "000000000000068B"
-				type: "xp"
-				xp: 100
+				id: "18377F99891870BA"
+				type: "item"
+				item: "minecraft:glow_squid_spawn_egg"
+				count: 2
 			}]
 		}
 		{
@@ -155,9 +170,9 @@
 				item: "minecraft:sugar_cane"
 			}]
 			rewards: [{
-				id: "000000000000068D"
-				type: "xp"
-				xp: 100
+				id: "5B07EE0ED6E771FD"
+				type: "item"
+				item: "createaddition:bioethanol_bucket"
 			}]
 		}
 		{
@@ -170,9 +185,10 @@
 				item: "minecraft:kelp"
 			}]
 			rewards: [{
-				id: "000000000000068E"
-				type: "xp"
-				xp: 100
+				id: "4898A1F3E56866A2"
+				type: "item"
+				item: "create:builders_tea"
+				count: 4
 			}]
 		}
 		{
@@ -200,9 +216,10 @@
 				item: "minecraft:sweet_berries"
 			}]
 			rewards: [{
-				id: "0000000000000692"
-				type: "xp"
-				xp: 100
+				id: "66024CA7F62D2916"
+				type: "item"
+				item: "create:chocolate_glazed_berries"
+				count: 4
 			}]
 		}
 		{
@@ -215,9 +232,10 @@
 				item: "minecraft:wheat"
 			}]
 			rewards: [{
-				id: "0000000000000696"
-				type: "xp"
-				xp: 100
+				id: "64F3F936299A3700"
+				type: "item"
+				item: "minecraft:bread"
+				count: 4
 			}]
 		}
 		{
@@ -230,9 +248,9 @@
 				item: "minecraft:red_mushroom"
 			}]
 			rewards: [{
-				id: "0000000000000698"
-				type: "xp"
-				xp: 100
+				id: "7674B07B26D4347C"
+				type: "item"
+				item: "minecraft:brown_mushroom"
 			}]
 		}
 		{

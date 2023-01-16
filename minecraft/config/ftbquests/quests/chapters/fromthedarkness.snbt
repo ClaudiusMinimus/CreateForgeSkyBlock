@@ -81,9 +81,10 @@
 				item: "craftingstation:crafting_station"
 			}]
 			rewards: [{
-				id: "0000000000000013"
-				type: "xp"
-				xp: 10
+				id: "09AA1C0BD63DF9E9"
+				type: "item"
+				item: "create:crafting_blueprint"
+				count: 2
 			}]
 		}
 		{
@@ -111,18 +112,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "0000000000000016"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "000000000000001A"
-					type: "item"
-					item: "minecraft:barrel"
-				}
-			]
+			rewards: [{
+				id: "000000000000001A"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
 		}
 		{
 			title: "Don't Throw it Out!"
@@ -211,9 +205,10 @@
 				item: "minecraft:bamboo"
 			}]
 			rewards: [{
-				id: "00000000000000C5"
-				type: "xp"
-				xp: 25
+				id: "43007CDA75B1AA24"
+				type: "item"
+				item: "minecraft:stick"
+				count: 64
 			}]
 		}
 		{
@@ -435,9 +430,9 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "00000000000000BF"
-				type: "xp"
-				xp: 25
+				id: "22E3448388DB8729"
+				type: "item"
+				item: "minecraft:white_wool"
 			}]
 		}
 		{
@@ -459,19 +454,12 @@
 				}
 				count: 12L
 			}]
-			rewards: [
-				{
-					id: "00000000000000C0"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "0000000000000519"
-					type: "item"
-					item: "minecraft:villager_spawn_egg"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "0000000000000519"
+				type: "item"
+				item: "minecraft:villager_spawn_egg"
+				count: 2
+			}]
 		}
 		{
 			x: 1.5d
@@ -489,6 +477,37 @@
 				id: "3731F39CFA22A94C"
 				type: "item"
 				item: "minecraft:kelp"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["4C865A25446A2C87"]
+			id: "31A1F7CA6B75AE3C"
+			tasks: [{
+				id: "3CBBA3D29984B05D"
+				type: "item"
+				item: {
+					id: "easy_emerald:copper_treeaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0773BC90C56E2467"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
 			}]
 		}
 	]

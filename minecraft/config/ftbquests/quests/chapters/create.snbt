@@ -1260,9 +1260,9 @@
 				count: 6L
 			}]
 			rewards: [{
-				id: "21ECB7733A18080C"
-				type: "xp"
-				xp: 100
+				id: "067E861B73D6DABC"
+				type: "item"
+				item: "create:schematic_and_quill"
 			}]
 		}
 		{

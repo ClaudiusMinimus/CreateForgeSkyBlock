@@ -76,8 +76,36 @@
 			rewards: [{
 				id: "0000000000000047"
 				type: "item"
-				item: "minecraft:diamond_block"
-				count: 10
+				item: {
+					id: "powder_power:bow_quadrilium"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 1s
+								id: "minecraft:flame"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:punch"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 6s
+								id: "minecraft:power"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:infinity"
+							}
+						]
+					}
+				}
 			}]
 		}
 		{
@@ -143,8 +171,28 @@
 			rewards: [{
 				id: "0000000000000055"
 				type: "item"
-				item: "minecraft:emerald_block"
-				count: 10
+				item: {
+					id: "powder_power:armor_quadrilium_leggings"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:protection"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+						]
+					}
+				}
 			}]
 		}
 		{
@@ -182,8 +230,16 @@
 			rewards: [{
 				id: "000000000000064F"
 				type: "item"
-				item: "minecraft:netherite_ingot"
-				count: 2
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -309,10 +365,25 @@
 				id: "000000000000023D"
 				type: "item"
 				item: {
-					id: "minecraft:netherite_chestplate"
+					id: "powder_power:armor_quadrilium_body"
 					Count: 1b
 					tag: {
+						RepairCost: 1
 						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:protection"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+						]
 					}
 				}
 			}]
@@ -369,10 +440,9 @@
 				value: 1000L
 			}]
 			rewards: [{
-				id: "0000000000000239"
+				id: "271DC0A1F6B4A800"
 				type: "item"
-				item: "minecraft:nether_star"
-				count: 5
+				item: "create_sa:creative_filling_tank"
 			}]
 		}
 		{
@@ -476,7 +546,36 @@
 			rewards: [{
 				id: "000000000000023B"
 				type: "item"
-				item: "minecraft:beacon"
+				item: {
+					id: "powder_power:armor_quadrilium_boots"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:protection"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:depth_strider"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:feather_falling"
+							}
+						]
+					}
+				}
 			}]
 		}
 		{
@@ -533,8 +632,7 @@
 			rewards: [{
 				id: "000000000000046D"
 				type: "item"
-				item: "minecraft:netherite_block"
-				count: 4
+				item: "createaddition:creative_energy"
 			}]
 		}
 		{
@@ -598,10 +696,10 @@
 				value: 10L
 			}]
 			rewards: [{
-				id: "0000000000000466"
+				id: "0E97BC791F10418F"
 				type: "item"
-				item: "minecraft:nether_star"
-				count: 5
+				item: "witherproofed:withered_powder"
+				count: 64
 			}]
 		}
 		{
@@ -630,11 +728,135 @@
 						id: "create_sa:brass_jetpack_chestplate"
 						Count: 1b
 						tag: {
+							RepairCost: 1
 							Damage: 0
+							Enchantments: [
+								{
+									lvl: 4s
+									id: "minecraft:protection"
+								}
+								{
+									lvl: 4s
+									id: "minecraft:unbreaking"
+								}
+								{
+									lvl: 1s
+									id: "minecraft:mending"
+								}
+							]
 						}
 					}
 				}
 			]
+		}
+		{
+			title: "Novice Witch Hunter"
+			x: -1.5d
+			y: 3.0d
+			id: "507E6FC07C05B784"
+			tasks: [{
+				id: "6ADF9B2AB8C46735"
+				type: "kill"
+				entity: "minecraft:witch"
+				value: 10L
+			}]
+			rewards: [{
+				id: "187420DAE8130097"
+				type: "item"
+				item: "minecraft:frog_spawn_egg"
+				count: 4
+			}]
+		}
+		{
+			title: "Apprentice Witch Hunter"
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["507E6FC07C05B784"]
+			id: "0F212D61E278C98E"
+			tasks: [{
+				id: "3392639C8D9811A8"
+				type: "kill"
+				entity: "minecraft:witch"
+				value: 100L
+			}]
+			rewards: [{
+				id: "188DDC875A7B4D81"
+				type: "item"
+				item: "powder_power:token_jump_boost"
+			}]
+		}
+		{
+			title: "Journeyman Witch Hunter"
+			x: -4.5d
+			y: 3.0d
+			dependencies: ["0F212D61E278C98E"]
+			id: "540E05434C2B259C"
+			tasks: [{
+				id: "7AD431D635AEAD80"
+				type: "kill"
+				entity: "minecraft:witch"
+				value: 1000L
+			}]
+			rewards: [{
+				id: "3470EA5C011CE0BC"
+				type: "item"
+				item: {
+					id: "powder_power:armor_quadrilium_head"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:blast_protection"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["0000000000000077"]
+			id: "615DAC7B98F88EA8"
+			tasks: [{
+				id: "4CB88C317016B4B8"
+				type: "kill"
+				entity: "minecraft:slime"
+				value: 100L
+			}]
+			rewards: [{
+				id: "165BB6AF7A26E133"
+				type: "item"
+				item: "powder_power:token_resistance"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["615DAC7B98F88EA8"]
+			id: "6EE3B63BB9F6E75E"
+			tasks: [{
+				id: "0C5E4CE102933E8B"
+				type: "kill"
+				entity: "minecraft:slime"
+				value: 1000L
+			}]
+			rewards: [{
+				id: "1F17F0240EA879D1"
+				type: "item"
+				item: "create:creative_fluid_tank"
+			}]
 		}
 	]
 	quest_links: [ ]
