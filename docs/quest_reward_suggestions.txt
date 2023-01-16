@@ -1,0 +1,37 @@
+hunter:
+
+kill 1000 skeletons: enchanted quadrillion armor helmet (with mending + other top tier)
+kill 100 skeletons: enchanted quadrillion bow (with mending)
+kill 1000 zombies: enchanted quadrillion armor pants (with mending + other top tier)
+kill 1000 spiders: enchanted quadrillion armor boots (with mending + other top tier)
+kill 100 spiders: silk touch book
+kill 1000 wither skeletons: creative tank
+kill 1000 ghasts: creative generator
+kill 1000 blazes: creative fuel tank
+kill 10 wither: 64x wither powder
+kill 10 ender dragon: same as current but add (mending + other top tier enchants to the jetpack)
+
+starter:
+
+crafting station: crafting blueprint (from create)
+bed: sleeping bag
+bamboo: 64 sticks
+4x string: 1 wool
+
+farmer:
+
+brown mushroom: red mushroom
+red mushroom: brown mushroom
+carrot: 2x rabbit spawn egg
+potato: 1x potato of luck / 1x potato of health / 1x potato of battle
+cocoa beans: bucket of tadpole
+beetroot: bucket of seed oil
+melon: pumpkin seeds
+kelp: builder's tea
+wheat: bread
+glow berries: 2x glow squid spawn egg
+sugar cane: bucket of bio ethanol
+
+create:
+
+6x craft slot cover: schematic and quill
