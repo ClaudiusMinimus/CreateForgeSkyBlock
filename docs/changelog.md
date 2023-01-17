@@ -1,6 +1,6 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-0.7.2
+## Create on a Potato PC: Sky Edition 1.19.2-0.7.3
 Jan. 16, 2023
 - Mods Added:
   - Quark-3.3-377.jar
@@ -11,6 +11,7 @@ Jan. 16, 2023
   - create_mechanical_extruder-1.19.2-1.3.2.g.jar
   - create-1.19.2-0.5.0.h.jar
   - fancymenu_forge_2.13.3_MC_1.19-1.19.2.jar
+  - jei-1.19.2-forge-11.5.2.1000.jar
   - kubejs-forge-1902.6.0-build.140.jar
   - Placebo-1.19.2-7.1.2.jar
 - Mods Removed:
