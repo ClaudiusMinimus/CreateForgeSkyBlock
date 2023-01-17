@@ -1,6 +1,6 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-0.7.0
+## Create on a Potato PC: Sky Edition 1.19.2-0.7.1
 Jan. 16, 2023
 - Mods Added:
   - Quark-3.3-377.jar
