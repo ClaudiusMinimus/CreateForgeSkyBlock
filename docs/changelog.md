@@ -23,6 +23,7 @@ Jan. 16, 2023
   - Crush quartz blocks back into regular nether quartz
   - Quark has mostly QOL features added. World gen and mobs are disabled
   - Updated quests and added a few new ones to Hunting
+  - Included the file .qmenu_opened.marker in the install to prevent Quark from showing a popup message on first run.
 
 ## Create on a Potato PC: Sky Edition 1.19.2-0.6.1
 Jan. 06, 2023
