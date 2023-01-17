@@ -172,6 +172,28 @@
 					consume_items: true
 				}
 			]
+			rewards: [{
+				id: "79B6C893C790AF78"
+				type: "item"
+				item: {
+					id: "easy_emerald:copper_paxel"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 2s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:efficiency"
+							}
+						]
+					}
+				}
+			}]
 		}
 		{
 			x: 0.5d
