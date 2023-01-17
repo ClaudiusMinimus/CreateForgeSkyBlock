@@ -88,6 +88,7 @@ minecraft/config/fancymenu/locals/*
 # Stop ignoring these files
 !minecraft/config/bcc-common.toml
 !minecraft/config/bhmenu-client.toml
+!minecraft/config/quark-common.toml
 !minecraft/config/squatgrow-common.yaml
 !minecraft/config/theoneprobe-client.toml
 !minecraft/config/theoneprobe-common.toml
