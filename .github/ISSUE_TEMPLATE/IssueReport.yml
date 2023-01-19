@@ -22,3 +22,4 @@ body:
     id: minecraftversion
     attributes:
       label: Minecraft Version
+      placeholder: "1.19.2"
