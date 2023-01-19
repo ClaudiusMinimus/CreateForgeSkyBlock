@@ -52,4 +52,31 @@ body:
       label: Minecraft Launcher
       placeholder: "Example: CurseForge, GDLauncher, Prism, ATLanucher, MultiMC"
     validations:
-      required: true  
+      required: true
+ 
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Which steps do we need to take to reproduce this error?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logs or Crash Report
+      description: If applicable, latest.log, debug.log, and crash-report.
+      placeholder: "Use a service like crashy.net or paste.bin and paste the link. Please do NOT paste full logs/crash report here. You can also drag-and-drop logs and crash reports here."
+  - type: textarea
+    id: other
+    attributes:
+      label: Other Useful Information/Screenshots
+      description: Do you have anything else that might help us with your issue?
+      placeholder: "Drag-and-drop screenshots here, or?"
