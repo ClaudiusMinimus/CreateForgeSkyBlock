@@ -2,6 +2,8 @@ name: Issue Report
 description: If you have an issue you need help with
 title: "[Bug]: "
 labels: ["bug"]
+assignees:
+  - ClaudiusMinimus
 body:
   - type: markdown
     attributes:
