@@ -2,3 +2,12 @@ name: Issue Report
 description: If you have an issue you need help with
 title: ":cockroach: "
 labels: ["bug"]
+body:
+- type: input
+  id: packname
+  attributes:
+    label: Pack name
+- type: input
+  id: minecraftversion
+  attributes:
+    label: Minecraft Version
