@@ -1,0 +1,4 @@
+name: Issue Report
+description: If you have an issue you need help with
+title: ":cockroach: "
+labels: ["bug"]
