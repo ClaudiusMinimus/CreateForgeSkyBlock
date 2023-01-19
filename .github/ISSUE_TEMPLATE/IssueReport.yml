@@ -1,6 +1,6 @@
 name: Issue Report
 description: If you have an issue you need help with
-title: "[Bug]: "
+title: ""
 labels: ["bug"]
 body:
   - type: markdown
