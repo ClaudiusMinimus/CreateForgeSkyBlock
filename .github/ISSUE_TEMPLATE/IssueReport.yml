@@ -31,4 +31,11 @@ body:
       label: Forge Version
       placeholder: "v. 43.2.3"
     validations:
+      required: true
+  - type: input
+    id: modpackversion
+    attributes:
+      label: Modpack Version
+      placeholder: "1.19.2-1.2.3"
+    validations:
       required: true 
