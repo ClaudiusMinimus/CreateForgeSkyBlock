@@ -82,4 +82,4 @@ body:
     attributes:
       label: Other Useful Information/Screenshots
       description: Do you have anything else that might help us with your issue?
-      placeholder: "Drag-and-drop screenshots here, or?"
+      placeholder: "Drag-and-drop screenshots here, or ?"
