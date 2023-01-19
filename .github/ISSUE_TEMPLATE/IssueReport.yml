@@ -1,18 +1,22 @@
 name: Issue Report
 description: If you have an issue you need help with
 title: "Add a descriptive title"
-validations:
-  required: true
 labels: ["bug"]
 body:
   - type: input
     id: packname
     attributes:
       label: Pack name
+      placeholder: "Create on a Potato PC: Sky Edition"
+    validations:
+      required: true 
   - type: input
     id: minecraftversion
     attributes:
       label: Minecraft Version
+      placeholder: "1.19.2"
+    validations:
+      required: true  
   - type: markdown
     attributes:
       value: |
