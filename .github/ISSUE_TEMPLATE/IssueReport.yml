@@ -3,20 +3,6 @@ description: If you have an issue you need help with
 title: "[Bug]: "
 labels: ["bug"]
 body:
-  - type: input
-    id: packname
-    attributes:
-      label: Pack name
-      placeholder: "Create on a Potato PC: Sky Edition"
-    validations:
-      required: true 
-  - type: input
-    id: minecraftversion
-    attributes:
-      label: Minecraft Version
-      placeholder: "1.19.2"
-    validations:
-      required: true  
   - type: markdown
     attributes:
       value: |
@@ -26,19 +12,28 @@ body:
         
         Thank you for taking the time to file a bug report. To address this bug as fast as possible, we need some information.
   - type: input
-    id: os
+    id: packname
     attributes:
-      label: Operating system
-      description: "Which operating system do you use? Please provide the version as well."
-      placeholder: "Windows 10 Pro"
+      label: Pack name
+      placeholder: "Create on a Potato PC: Sky Edition"
     validations:
-      required: true  
+      required: true 
+  - type: dropdown
+    id: minecraftversion
+    attributes:
+      label: Minecraft Version
+      description: What version of our software are you running?
+      options:
+        - 1.19.2 (1.19.2)
+        - 1.19.2 (1.19.2)
+    validations:
+      required: true
   - type: input
     id: forge
     attributes:
       label: Forge Version
       description: "Please provide the Forge version installed."
-      placeholder: "v43.2.3"
+      placeholder: "v. 43.2.3"
     validations:
       required: true
   - type: input
@@ -49,6 +44,22 @@ body:
       placeholder: "1.19.2-1.2.3"
     validations:
       required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      description: "Which operating system do you use? Please provide the version as well."
+      placeholder: "Example: Windows 10 Pro, Linux Mint 21.1"
+    validations:
+      required: true
+  - type: input
+    id: launcher
+    attributes:
+      label: Minecraft Launcher
+      description: "Which Minecraft launcher do you use? Please provide the version as well."
+      placeholder: "Example: CurseForge, GDLauncher, Prism, ATLanucher, MultiMC"
+    validations:
+      required: true  
   - type: textarea
     id: bug-description
     attributes:
@@ -61,9 +72,16 @@ body:
     attributes:
       label: Steps to reproduce
       description: Which steps do we need to take to reproduce this error?
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
+      label: Relevant Logs or Crash Report
       description: If applicable, latest.log, debug.log, and crash-report.
-      render: shell
+      placeholder: "Use a service like crashy.net or paste.bin and paste the link. Please do NOT paste full logs/crash report here. You can also drag-and-drop logs and crash reports here."
+  - type: textarea
+    id: other
+    attributes:
+      label: Other Useful Information/Screenshots
+      description: Drag-and-drop screenshots here, or enter anything else that might help such as a screenshot.
