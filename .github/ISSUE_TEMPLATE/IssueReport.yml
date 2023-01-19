@@ -39,11 +39,10 @@ body:
       placeholder: "1.19.2-1.2.3"
     validations:
       required: true 
-- type: input
-id: os
-attributes:
-  label: Operating system
-  description: "Which operating system do you use? Please provide the version as well."
-  placeholder: "Example: Windows 10 Pro, Linux Mint 21.1"
-validations:
-  required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Example: Windows 10 Pro, Linux Mint 21.1"
+    validations:
+      required: true
