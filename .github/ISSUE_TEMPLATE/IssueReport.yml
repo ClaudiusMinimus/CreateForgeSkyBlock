@@ -1,6 +1,6 @@
 name: Issue Report
 description: If you have an issue you need help with
-title: ":cockroach: "
+title: ":cockroach: Add a descriptive title"
 labels: ["bug"]
 body:
   - type: input
