@@ -23,3 +23,5 @@ body:
     attributes:
       label: Minecraft Version
       placeholder: "1.19.2"
+    validations:
+      required: true 
