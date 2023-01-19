@@ -23,12 +23,12 @@ body:
     attributes:
       label: Minecraft Version
       placeholder: "1.19.2"
-  validations:
-    required: true
+      validations:
+        required: true
   - type: input
     id: forge
     attributes:
       label: Forge Version
       placeholder: "v. 43.2.3"
-    validations:
-      required: true
+      validations:
+        required: true
