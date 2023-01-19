@@ -29,7 +29,7 @@ body:
     id: forgeversion
     attributes:
       label: Forge Version
-      placeholder: "v. 43.2.3"
+      placeholder: "v. 43.2.0"
     validations:
       required: true
   - type: input
@@ -53,12 +53,12 @@ body:
       placeholder: "Example: CurseForge, GDLauncher, Prism, ATLanucher, MultiMC"
     validations:
       required: true
- 
   - type: textarea
     id: bug-description
     attributes:
       label: Bug description
       description: What happened?
+      placeholder: "Please provide as much detail as possible."
     validations:
       required: true
   - type: textarea
@@ -66,6 +66,8 @@ body:
     attributes:
       label: Steps to reproduce
       description: Which steps do we need to take to reproduce this error?
+      placeholder: "Step 1... 
+      Step 2..."
     validations:
       required: true
   - type: textarea
