@@ -1,8 +1,6 @@
 name: Bug Report
 description: If you have an issue you need help with
 title: "[Bug]: <title>"
-    validations:
-      required: true 
 labels: ["bug"]
 assignees:
   - ClaudiusMinimus
