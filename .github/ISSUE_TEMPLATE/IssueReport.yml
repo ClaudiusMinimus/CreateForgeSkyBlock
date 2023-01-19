@@ -13,6 +13,8 @@ body:
         ---
         
         Thank you for taking the time to file a bug report. To address this bug as fast as possible, we need some information.
+
+        Join [CM's World discord](https://discord.com/invite/jXrx4Tu)
   - type: input
     id: packname
     attributes:
