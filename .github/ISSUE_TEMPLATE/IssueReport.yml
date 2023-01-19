@@ -3,11 +3,61 @@ description: If you have an issue you need help with
 title: ":cockroach: "
 labels: ["bug"]
 body:
-- type: input
-  id: packname
-  attributes:
-    label: Pack name
-- type: input
-  id: minecraftversion
-  attributes:
-    label: Minecraft Version
+  - type: input
+    id: packname
+    attributes:
+      label: Pack name
+  - type: input
+    id: minecraftversion
+    attributes:
+      label: Minecraft Version
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a bug report, please search for the behaviour in the existing issues. 
+        
+        ---
+        
+        Thank you for taking the time to file a bug report. To address this bug as fast as possible, we need some information.
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      description: "Which operating system do you use? Please provide the version as well."
+      placeholder: "Windows 10 Pro"
+    validations:
+      required: true  
+  - type: input
+    id: forge
+    attributes:
+      label: Forge Version
+      description: "Please provide the Forge version installed."
+      placeholder: "v43.2.3"
+    validations:
+      required: true
+  - type: input
+    id: modpack
+    attributes:
+      label: Modpack Version
+      description: "Please provide the full Modpack version."
+      placeholder: "1.19.2-1.2.3"
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Which steps do we need to take to reproduce this error?
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: If applicable, latest.log, debug.log, and crash-report.
+      render: shell
