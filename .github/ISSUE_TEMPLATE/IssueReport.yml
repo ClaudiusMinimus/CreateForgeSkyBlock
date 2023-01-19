@@ -84,4 +84,5 @@ body:
     id: other
     attributes:
       label: Other Useful Information/Screenshots
-      description: Drag-and-drop screenshots here, or enter anything else that might help such as a screenshot.
+      description: Do you have anything else that might help us with your issue?
+      placeholder: "Drag-and-drop screenshots here, or?"
