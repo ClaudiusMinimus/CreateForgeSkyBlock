@@ -18,4 +18,21 @@ body:
       placeholder: "Create on a Potato PC: Sky Edition"
     validations:
       required: true 
-
+- type: dropdown
+id: minecraftversion
+attributes:
+  label: Minecraft Version
+  description: What version of our software are you running?
+  options:
+    - 1.19.2 (1.19.2)
+    - 1.19.2 (1.19.2)
+validations:
+  required: true
+- type: input
+id: forge
+attributes:
+  label: Forge Version
+  description: "Please provide the Forge version installed."
+  placeholder: "v. 43.2.3"
+validations:
+  required: true
