@@ -22,7 +22,7 @@ body:
 id: minecraftversion
 attributes:
   label: Minecraft Version
-  description: What version of our software are you running?
+  description: "What version of our software are you running?"
   options:
     - 1.19.2 (1.19.2)
     - 1.19.2 (1.19.2)
