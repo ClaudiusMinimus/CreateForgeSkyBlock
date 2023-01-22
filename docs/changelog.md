@@ -1,5 +1,22 @@
 # Create on a Potato PC: Sky Edition Change Log
 
+## Create on a Potato PC: Forge Edition 1.19.2-1.0.0
+Jan. 21, 2023
+- Mods Added:
+- Mods Updated:
+- Mods Removed:
+- Other Changes:
+  - Potato guidebook
+    - Added new guides for Dripstone
+    - Added in-chapter linked indexes
+    - Added guide for End Portals
+    - Added video for dripstone uses and farms
+  - Quests
+    - Updated rewards
+    - Added quests for iron ingots, lava, obsidian, and End Portal Frame
+  - Added recipe to convert slime into eggs (for blaze cakes and server friendlyness)
+  - Added script to allow Create Wrench to pick up End Portals Frames
+
 ## Create on a Potato PC: Sky Edition 1.19.2-0.7.3
 Jan. 16, 2023
 - Mods Added:
