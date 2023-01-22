@@ -13,3 +13,9 @@ REMOVED_ITEMS.forEach((id) => {
 		})	
 	);
 });
+
+/* Trying to add this info for JEI. Will comment for now until I get it work
+JEIEvents.information ('jei.information', event => {
+	event.add('create:wrench', ['End Portal Frames can be picked up by shift-right-click']);
+});
+ */
