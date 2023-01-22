@@ -436,7 +436,7 @@
 				type: "kill"
 				title: "Journeyman Wither Skeleton Hunter"
 				icon: "minecraft:wither_skeleton_skull"
-				entity: "minecraft:zombie"
+				entity: "minecraft:wither_skeleton"
 				value: 1000L
 			}]
 			rewards: [{
@@ -528,7 +528,16 @@
 			rewards: [{
 				id: "0000000000000221"
 				type: "item"
-				item: "create:creative_blaze_cake"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
 			}]
 		}
 		{

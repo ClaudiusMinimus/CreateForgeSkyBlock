@@ -510,6 +510,87 @@
 				}
 			}]
 		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["000000000000001E"]
+			id: "5687DBC582721D74"
+			tasks: [{
+				id: "06127A83513CBD7C"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2968588081B4AC2F"
+				type: "item"
+				item: "minecraft:pufferfish_bucket"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			description: [
+				"For more information regarding obtaining more Lava"
+				"1. Open your Potato guidebook. "
+				"2. Go to either \"Getting Started\" > \"Early Game\" or \"Videos\" > \"Useful Farms\" "
+				"3. Open the page \"Dripstone, Lava and More...\""
+			]
+			dependencies: ["5687DBC582721D74"]
+			id: "20218A4E8B57D849"
+			tasks: [{
+				id: "3AEFCDE531A6254B"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "5C6E07A7B4CE8F89"
+				type: "item"
+				item: "minecraft:cauldron"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.0d
+			description: ["You only need 10 obsidian blocks to make a portal."]
+			dependencies: ["20218A4E8B57D849"]
+			id: "7A5F94720CCC4836"
+			tasks: [{
+				id: "529DE2DD7DEDA43E"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 10L
+			}]
+			rewards: [{
+				id: "26606352B5F6774A"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 4
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.0d
+			description: [
+				"For more information regarding making an End Portal"
+				"1. Open your Create on a Potato PC guidebook."
+				"2. Go to \\\"Getting Started\\\" > \\\"Tips \\& Tricks\\\" > \\\"End Portal\\\""
+			]
+			dependencies: ["7A5F94720CCC4836"]
+			id: "2A8220D0E1D47056"
+			tasks: [{
+				id: "72048D96EF736319"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+				count: 12L
+			}]
+			rewards: [{
+				id: "636F1E664930F9FA"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 6
+			}]
+		}
 	]
 	quest_links: [ ]
 }
