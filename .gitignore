@@ -72,7 +72,7 @@ minecraft/usernamecache.json
 server/*.zip
 
 # Stop ignoring these folders
-!minecraft/config/defaultoptions/
+!minecraft/config/defaultsettings/
 !minecraft/config/drippyloadingscreen/
 !minecraft/config/fancymenu/
 !minecraft/config/fpsreducer/
@@ -88,6 +88,7 @@ minecraft/config/fancymenu/locals/*
 # Stop ignoring these files
 !minecraft/config/bcc-common.toml
 !minecraft/config/bhmenu-client.toml
+!minecraft/config/defaultsettings.json
 !minecraft/config/quark-common.toml
 !minecraft/config/squatgrow-common.yaml
 !minecraft/config/theoneprobe-client.toml
