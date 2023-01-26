@@ -14,8 +14,12 @@ REMOVED_ITEMS.forEach((id) => {
 	);
 });
 
-/* Trying to add this info for JEI. Will comment for now until I get it work
-JEIEvents.information ('jei.information', event => {
-	event.add('create:wrench', ['End Portal Frames can be picked up by shift-right-click']);
+// Show Create Wrench can pick up End Portal Frames
+JEIEvents.information (event => {
+	event.addItem('create:wrench', ['An End Portal Frame can be picked up by shift-right-click on it.', '']);
 });
- */
+
+// Show Create Wrench can pick up End Portal Frames
+JEIEvents.information (event => {
+	event.addItem('minecraft:end_portal_frame', ['An End Portal Frame can be picked up with a Create Wrench and by shift-right-click on it.', '']);
+});
