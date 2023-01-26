@@ -6,7 +6,6 @@ customization-meta {
   backgroundimage = config/fancymenu/assets/background.png
   renderorder = foreground
   randommode = false
-  scale = 3
   randomonlyfirsttime = false
 }
 
@@ -24,22 +23,22 @@ customization {
 customization {
   path = config/fancymenu/assets/logo.png
   orientation = top-left
-  x = 62
-  width = 153
+  x = 68
+  width = 162
   action = addtexture
   actionid = d3614819-f967-454b-b63b-b09f571d9d1f1640372669426
-  y = 46
-  height = 39
+  y = 50
+  height = 41
 }
 
 customization {
   path = config/fancymenu/assets/pc.png
   orientation = top-left
-  x = 217
+  x = 234
   width = 12
   action = addtexture
   actionid = ca4cfd61-bc8e-481f-a26d-0eb96ff082b11640372713278
-  y = 67
+  y = 73
   height = 7
 }
 
@@ -48,10 +47,10 @@ customization {
   basecolor = #F0CA78
   shadow = true
   rotation = -20.0
-  x = 21
+  x = 45
   actionid = 17e3f9a5-4d68-4577-9436-71f06df187b61670522515884
   action = addsplash
-  y = 74
+  y = 79
   scale = 1.0
   refresh = false
   text = Sky Edition
