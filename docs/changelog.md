@@ -1,5 +1,24 @@
 # Create on a Potato PC: Sky Edition Change Log
 
+## Create on a Potato PC: Sky Edition 1.19.2-0.9.0
+Jan. 25, 2023
+- Mods Added:
+  - craftingcraft-forge-1.19-13.0.0.jar
+- Mods Updated:
+  - Bookshelf-Forge-1.19.2-16.2.17.jar
+  - create_mechanical_extruder-1.19.2-1.3.2.h.jar
+  - ftb-quests-forge-1902.4.6-build.176.jar
+  - jei-1.19.2-forge-11.5.2.1007.jar
+  - Quark-3.4-388.jar
+- Mods Removed:
+  - BorderlessWindow (part of Magnesium/Rubidium Extras)
+- Other Changes:
+  - Added quests for jetpacks
+  - Added JEI info tabs for Create Wrench and End Portal Frames
+  - Added new recipe for Create Jetpack
+  - Disabled Quark Matrix Enchanting
+  - Enabled some of Quark's building items - disabled: ladders and chests
+
 ## Create on a Potato PC: Forge Edition 1.19.2-0.8.0
 Jan. 21, 2023
 - Mods Added:
