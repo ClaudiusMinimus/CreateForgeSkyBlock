@@ -99,6 +99,5 @@ minecraft/config/fancymenu/locals/*
 
 !minecraft/config/defaultworldtype
 
-minecraft/config/defaultoptions/servers.dat
 minecraft/.qmenu_opened.marker
 minecraft/ds_private_storage.json
