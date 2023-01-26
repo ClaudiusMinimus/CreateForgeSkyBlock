@@ -1,6 +1,6 @@
 {
-  "version": "1.19.1-1.5.2",
-  "prevVersion": "none",
+  "version": "${file.jarVersion}",
+  "prevVersion": "1.19.1-1.5.2",
   "generatedBy": "cdc2f617-e78e-4932-8626-717e52e448e9",
   "hashes": {
     "Default/options.txt": "5DC3C83F79E6A12BE46A9FA294473C6A",
