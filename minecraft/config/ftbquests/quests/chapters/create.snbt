@@ -1539,6 +1539,141 @@
 				count: 4
 			}]
 		}
+		{
+			x: 4.0d
+			y: 15.5d
+			dependencies: ["00000000000008D1"]
+			id: "03B81A645C9AA3F7"
+			tasks: [{
+				id: "5B848E32F14497FA"
+				type: "item"
+				item: {
+					id: "create_sa:brass_jetpack_chestplate"
+					Count: 1b
+					tag: {
+						tagWater: 500.0d
+						Damage: 0
+						tagFuel: 500.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CF057ECD70E61E3"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "create:capacity"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 14.0d
+			dependencies: ["00000000000008D1"]
+			id: "7DC3C9C543BFAE8E"
+			tasks: [{
+				id: "0743AEE69F601F0B"
+				type: "item"
+				item: {
+					id: "create_sa:andesite_jetpack_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						tagFuel: 450.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "022B6D3DC955AE29"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "create:capacity"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 14.5d
+			dependencies: ["00000000000008D1"]
+			id: "285AF2D75FD9809C"
+			tasks: [{
+				id: "571AB8723B5BA2B7"
+				type: "item"
+				item: {
+					id: "create_sa:copper_jetpack_chestplate"
+					Count: 1b
+					tag: {
+						tagRotate: 6.0d
+						tagWater: 489.0d
+						Damage: 0
+						tagCooldown: 3.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "06010E87AB020FE9"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "create:capacity"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 16.5d
+			description: ["This jetpack can be added to your back slot in Curios"]
+			dependencies: [
+				"7DC3C9C543BFAE8E"
+				"285AF2D75FD9809C"
+				"03B81A645C9AA3F7"
+			]
+			id: "6D65B3F4C48BC8E9"
+			tasks: [{
+				id: "13334EA51AA6A0B6"
+				type: "item"
+				item: {
+					id: "create_jetpack:jetpack"
+					Count: 1b
+					tag: {
+						Air: 900
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F53701AE26F2036"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "create:capacity"
+						}]
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

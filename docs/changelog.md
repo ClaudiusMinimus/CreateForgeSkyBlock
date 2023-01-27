@@ -1,5 +1,57 @@
 # Create on a Potato PC: Sky Edition Change Log
 
+## Create on a Potato PC: Sky Edition 1.19.2-1.0.0
+Jan. 26, 2023
+- Mods Added:
+  - craftingcraft-forge-1.19-13.0.0.jar
+- Mods Updated:
+  - Bookshelf-Forge-1.19.2-16.2.17.jar
+  - create_mechanical_extruder-1.19.2-1.3.2.h.jar
+  - ftb-quests-forge-1902.4.6-build.176.jar
+  - jei-1.19.2-forge-11.5.2.1007.jar
+  - Quark-3.4-388.jar
+- Mods Removed:
+  - BorderlessWindow (part of Magnesium/Rubidium Extras)
+- Other Changes:
+  - Added quests for jetpacks
+  - Added JEI info tabs for Create Wrench and End Portal Frames
+  - Added new recipe for Create Jetpack
+  - Disabled Quark Matrix Enchanting
+  - Enabled some of Quark's building items - disabled: ladders and chests
+
+## Create on a Potato PC: Forge Edition 1.19.2-0.8.0
+Jan. 21, 2023
+- Mods Added:
+  - AI-Improvements-1.19.2-0.5.2.jar
+  - create_jetpack-2.1.3.jar
+  - DefaultSettings-1.19.x-2.8.7.jar
+  - dynamiclightsreforged-1.19.2_v1.4.0.jar
+  - FastFurnace-1.19.2-7.0.0.jar
+  - FastWorkbench-1.19.2-7.0.1.jar
+  - ferritecore-5.0.3-forge.jar
+  - JCPlugin-1.18.x-1.19.x-2.8.7.jar
+  - kotlinforforge-3.9.1-all.jar
+  - OCD1.19.2-0.1_alpha.jar
+  - rubidium_extras-1.19.2_v1.3.2.jar
+  - rubidium-0.6.2.jar
+  - Xaeros_Minimap_22.17.1_Forge_1.19.1.jar
+  - XaerosWorldMap_1.28.8_Forge_1.19.1.jar
+- Mods Updated:
+  - jei-1.19.2-forge-11.5.2.1000.jar
+- Mods Removed:
+  - defaultoptions (replaced with DefaultSettings)
+- Other Changes:
+  - Potato guidebook
+    - Added new guides for Dripstone
+    - Added in-chapter linked indexes
+    - Added guide for End Portals
+    - Added video for dripstone uses and farms
+  - Quests
+    - Updated rewards
+    - Added quests for iron ingots, lava, obsidian, and End Portal Frame
+  - Added recipe to convert slime into eggs (for blaze cakes and server friendlyness)
+  - Added script to allow Create Wrench to pick up End Portals Frames
+
 ## Create on a Potato PC: Sky Edition 1.19.2-0.7.3
 Jan. 16, 2023
 - Mods Added:

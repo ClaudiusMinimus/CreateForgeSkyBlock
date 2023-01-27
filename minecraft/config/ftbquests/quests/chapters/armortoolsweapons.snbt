@@ -2,7 +2,7 @@
 	id: "0000000000000035"
 	group: ""
 	order_index: 2
-	filename: "silentgear"
+	filename: "armortoolsweapons"
 	title: "Armor, Tools and Weapons"
 	icon: {
 		id: "create_sa:rose_quartz_sword"

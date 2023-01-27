@@ -1,0 +1,1105 @@
+{
+	id: "0000000000000035"
+	group: ""
+	order_index: 2
+	filename: "armortoolsweapons"
+	title: "Armor, Tools and Weapons"
+	icon: {
+		id: "create_sa:rose_quartz_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: -2.5d
+			shape: "diamond"
+			size: 1.5d
+			id: "13B11BEC6B66DA32"
+			tasks: [{
+				id: "67F120D0331DDD09"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 16L
+			}]
+			rewards: [{
+				id: "067EA9CC22646A04"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			dependencies: ["13B11BEC6B66DA32"]
+			id: "5B2A9F5DB67C490C"
+			tasks: [{
+				id: "440C67005DC71F33"
+				type: "item"
+				item: {
+					id: "easy_emerald:copper_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4EF58E229631A120"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["13B11BEC6B66DA32"]
+			id: "047A8DDC2DDDE336"
+			tasks: [
+				{
+					id: "7BC2D9E156CCC10E"
+					type: "item"
+					item: {
+						id: "easy_emerald:copper_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0EBC35885D238CB8"
+					type: "item"
+					item: {
+						id: "easy_emerald:copper_body"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2EE09596EE525BE1"
+					type: "item"
+					item: {
+						id: "easy_emerald:copper_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "18BF5D57CF712A5E"
+					type: "item"
+					item: {
+						id: "easy_emerald:copper_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "77A7062E92F511A5"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			dependencies: ["13B11BEC6B66DA32"]
+			id: "6731A14BB2DFF272"
+			tasks: [
+				{
+					id: "40673502D2F21EFD"
+					type: "item"
+					item: {
+						id: "easy_emerald:copper_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7B3D44C57C772CC0"
+					type: "item"
+					item: {
+						id: "easy_emerald:copper_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2FC585CB214DE976"
+					type: "item"
+					item: {
+						id: "easy_emerald:copper_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "79B6C893C790AF78"
+				type: "item"
+				item: {
+					id: "easy_emerald:copper_paxel"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 2s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:efficiency"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["13B11BEC6B66DA32"]
+			id: "33FDDB66D3D549F5"
+			tasks: [{
+				id: "46DC0D62B933729E"
+				type: "item"
+				item: {
+					id: "easy_emerald:copper_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "575ED2402F1DD557"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["13B11BEC6B66DA32"]
+			id: "5984436BC9E4E51C"
+			tasks: [{
+				id: "48277283A3700726"
+				type: "item"
+				item: {
+					id: "easy_emerald:copper_excavator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6BFD8101D62F1961"
+				type: "item"
+				item: "minecraft:brown_mushroom"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["13B11BEC6B66DA32"]
+			id: "4E206950200F3671"
+			tasks: [{
+				id: "395C79E8803D99DC"
+				type: "item"
+				item: {
+					id: "easy_emerald:copper_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C94B0BFFD6781C9"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 32
+			}]
+		}
+		{
+			title: "Quadrilium Armor"
+			x: 4.0d
+			y: -7.0d
+			shape: "diamond"
+			dependencies: [
+				"74BF4BAF8EBDEDEA"
+				"4F114D7856CE6FE3"
+				"546410869DD2EA05"
+				"3FD7CC98703018B1"
+				"033A920236D86E83"
+			]
+			size: 1.5d
+			id: "4D2B419D0946089C"
+			tasks: [
+				{
+					id: "6B020498A1BE3877"
+					type: "item"
+					item: {
+						id: "powder_power:armor_quadrilium_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70F6871A76269635"
+					type: "item"
+					item: {
+						id: "powder_power:armor_quadrilium_body"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "25D37EC678F31B5B"
+					type: "item"
+					item: {
+						id: "powder_power:armor_quadrilium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E63D68525838E2B"
+					type: "item"
+					item: {
+						id: "powder_power:armor_quadrilium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "63A33E7A063E11E0"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "255477BEDA8D6787"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Gemium Armor"
+			x: 6.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: [
+				"2B1A7B2C629CCD11"
+				"1C96DD7EE2D35B46"
+				"773875786F917064"
+				"48433F2F012472B0"
+				"2CA09EDE9BB020AC"
+			]
+			size: 1.5d
+			id: "14A6727FC3F98588"
+			tasks: [
+				{
+					id: "7C8D6692BFD2E059"
+					type: "item"
+					item: {
+						id: "powder_power:armor_gemium_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1538259ECC852F7C"
+					type: "item"
+					item: {
+						id: "powder_power:armor_gemium_body"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D156E7847A0ECB2"
+					type: "item"
+					item: {
+						id: "powder_power:armor_gemium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A69E81A7EED617F"
+					type: "item"
+					item: {
+						id: "powder_power:armor_gemium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0499CD03060DCB0F"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:looting"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			id: "48433F2F012472B0"
+			tasks: [{
+				id: "743CCDBF21D9C915"
+				type: "item"
+				item: {
+					id: "powder_power:sword_gemium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6FB6B8020E3BFD0B"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			id: "2CA09EDE9BB020AC"
+			tasks: [
+				{
+					id: "595F4E856578CBDF"
+					type: "item"
+					item: {
+						id: "powder_power:pickaxe_gemium"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "11A46E01D73AAC6A"
+					type: "item"
+					item: {
+						id: "powder_power:axe_gemium"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3D8B06E5922DCD37"
+					type: "item"
+					item: {
+						id: "powder_power:shovel_gemium"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "696A743EE46124CC"
+				type: "item"
+				item: {
+					id: "powder_power:paxel_gemium"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:fortune"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			id: "2B1A7B2C629CCD11"
+			tasks: [{
+				id: "527268027D9FED67"
+				type: "item"
+				item: {
+					id: "powder_power:hammer_gemium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F3FCB8936DC7A6E"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			id: "1C96DD7EE2D35B46"
+			tasks: [{
+				id: "5648C2E7B450A111"
+				type: "item"
+				item: {
+					id: "powder_power:excavator_gemium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C87F49C1EE2B9CD"
+				type: "item"
+				item: "create:framed_glass"
+				count: 8
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			id: "773875786F917064"
+			tasks: [{
+				id: "14C8BEF44A3D7D9F"
+				type: "item"
+				item: {
+					id: "powder_power:bow_gemium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "65DD7FEBEA668A43"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:thorns"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			id: "74BF4BAF8EBDEDEA"
+			tasks: [{
+				id: "415421449CB6D2F2"
+				type: "item"
+				item: {
+					id: "powder_power:sword_quadrilium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D7257476D649C7B"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:sweeping"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.5d
+			id: "4F114D7856CE6FE3"
+			tasks: [
+				{
+					id: "3D47B6DB8AC6B2BB"
+					type: "item"
+					item: {
+						id: "powder_power:pickaxe_quadrilium"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "22B2A856389EE15E"
+					type: "item"
+					item: {
+						id: "powder_power:axe_quadrilium"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "43A3CBC0E6C101DF"
+					type: "item"
+					item: {
+						id: "powder_power:shovel_quadrilium"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "69ACA7BCF4C77FB4"
+				type: "item"
+				item: {
+					id: "powder_power:paxel_quadrilium"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 6s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:fortune"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Quadrilium Pa\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -7.0d
+			id: "546410869DD2EA05"
+			tasks: [{
+				id: "4B66FBDA00A9509B"
+				type: "item"
+				item: {
+					id: "powder_power:hammer_quadrilium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "155E75665E3AC7C8"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			id: "3FD7CC98703018B1"
+			tasks: [{
+				id: "583D4C726D7A7393"
+				type: "item"
+				item: {
+					id: "powder_power:excavator_quadrilium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0449F4DCCEC09BC0"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			id: "033A920236D86E83"
+			tasks: [{
+				id: "0583DE18294A25B6"
+				type: "item"
+				item: {
+					id: "powder_power:bow_quadrilium"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "339DA56C74F0C982"
+				type: "item"
+				item: {
+					id: "minecraft:tipped_arrow"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			title: "Complete one of the sets"
+			x: 6.5d
+			y: -4.5d
+			shape: "hexagon"
+			min_required_dependencies: 1
+			dependencies: [
+				"4D2B419D0946089C"
+				"14A6727FC3F98588"
+				"6DF85BED919386A4"
+			]
+			dependency_requirement: "one_completed"
+			size: 1.5d
+			id: "00B8AD2DF27E33A5"
+			tasks: [{
+				id: "51B7462955596B14"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7A664823B6DEF2D4"
+				type: "item"
+				item: "minecraft:netherite_block"
+			}]
+		}
+		{
+			title: "Amethyst Armor"
+			x: 10.5d
+			y: -7.0d
+			shape: "diamond"
+			size: 1.5d
+			id: "6DF85BED919386A4"
+			tasks: [
+				{
+					id: "796219330B4C37E5"
+					type: "item"
+					item: {
+						id: "easy_emerald:amethyst_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40D88852F2911649"
+					type: "item"
+					item: {
+						id: "easy_emerald:amethyst_body"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "302597526BCEFFCB"
+					type: "item"
+					item: {
+						id: "easy_emerald:amethyst_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68F475DDFD707950"
+					type: "item"
+					item: {
+						id: "easy_emerald:amethyst_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "10714B81485CD077"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:soul_speed"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -8.5d
+			dependencies: ["6DF85BED919386A4"]
+			id: "71B766A38ABB806D"
+			tasks: [{
+				id: "31826BDFDBDDE746"
+				type: "item"
+				item: {
+					id: "easy_emerald:amethyst_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3818DA615B470CBF"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:looting"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -8.5d
+			dependencies: ["6DF85BED919386A4"]
+			id: "033720BA03ABCDC1"
+			tasks: [
+				{
+					id: "33F960FC4B8128B4"
+					type: "item"
+					item: {
+						id: "easy_emerald:amethyst_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7FDDE2951D9E3886"
+					type: "item"
+					item: {
+						id: "easy_emerald:amethyst_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "54125B0378D19336"
+					type: "item"
+					item: {
+						id: "easy_emerald:amethyst_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "61DC42336A6EEB78"
+				type: "item"
+				item: {
+					id: "easy_emerald:amethyst_paxel"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -7.0d
+			dependencies: ["6DF85BED919386A4"]
+			id: "2F3413CA1571DC4F"
+			tasks: [{
+				id: "67CEB9F5E59E1AB3"
+				type: "item"
+				item: {
+					id: "easy_emerald:amethyst_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3BF075DFEC38465B"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.0d
+			dependencies: ["6DF85BED919386A4"]
+			id: "3E379B76DB0259C7"
+			tasks: [{
+				id: "1B1639159294B02C"
+				type: "item"
+				item: {
+					id: "easy_emerald:amethyst_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "13569233E65BF241"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:power"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: -5.0d
+			dependencies: ["6DF85BED919386A4"]
+			id: "03DDE8ACC68DF2F8"
+			tasks: [{
+				id: "7DB29359A40852CA"
+				type: "item"
+				item: {
+					id: "easy_emerald:amethyst_excavator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "33D5BB1BC5A9734D"
+				type: "item"
+				item: {
+					id: "minecraft:goat_horn"
+					Count: 1b
+					tag: {
+						instrument: "minecraft:seek_goat_horn"
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}
