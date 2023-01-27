@@ -1,7 +1,7 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-0.9.0
-Jan. 25, 2023
+## Create on a Potato PC: Sky Edition 1.19.2-1.0.0
+Jan. 26, 2023
 - Mods Added:
   - craftingcraft-forge-1.19-13.0.0.jar
 - Mods Updated:
