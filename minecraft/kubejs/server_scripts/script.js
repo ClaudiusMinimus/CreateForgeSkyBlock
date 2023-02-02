@@ -65,6 +65,40 @@ ServerEvents.recipes(event => {
 		D: 'minecraft:dirt'
 	})
 
+/* 
+'minecraft:iron_bars'
+'createdeco:cast_iron_bars'
+'minecraft:nether_star'
+'createdeco:netherite_bars'
+*/
+		// Spawner recipe
+		event.shaped('minecraft:spawner', [
+			'BBB',
+			'BSB',
+			'BBB'
+		], {
+			B: 'createdeco:netherite_bars',
+			S: 'minecraft:nether_star'
+		})
+ 
+		// Pillager spawn egg recipe
+		event.shaped('minecraft:pillager_spawn_egg', [
+			'W',
+			'A'
+		], {
+			W: 'minecraft:witch_spawn_egg',
+			A: 'minecraft:crossbow'
+		})
+
+		// Evoker spawn egg recipe
+		event.shaped('minecraft:evoker_spawn_egg', [
+			'W',
+			'A'
+		], {
+			W: 'minecraft:pillager_spawn_egg',
+			A: 'minecraft:iron_axe'
+		})
+		
 });
 
 BlockEvents.rightClicked ("block.right_click", (event) => {
