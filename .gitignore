@@ -102,3 +102,5 @@ minecraft/config/fancymenu/locals/*
 
 minecraft/.qmenu_opened.marker
 minecraft/ds_private_storage.json
+minecraft/config/skyblockbuilder/data/*.txt
+
