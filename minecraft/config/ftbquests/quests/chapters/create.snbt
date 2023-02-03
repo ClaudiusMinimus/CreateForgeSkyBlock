@@ -111,11 +111,7 @@
 		{
 			x: 0.0d
 			y: 7.5d
-			description: [
-				"The Mechanical Press is a workhorse which you will use a lot. To use, you will need to activate with a Redstone signal, like a lever or button."
-				""
-				"To use, just drop an iron, brass, copper, gold, or lapis ingot under the press."
-			]
+			description: ["The Mechanical Press is a workhorse that you will use a lot. Drop iron, brass, copper, or gold ingot(s) under the press or place them on a depot or belt to make a sheet."]
 			dependencies: ["0000000000000799"]
 			id: "0000000000000797"
 			tasks: [{
@@ -335,7 +331,7 @@
 			rewards: [{
 				id: "000000000000086B"
 				type: "item"
-				item: "minecraft:soul_sand"
+				item: "minecraft:golden_apple"
 			}]
 		}
 		{
@@ -988,7 +984,10 @@
 				""
 				"Be sure to add fuel!"
 			]
-			dependencies: ["6B13CAC5E656A56E"]
+			dependencies: [
+				"6B13CAC5E656A56E"
+				"51544E360D6B39F0"
+			]
 			id: "5AF43A02E87E4DF8"
 			tasks: [{
 				id: "0A6C5153B2E97C22"
@@ -1542,6 +1541,7 @@
 		{
 			x: 4.0d
 			y: 15.5d
+			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 			dependencies: ["00000000000008D1"]
 			id: "03B81A645C9AA3F7"
 			tasks: [{
@@ -1575,6 +1575,7 @@
 		{
 			x: 5.5d
 			y: 14.0d
+			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 			dependencies: ["00000000000008D1"]
 			id: "7DC3C9C543BFAE8E"
 			tasks: [{
@@ -1607,6 +1608,7 @@
 		{
 			x: 4.5d
 			y: 14.5d
+			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 			dependencies: ["00000000000008D1"]
 			id: "285AF2D75FD9809C"
 			tasks: [{
@@ -1641,7 +1643,7 @@
 		{
 			x: 6.5d
 			y: 16.5d
-			description: ["This jetpack can be added to your back slot in Curios"]
+			description: ["Add this upgraded jetpack to your back slot in Curios, so you can still wear chest armor, and most important provides flight over the void. You can also toggle hover mode, which makes for softer landings!"]
 			dependencies: [
 				"7DC3C9C543BFAE8E"
 				"285AF2D75FD9809C"
