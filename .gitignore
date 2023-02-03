@@ -15,6 +15,7 @@ minecraft/coremods/*
 minecraft/craftpresence/*
 minecraft/crash-reports/*
 minecraft/data/*
+minecraft/ESM/*
 minecraft/fancymenu_data/*
 minecraft/fancymenu_setups/*
 minecraft/kubejs/exported/*
