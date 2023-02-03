@@ -58,6 +58,7 @@ minecraft/knownkeys.txt
 minecraft/config/NoChatReports/NCR-Encryption.json
 minecraft/config/NoChatReports/NCR-ServerWhitelist.json
 minecraft/config/NoChatReports/README.md
+minecraft/config/skyblockbuilder/data/*.txt
 minecraft/options.amecsapi.txt
 minecraft/options.justenoughkeys.txt
 minecraft/options.txt
@@ -102,5 +103,4 @@ minecraft/config/fancymenu/locals/*
 
 minecraft/.qmenu_opened.marker
 minecraft/ds_private_storage.json
-minecraft/config/skyblockbuilder/data/*.txt
 
