@@ -6,6 +6,7 @@ StartupEvents.registry('item', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
 	event.create('amethyst_mesh','createsifter:mesh').displayName('Amethyst Mesh');
+	event.create('quartz_mesh','createsifter:mesh').displayName('Quartz Mesh');
 })
 
 StartupEvents.registry('block', event => {
