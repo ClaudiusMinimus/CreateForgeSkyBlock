@@ -74,8 +74,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
+			x: 4.0d
+			y: -0.5d
 			dependencies: ["0000000000000795"]
 			id: "0000000000000793"
 			tasks: [{
@@ -151,8 +151,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 2.0d
+			x: 5.5d
+			y: 0.5d
 			dependencies: ["0000000000000793"]
 			id: "000000000000079B"
 			tasks: [{
@@ -278,7 +278,7 @@
 		}
 		{
 			x: 5.5d
-			y: 0.5d
+			y: -1.0d
 			shape: "square"
 			description: [
 				"A water wheel is great for early game Rotational Force."
@@ -299,8 +299,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: 1.0d
+			y: 1.5d
 			description: ["Attach a log to a Windmill Bearing and then attach the Sails to the log to create a functional windmill."]
 			dependencies: ["00000000000007B2"]
 			id: "00000000000007B0"
@@ -318,8 +318,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 4.5d
+			x: 1.0d
+			y: 3.0d
 			description: ["To turn on your windmill, attach either a Radial Chasis and wool blocks, or sails surrounding a log to the Windmill Bearing, then right-click on the Windmill Bearing to start the windmill rotating."]
 			dependencies: ["0000000000000799"]
 			id: "00000000000007B2"
@@ -335,8 +335,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 6.0d
+			x: 2.0d
+			y: 2.0d
 			description: ["You need to put slime or Super Glue on at least one contact surface for connected blocks to rotate with the radial chassis. Double click the slime to attach to all four sides at once."]
 			dependencies: [
 				"00000000000008C9"
@@ -622,8 +622,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 6.0d
+			x: 3.0d
+			y: 3.0d
 			dependencies: ["0000000000000799"]
 			id: "00000000000008C9"
 			tasks: [{
@@ -647,8 +647,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 6.0d
+			x: 3.0d
+			y: 1.0d
 			dependencies: ["00000000000007B4"]
 			id: "00000000000008CB"
 			tasks: [{
@@ -1110,8 +1110,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 3.0d
+			x: -1.0d
+			y: 2.0d
 			dependencies: ["0000000000000799"]
 			id: "495A497F82554F9A"
 			tasks: [{
@@ -1674,6 +1674,157 @@
 						}]
 					}
 				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			description: ["Don't throw that gravel away - sift it! The Sifter reveals hidden treasure within the dirt, gravel, sand, and red sand. Try different meshes to obtain different results. Always check JEI for the recipes."]
+			dependencies: ["0000000000000799"]
+			id: "221727A5972F7D8E"
+			tasks: [{
+				id: "558CF386DF2BD451"
+				type: "item"
+				item: "createsifter:sifter"
+			}]
+			rewards: [{
+				id: "1DCE4CA9C0D5B5A4"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			description: ["Instead of a cobble generator, try the Mechanical Extruder, which extrudes various stone blocks. Check JEI for all of the recipes."]
+			dependencies: ["0000000000000799"]
+			id: "4A8320F850B32E7A"
+			tasks: [{
+				id: "111C251583217902"
+				type: "item"
+				item: "create_mechanical_extruder:mechanical_extruder"
+			}]
+			rewards: [{
+				id: "237F6846B8244F3E"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["221727A5972F7D8E"]
+			id: "4BB3FCE4B9E37559"
+			tasks: [{
+				id: "13E357ABA3B2FAC0"
+				type: "item"
+				item: {
+					id: "createsifter:string_mesh"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "051B27DA7F0B5E3C"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 32
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["45C38BCC4C935BE5"]
+			id: "0E8DCE9A49C4F7CE"
+			tasks: [{
+				id: "3CF72428922A53CB"
+				type: "item"
+				item: {
+					id: "createsifter:andesite_mesh"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "415D402E050F3CB6"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 16
+				}
+				{
+					id: "1C62D434D612BDBC"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			shape: "square"
+			description: ["There is GOLD in that gravel!"]
+			dependencies: ["221727A5972F7D8E"]
+			id: "45C38BCC4C935BE5"
+			tasks: [{
+				id: "6677172087038F71"
+				type: "item"
+				item: {
+					id: "createsifter:zinc_mesh"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "387AF2B1570BEDCB"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 64
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			dependencies: ["45C38BCC4C935BE5"]
+			id: "3C178ECBDEE14C89"
+			tasks: [{
+				id: "6FBA45D68B9FCBA3"
+				type: "item"
+				item: {
+					id: "createsifter:brass_mesh"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "05CDEAEBB0335441"
+				type: "item"
+				item: "minecraft:sand"
+				count: 32
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			dependencies: ["3C178ECBDEE14C89"]
+			id: "596465D176B0A1A3"
+			tasks: [{
+				id: "121DB565D9C067DE"
+				type: "item"
+				item: {
+					id: "kubejs:amethyst_mesh"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1BAFF92A2D226953"
+				type: "item"
+				item: "minecraft:red_sand"
+				count: 16
 			}]
 		}
 	]
