@@ -1,16 +1,18 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-1.1.0
-Feb. 03, 2023
+## Create on a Potato PC: Sky Edition 1.19.2-1.2.0
+Feb. 04, 2023
 - Mods Added:
   - defaultoptions-forge-1.19-15.0.0.jar (added back until DefaultSettings is fixed)
   - netherportalfix-forge-1.19-10.0.0.jar
   - silent-gear-1.19.2-3.2.3.jar
   - silent-lib-1.19.2-7.0.3.jar
 - Mods Updated:
+  - create_mechanical_extruder-1.19.2-1.3.2.i.jar
   - create-1.19.2-0.5.0.i.jar
   - createaddition-1.19.2-20230202b.jar
-  - drippyloadingscreen_forge_2.1.0_MC_1.19.1-1.19.2.jar
+  - createsifter-1.19.2-1.4.0.i.jar
+  - drippyloadingscreen_forge_2.1.1_MC_1.19.1-1.19.2.jar
   - extremesoundmuffler-3.35-forge-1.19.2.jar
   - ftb-chunks-forge-1902.3.15-build.233.jar
   - ftb-teams-forge-1902.2.12-build.95.jar
