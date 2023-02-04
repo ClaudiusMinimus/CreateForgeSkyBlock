@@ -2695,20 +2695,14 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 0.5d
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["000000000000007B"]
 			id: "6B282262128F673B"
 			tasks: [{
 				id: "0C77C4D94E61206A"
 				type: "item"
-				title: "Any #silentgear:blueprints/sword"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "silentgear:blueprints/sword"
-					}
-				}
+				item: "silentgear:katana_blueprint"
 			}]
 			rewards: [{
 				id: "04D947196164FB62"
