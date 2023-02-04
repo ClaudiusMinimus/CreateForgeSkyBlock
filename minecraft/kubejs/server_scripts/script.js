@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
 	// Change recipes here
 
 	// array of items to remove
-	const REMOVED_ITEMS = ["create_sa:copper_pickaxe", "create_sa:copper_axe", "create_sa:copper_shovel", "create_sa:copper_hoe", "create_sa:copper_helmet", "create_sa:copper_chestplate", "create_sa:copper_leggings", "create_sa:copper_boots", "create_sa:copper_sword", "easy_emerald:wooden_treeaxe","easy_emerald:wooden_excavator","easy_emerald:wooden_paxel","easy_emerald:wooden_hammer"];
+	const REMOVED_ITEMS = ["create_sa:copper_pickaxe", "create_sa:copper_axe", "create_sa:copper_shovel", "create_sa:copper_hoe", "create_sa:copper_helmet", "create_sa:copper_chestplate", "create_sa:copper_leggings", "create_sa:copper_boots", "create_sa:copper_sword", "easy_emerald:wooden_treeaxe", "easy_emerald:wooden_excavator", "easy_emerald:wooden_paxel", "easy_emerald:wooden_hammer"];
 
 	// remove items in array
 	REMOVED_ITEMS.forEach(id => event.remove({ output: id }));
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
 	], {
 		S: 'minecraft:end_stone',
 		E: 'minecraft:ender_eye'
-	})	
+	})
 
 	// craft deepslate
 	event.shaped('4x minecraft:deepslate', [
@@ -44,7 +44,6 @@ ServerEvents.recipes(event => {
 	})
 
 	//  - minecraft:sculk_catalyst craft (4 x sculk) + 1 diamond + (4 x quartz) = 1 x sculk_catalyst
-
 	// Craft shaped sculk catalyst 	
 	event.shaped('minecraft:sculk_catalyst', [
 		'SQS',
@@ -54,7 +53,7 @@ ServerEvents.recipes(event => {
 		S: 'minecraft:sculk',
 		Q: 'minecraft:quartz',
 		D: 'minecraft:diamond'
-	})	
+	})
 
 	// Craft shaped rooted_dirt 	
 	event.shaped('2x minecraft:rooted_dirt', [
@@ -65,21 +64,63 @@ ServerEvents.recipes(event => {
 		D: 'minecraft:dirt'
 	})
 
+	// Spawner recipe
+	event.shaped('minecraft:spawner', [
+		'BBB',
+		'BSB',
+		'BBB'
+	], {
+		B: 'createdeco:netherite_bars',
+		S: 'minecraft:nether_star'
+	})
+
+	// Pillager spawn egg recipe
+	event.shaped('minecraft:pillager_spawn_egg', [
+		'W',
+		'A'
+	], {
+		W: 'minecraft:witch_spawn_egg',
+		A: 'minecraft:crossbow'
+	})
+
+	// Evoker spawn egg recipe
+	event.shaped('minecraft:evoker_spawn_egg', [
+		'W',
+		'A'
+	], {
+		W: 'minecraft:pillager_spawn_egg',
+		A: 'minecraft:iron_axe'
+	})
+
 });
 
-BlockEvents.rightClicked ("block.right_click", (event) => {
+// allow player to pick up an end portal frame
+BlockEvents.rightClicked("block.right_click", (event) => {
 	const { block, hand, item, world, player } = event;
 	if (hand.name() != "MAIN_HAND") return;
-  
+
 	if (item == "create:wrench" && player.isCrouching()) {
-	  if (block.equals("minecraft:end_portal_frame")) {
-		const hasEnderEye = block.properties.eye;
-		block.set("minecraft:air");
-		player.give("minecraft:end_portal_frame");
-		if (hasEnderEye == "true") {
-		  player.give("minecraft:ender_eye");
+		if (block.equals("minecraft:end_portal_frame")) {
+			const hasEnderEye = block.properties.eye;
+			block.set("minecraft:air");
+			player.give("minecraft:end_portal_frame");
+			if (hasEnderEye == "true") {
+				player.give("minecraft:ender_eye");
+			}
 		}
-	  }
 	}
-  
-  });
+
+});
+
+// allow player to break an end portal
+BlockEvents.rightClicked("block.right_click", (event) => {
+	const { block, hand, item, world, player } = event;
+	if (hand.name() != "MAIN_HAND") return;
+
+	if (item == "create:wrench" && player.isCrouching()) {
+		if (block.equals("minecraft:end_portal")) {
+			block.set("minecraft:air");
+		}
+	}
+
+});

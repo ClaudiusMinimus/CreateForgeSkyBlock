@@ -5,6 +5,7 @@
     "createsifter:zinc_mesh",
     "createsifter:brass_mesh",
     "createsifter:custom_mesh",
-    "kubejs:amethyst_mesh"
+    "kubejs:amethyst_mesh",
+    "kubejs:quartz_mesh"
   ]
 }

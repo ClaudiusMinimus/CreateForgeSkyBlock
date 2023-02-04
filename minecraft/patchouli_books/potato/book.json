@@ -1,6 +1,6 @@
 {
     "name": "Create on a Potato PC:",
-    "subtitle": "Sky Edition v. 1.19.2-1.0.0",
+    "subtitle": "Sky Edition v. 1.19.2-1.2.0",
     "version": 0,
     "landing_text": "$(playername), You have landed on Potato Island. Believe it or not, everything you need to progress to the Nether and End is here on this tiny island. Some resources are very precious-gollum, so be thoughtful and not hasty.",
     "model": "patchouli:book_blue",

@@ -1,5 +1,42 @@
 # Create on a Potato PC: Sky Edition Change Log
 
+## Create on a Potato PC: Sky Edition 1.19.2-1.2.0
+Feb. 04, 2023
+- Mods Added:
+  - defaultoptions-forge-1.19-15.0.0.jar (added back until DefaultSettings is fixed)
+  - netherportalfix-forge-1.19-10.0.0.jar
+  - silent-gear-1.19.2-3.2.3.jar
+  - silent-lib-1.19.2-7.0.3.jar
+- Mods Updated:
+  - create_mechanical_extruder-1.19.2-1.3.2.i.jar
+  - create-1.19.2-0.5.0.i.jar
+  - createaddition-1.19.2-20230202b.jar
+  - createsifter-1.19.2-1.4.0.i.jar
+  - drippyloadingscreen_forge_2.1.1_MC_1.19.1-1.19.2.jar
+  - extremesoundmuffler-3.35-forge-1.19.2.jar
+  - ftb-chunks-forge-1902.3.15-build.233.jar
+  - ftb-teams-forge-1902.2.12-build.95.jar
+  - kubejs-forge-1902.6.0-build.142.jar
+  - Quark-3.4-389.jar
+  - tempad-forge-1.19.2-1.4.4.jar
+- Mods Removed:
+  - Removed DefaultSettings due to [aggressively overwriting settings](https://github.com/Jomcraft-Network/DefaultSettings/issues/13)
+  - **NOTICE:** _Easy Emerald Tools will be removed on next update! There are some bugs that cannot be addressed until May._
+- Other Changes:
+  - Added quart sifting mesh for blaze powder, glowstone dust, and nether wart using soul sand.
+  - Removed blaze powder and glowstone dust from brass mesh sand recipes
+  - Cleaned up kubejs scripts
+  - Disabled silk touch for spawner pickup
+  - Added World Hopping chapter to quests
+  - Updated Armor, Tools, and  Weapons quests replacing Easy Emerald with Silent Gear
+  - Updated Create quests - added new quests for sifter and extruder, fixed text in Mechanical Press
+  - Added spawner, pillager, and evoker recipes
+  - Added new pack artwork and updated FancyMenu and Drippy pages
+  - Updated options_background.png to sky blue to match pack
+  - Added script to allow players to break an end portal with a Create wrench
+  - Added recipe for Gilded Blackstone
+  - Added 2 tips to Potato book
+
 ## Create on a Potato PC: Sky Edition 1.19.2-1.0.0
 Jan. 26, 2023
 - Mods Added:
