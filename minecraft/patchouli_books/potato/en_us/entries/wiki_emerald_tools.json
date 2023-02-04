@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Emerald Tools does not have a wiki, but their $(l:https://www.curseforge.com/minecraft/mc-mods/easy-emerald-tools)Curseforge page$(/l) has a lot of useful information.$(br2)If you still need help, then you can join their $(l:https://discord.gg/j7bYbkW)discord$(/l)."
+            "text": "Easy Emerald Tools will be dropped from the pack in version 1.19.2-1.2.0.$(br2)Emerald Tools does not have a wiki, but their $(l:https://www.curseforge.com/minecraft/mc-mods/easy-emerald-tools)Curseforge page$(/l) has a lot of useful information.$(br2)If you still need help, then you can join their $(l:https://discord.gg/j7bYbkW)discord$(/l)."
         }
     ]
 }
