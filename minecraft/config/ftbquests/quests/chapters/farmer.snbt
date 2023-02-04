@@ -80,23 +80,12 @@
 				type: "item"
 				item: "minecraft:potato"
 			}]
-			rewards: [
-				{
-					id: "3C5798EFB102295E"
-					type: "item"
-					item: "easy_emerald:emerald_potato"
-				}
-				{
-					id: "317FCFC3382EF692"
-					type: "item"
-					item: "easy_emerald:ruby_potato"
-				}
-				{
-					id: "749D2308BC7402C9"
-					type: "item"
-					item: "easy_emerald:amethyst_potato"
-				}
-			]
+			rewards: [{
+				id: "749D2308BC7402C9"
+				type: "item"
+				item: "minecraft:baked_potato"
+				count: 4
+			}]
 		}
 		{
 			x: 5.0d
