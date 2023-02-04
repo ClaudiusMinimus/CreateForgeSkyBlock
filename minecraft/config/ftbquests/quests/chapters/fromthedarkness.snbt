@@ -488,10 +488,81 @@
 				id: "3CBBA3D29984B05D"
 				type: "item"
 				item: {
-					id: "easy_emerald:copper_treeaxe"
+					id: "silentgear:saw"
 					Count: 1b
 					tag: {
+						SGear_UUID: [I;
+							-400511238
+							-1284616489
+							-1916884194
+							-752035927
+						]
 						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:saw_blade"
+											Count: 1b
+											tag: {
+												Damage: 0
+												Materials: [{
+													ID: "silentgear:iron"
+												}]
+											}
+										}
+										ID: "silentgear:saw_blade"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													ID: "silentgear:wood"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "3.2.3"
+								Stats: {
+									"silentgear:charging_value": 0.7f
+									"silentgear:enchantment_value": 7.0f
+									"silentgear:harvest_speed": 1.5f
+									"silentgear:attack_reach": 3.0f
+									"silentgear:harvest_level": 2.0f
+									"silentgear:durability": 500.0f
+									"silentgear:melee_damage": 4.0f
+									"silentgear:magic_damage": 1.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:attack_speed": -2.5f
+									"silentgear:repair_efficiency": 1.5f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magnetic"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
 					}
 				}
 			}]
