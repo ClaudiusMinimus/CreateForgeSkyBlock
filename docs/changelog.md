@@ -11,7 +11,7 @@ Feb. 04, 2023
   - create_mechanical_extruder-1.19.2-1.3.2.i.jar
   - create-1.19.2-0.5.0.i.jar
   - createaddition-1.19.2-20230202b.jar
-  - createsifter-1.19.2-1.4.0.i.jar
+  - createsifter-1.19.2-1.4.0.i.jar (This version begins to address a [custom mesh rendering issue](https://github.com/oierbravo/createsifter/issues/19#issuecomment-1416791662). Rather than wait until it is fully fixed, this version is included so you can at least see which mesh is being used, even though it is not positioned correctly. Should be fixed with next release of the pack.)
   - drippyloadingscreen_forge_2.1.1_MC_1.19.1-1.19.2.jar
   - extremesoundmuffler-3.35-forge-1.19.2.jar
   - ftb-chunks-forge-1902.3.15-build.233.jar
