@@ -11,13 +11,13 @@
         {
             "type": "patchouli:text",
             "title": "Contents",
-            "text": "$(li)$(l:tips_tricks#talloak)Tall Oak Trees$(/l)$(li)$(l:tips_tricks#cobblegen)Fool Proof Cobble Generator$(/l)$(li)$(l:tips_tricks#betterwaterwheel)Better Water Wheels$(/l)$(li)$(l:tips_tricks#y-64)Get to Y -64 Alive!$(/l)$(li)$(l:tips_tricks#lookupmods)Look Up Mods$(/l)$(li)$(l:tips_tricks#endportal)End Portal$(/l)"
+            "text": "$(li)$(l:tips_tricks#talloak)Tall Oak Trees$(/l)$(l)*$()$(li)$(l:tips_tricks#cobblegen)Fool Proof Cobble Generator$(/l)$(li)$(l:tips_tricks#betterwaterwheel)Better Water Wheels$(/l)$(l)*$()$(li)$(l:tips_tricks#y-64)Get to Y -64 Alive!$(/l)$(li)$(l:tips_tricks#endportal)End Portal$(/l)$(li)$(l:tips_tricks#lookupmods)Look Up Mods$(/l)$(br2)$(l)*$()Tips submitted by dk_bhn."
         },
         {
             "type": "patchouli:multiblock",
             "title": "Tall Oaks Trees",
             "anchor": "talloak",
-            "text": "Would you like a better chance at getting a tall oak tree? Try this tip submitted by dk_bhn.",
+            "text": "Would you like a better chance at getting a tall oak tree? $(l)Use regular torches not redstone.$()",
             "multiblock": {
                 "pattern": [
                     ["CT "],
@@ -26,7 +26,7 @@
                 ],
                 "mapping": {
                     "O": "minecraft:oak_sapling",
-                    "T": "minecraft:torch",
+                    "T": "minecraft:redstone_wall_torch[facing=south,lit=true]",
                     "C": "minecraft:cobblestone"
                 },
                 "symmetrical": true,
@@ -57,7 +57,7 @@
             "images":["potato:images/patchouli/waterwheel_tip.png"],
             "title": "Better Waterwheels",
             "anchor": "betterwaterwheel",
-            "text": "Want a more powerful Waterwheel? Use Soul Sand! Tip submitted by dk_bhn."
+            "text": "Want a more powerful Waterwheel? Use Soul Sand!"
         },
         {
             "type": "patchouli:text",
@@ -72,12 +72,6 @@
         {
             "type": "patchouli:text",
             "text": "$(li)Place the water again, but 2 blocks away.$(li)Use the water as a ladder to desend$(li)At about Y -62 place some slabs or blocks on the side of the pillar$(li)Jump on placed blocks and don't die!"
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Look Up Mods",
-            "anchor": "lookupmods",
-            "text": "If you want to learn about a particular mod, then open the Mods menu page.$(li)From the main menu page, click on the  Mods icon. From within a world, open Game Menu page ($(o)default Esc key$()).$(li)Click on Mods.$(li)Search for the mod you are interested in.$(li)Click on the mod icon to show the details. You can find issue trackers, website links, and mod settings."
         },
         {
             "type": "patchouli:text",
@@ -107,6 +101,12 @@
                 "symmetrical": true,
                 "enable_visualize": false
             }
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Look Up Mods",
+            "anchor": "lookupmods",
+            "text": "If you want to learn about a particular mod, then open the Mods menu page.$(li)From the main menu page, click on the  Mods icon. From within a world, open Game Menu page ($(o)default Esc key$()).$(li)Click on Mods.$(li)Search for the mod you are interested in.$(li)Click on the mod icon to show the details. You can find issue trackers, website links, and mod settings."
         }
     ]
 }
