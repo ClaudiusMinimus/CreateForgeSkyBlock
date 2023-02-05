@@ -1,6 +1,6 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-1.2.0
+## Create on a Potato PC: Sky Edition 1.19.2-1.2.1
 Feb. 04, 2023
 - Mods Added:
   - defaultoptions-forge-1.19-15.0.0.jar (added back until DefaultSettings is fixed)
@@ -229,7 +229,7 @@ Dec. 15, 2022
   - defaultoptions-forge-1.19-15.0.0.jar
   - DefaultWorldType-1.19.1-3.1.0.jar
   - drippyloadingscreen_forge_1.6.6_MC_1.19-1.19.2.jar
-  - EasierVillagerTrading-forge-1.19.2-1.2.0.jar
+  - EasierVillagerTrading-forge-1.19.2-1.2.1.jar
   - EasyEmerald-Forge-1.19.2-1.4.15.jar
   - fancymenu_forge_2.13.0_MC_1.19-1.19.2.jar
   - ftb-chunks-forge-1902.3.13-build.207.jar
