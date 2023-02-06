@@ -1808,7 +1808,7 @@
 		}
 		{
 			x: 6.5d
-			y: 5.0d
+			y: 4.5d
 			dependencies: ["3C178ECBDEE14C89"]
 			id: "596465D176B0A1A3"
 			tasks: [{
@@ -1824,6 +1824,27 @@
 				id: "1BAFF92A2D226953"
 				type: "item"
 				item: "minecraft:red_sand"
+				count: 16
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			dependencies: ["3C178ECBDEE14C89"]
+			id: "3E7E0406872820C4"
+			tasks: [{
+				id: "7C7A03B9589DC6A6"
+				type: "item"
+				item: {
+					id: "kubejs:quartz_mesh"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1DC9C49C5E08E29E"
+				type: "item"
+				item: "minecraft:soul_sand"
 				count: 16
 			}]
 		}

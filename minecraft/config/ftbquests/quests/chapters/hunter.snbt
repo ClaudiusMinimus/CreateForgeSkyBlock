@@ -734,25 +734,20 @@
 					id: "5B6AF4DB05A31F61"
 					type: "item"
 					item: {
-						id: "create_sa:brass_jetpack_chestplate"
+						id: "create_jetpack:jetpack"
 						Count: 1b
 						tag: {
-							RepairCost: 1
-							Damage: 0
 							Enchantments: [
+								{
+									lvl: 3s
+									id: "create:capacity"
+								}
 								{
 									lvl: 4s
 									id: "minecraft:protection"
 								}
-								{
-									lvl: 4s
-									id: "minecraft:unbreaking"
-								}
-								{
-									lvl: 1s
-									id: "minecraft:mending"
-								}
 							]
+							Air: 1800
 						}
 					}
 				}
