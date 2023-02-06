@@ -1,6 +1,14 @@
 # Create on a Potato PC: Sky Edition Change Log
 
+## Create on a Potato PC: Sky Edition 1.19.2-1.2.2
+Feb. 06, 2023
+- Other Changes: Added temp fix for Create Sifter in kubejs/startup_scripts/script.js
+
 ## Create on a Potato PC: Sky Edition 1.19.2-1.2.1
+Feb. 05, 2023
+- Other Changes: Removed a temp zip file, kubejs/kubejs.zip due to CurseForge rejection
+
+## Create on a Potato PC: Sky Edition 1.19.2-1.2.0
 Feb. 04, 2023
 - Mods Added:
   - defaultoptions-forge-1.19-15.0.0.jar (added back until DefaultSettings is fixed)
@@ -229,7 +237,7 @@ Dec. 15, 2022
   - defaultoptions-forge-1.19-15.0.0.jar
   - DefaultWorldType-1.19.1-3.1.0.jar
   - drippyloadingscreen_forge_1.6.6_MC_1.19-1.19.2.jar
-  - EasierVillagerTrading-forge-1.19.2-1.2.1.jar
+  - EasierVillagerTrading-forge-1.19.2-1.2.2.jar
   - EasyEmerald-Forge-1.19.2-1.4.15.jar
   - fancymenu_forge_2.13.0_MC_1.19-1.19.2.jar
   - ftb-chunks-forge-1902.3.13-build.207.jar
