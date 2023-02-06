@@ -22,8 +22,13 @@
 			tasks: [{
 				id: "7E969B91EB428FB5"
 				type: "dimension"
-				title: "Visiting the Tropic End"
+				title: "Visiting the Finale, The End"
 				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "6521B7082683CC34"
+				type: "item"
+				item: "powder_power:token_strength"
 			}]
 		}
 		{
@@ -34,8 +39,13 @@
 			tasks: [{
 				id: "51544E360D6B39F0"
 				type: "dimension"
-				title: "Visiting the Calming Nether"
+				title: "Visiting the Serene Nether"
 				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "72B4570505C7C0E6"
+				type: "item"
+				item: "minecraft:sculk_sensor"
 			}]
 		}
 		{
@@ -92,6 +102,11 @@
 				type: "item"
 				item: "minecraft:quartz"
 			}]
+			rewards: [{
+				id: "661F7882379A67BD"
+				type: "item"
+				item: "powder_power:token_haste"
+			}]
 		}
 		{
 			x: -1.0d
@@ -102,6 +117,13 @@
 				id: "7368C6803D3C8AAA"
 				type: "item"
 				item: "minecraft:soul_sand"
+				count: 16L
+			}]
+			rewards: [{
+				id: "792E1FBBA5E9193E"
+				type: "item"
+				item: "minecraft:verdant_froglight"
+				count: 8
 			}]
 		}
 	]
