@@ -335,8 +335,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			x: 3.0d
+			y: 3.0d
 			description: ["You need to put slime or Super Glue on at least one contact surface for connected blocks to rotate with the radial chassis. Double click the slime to attach to all four sides at once."]
 			dependencies: [
 				"00000000000008C9"
@@ -622,8 +622,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: 2.0d
+			y: 4.5d
 			dependencies: ["0000000000000799"]
 			id: "00000000000008C9"
 			tasks: [{
@@ -647,8 +647,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 5.0d
+			y: 2.0d
 			dependencies: ["00000000000007B4"]
 			id: "00000000000008CB"
 			tasks: [{
@@ -1478,11 +1478,19 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "784511CF6475C76A"
-				type: "item"
-				item: "create:chute"
-			}]
+			rewards: [
+				{
+					id: "784511CF6475C76A"
+					type: "item"
+					item: "create:chute"
+				}
+				{
+					id: "3A933D9EDA888D36"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 16
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -1518,6 +1526,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "6A874ABDDFDDDBA8"
+				type: "item"
+				item: "minecraft:sand"
+				count: 32
 			}]
 		}
 		{
@@ -1677,24 +1691,6 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.0d
-			description: ["Don't throw that gravel away - sift it! The Sifter reveals hidden treasure within the dirt, gravel, sand, and red sand. Try different meshes to obtain different results. Always check JEI for the recipes."]
-			dependencies: ["0000000000000799"]
-			id: "221727A5972F7D8E"
-			tasks: [{
-				id: "558CF386DF2BD451"
-				type: "item"
-				item: "createsifter:sifter"
-			}]
-			rewards: [{
-				id: "1DCE4CA9C0D5B5A4"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 4
-			}]
-		}
-		{
 			x: 1.0d
 			y: 6.0d
 			description: ["Instead of a cobble generator, try the Mechanical Extruder, which extrudes various stone blocks. Check JEI for all of the recipes."]
@@ -1713,9 +1709,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 6.0d
-			dependencies: ["221727A5972F7D8E"]
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["03108B7D1A7458B3"]
 			id: "4BB3FCE4B9E37559"
 			tasks: [{
 				id: "13E357ABA3B2FAC0"
@@ -1734,82 +1730,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.5d
-			dependencies: ["45C38BCC4C935BE5"]
-			id: "0E8DCE9A49C4F7CE"
-			tasks: [{
-				id: "3CF72428922A53CB"
-				type: "item"
-				item: {
-					id: "createsifter:andesite_mesh"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [
-				{
-					id: "415D402E050F3CB6"
-					type: "item"
-					item: "minecraft:gravel"
-					count: 16
-				}
-				{
-					id: "1C62D434D612BDBC"
-					type: "item"
-					item: "minecraft:andesite"
-					count: 16
-				}
-			]
-		}
-		{
-			x: 3.5d
-			y: 4.5d
-			shape: "square"
-			description: ["There is GOLD in that gravel!"]
-			dependencies: ["221727A5972F7D8E"]
-			id: "45C38BCC4C935BE5"
-			tasks: [{
-				id: "6677172087038F71"
-				type: "item"
-				item: {
-					id: "createsifter:zinc_mesh"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "387AF2B1570BEDCB"
-				type: "item"
-				item: "minecraft:gravel"
-				count: 64
-			}]
-		}
-		{
-			x: 5.0d
-			y: 5.0d
-			dependencies: ["45C38BCC4C935BE5"]
-			id: "3C178ECBDEE14C89"
-			tasks: [{
-				id: "6FBA45D68B9FCBA3"
-				type: "item"
-				item: {
-					id: "createsifter:brass_mesh"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "05CDEAEBB0335441"
-				type: "item"
-				item: "minecraft:sand"
-				count: 32
-			}]
-		}
-		{
-			x: 6.5d
-			y: 4.5d
-			dependencies: ["3C178ECBDEE14C89"]
+			x: -7.0d
+			y: -2.5d
+			dependencies: ["03CC0E98A0C9900A"]
 			id: "596465D176B0A1A3"
 			tasks: [{
 				id: "121DB565D9C067DE"
@@ -1828,9 +1751,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 5.5d
-			dependencies: ["3C178ECBDEE14C89"]
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["03CC0E98A0C9900A"]
 			id: "3E7E0406872820C4"
 			tasks: [{
 				id: "7C7A03B9589DC6A6"
