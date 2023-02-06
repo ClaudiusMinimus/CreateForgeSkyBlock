@@ -2,7 +2,9 @@
 
 ## Create on a Potato PC: Sky Edition 1.19.2-1.2.2
 Feb. 06, 2023
-- Other Changes: Added temp fix for Create Sifter in kubejs/startup_scripts/script.js
+- Other Changes: 
+  - Added temp fix for Create Sifter in kubejs/startup_scripts/script.js
+  - Added Quarts Mesh to quests and a couple of other quest updates
 
 ## Create on a Potato PC: Sky Edition 1.19.2-1.2.1
 Feb. 05, 2023
