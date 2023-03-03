@@ -94,6 +94,21 @@ ServerEvents.recipes(event => {
 
 });
 
+// provides a way to get a minecraft:bee_nest
+BlockEvents.rightClicked("block.right_click", (event) => {
+	const { block, hand, item, player } = event;
+	if (hand.name() != "MAIN_HAND") return;
+
+	if (item == "powder_power:wand_alchemist" && player.isCrouching()) {
+		if (block.equals("minecraft:sunflower")) {
+			block.set("minecraft:air");
+			player.give("minecraft:bee_nest");
+		}
+	}
+
+});
+
+
 // allow player to pick up an end portal frame
 BlockEvents.rightClicked("block.right_click", (event) => {
 	const { block, hand, item, world, player } = event;
