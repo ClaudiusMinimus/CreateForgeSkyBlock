@@ -12,10 +12,9 @@
 			title: "Start Digging!"
 			x: 0.0d
 			y: 0.0d
-			shape: "diamond"
 			description: ["There be treasures hidden underground. Dig, dig, dig!"]
+			dependencies: ["3BC70DC86FB889E6"]
 			dependency_requirement: "one_completed"
-			size: 1.5d
 			id: "0000000000000005"
 			tasks: [{
 				id: "0000000000000006"
@@ -294,8 +293,8 @@
 		}
 		{
 			title: "FTB Chunks"
-			x: -3.0d
-			y: -1.5d
+			x: -5.5d
+			y: -2.0d
 			description: [
 				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address."
 				""
@@ -317,7 +316,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -7.5d
 			y: 0.0d
 			description: [
 				"Initiate Commands by pressing the slash key '/' from within the world. Basic commands include:"
@@ -358,7 +357,7 @@
 				"**IMPORTANT:**"
 				"After you complete a quest always place the item into your inventory before progressing to the next quest. Otherwise, you might not get credit for the quest."
 			]
-			size: 2.0d
+			size: 1.5d
 			id: "3E046FB9DDB11119"
 			tasks: [{
 				id: "78804D04AB0C9F36"
@@ -372,8 +371,8 @@
 		}
 		{
 			title: "JEI Just Enough Items"
-			x: -3.0d
-			y: 1.5d
+			x: -5.5d
+			y: 2.0d
 			description: [
 				"JEI is an item and recipe viewing mod for Minecraft."
 				"Basic Controls:"
@@ -618,6 +617,19 @@
 				id: "5C6E07A7B4CE8F89"
 				type: "item"
 				item: "minecraft:cauldron"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 0.0d
+			shape: "diamond"
+			description: ["If you just check this box and not open your guidebook, do not complain if you run out of ores!"]
+			size: 2.0d
+			id: "3BC70DC86FB889E6"
+			tasks: [{
+				id: "344CE56B34765342"
+				type: "checkmark"
+				title: "Open Potato Guidebook"
 			}]
 		}
 	]
