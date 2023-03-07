@@ -1,5 +1,41 @@
 # Create on a Potato PC: Sky Edition Change Log
 
+## Create on a Potato PC: Sky Edition 1.19.2-1.3.0
+March 7, 2023
+- Mods Added:
+  - refinedstorage-1.11.5.jar
+- Mods Updated:
+  - architectury-6.5.69-forge.jar
+  - balm-forge-1.19.2-4.5.6.jar
+  - Bookshelf-Forge-1.19.2-16.2.18.jar
+  - craftingtweaks-forge-1.19-15.1.6.jar
+  - curios-forge-1.19.2-5.1.3.0.jar
+  - fancymenu_forge_2.13.3-2_MC_1.19-1.19.2.jar
+  - ftb-chunks-forge-1902.3.16-build.240.jar
+  - ftb-library-forge-1902.3.14-build.184.jar
+  - ftb-quests-forge-1902.4.9-build.195.jar
+  - ftbbackups2-forge-1.19.2-1.0.18.jar
+  - JCPlugin-1.17.x-1.19.x-4.0.1-Forge.jar
+  - jei-1.19.2-forge-11.6.0.1011.jar
+  - kotlinforforge-3.10.0-all.jar
+  - netherportalfix-forge-1.19-10.0.1.jar
+  - Placebo-1.19.2-7.1.4.jar
+  - Quark-3.4-394.jar
+  - repurposed_structures_forge-6.3.16+1.19.2.jar
+  - silent-gear-1.19.2-3.2.5.jar
+  - toms_storage-1.19-1.5.1.jar
+  - Xaeros_Minimap_23.2.0_Forge_1.19.1.jar
+  - XaerosWorldMap_1.29.2_Forge_1.19.1.jar
+- Mods Removed:
+  - EasyEmerald-Forge-1.19.2-1.4.15.jar
+- Other Changes:
+  - Forge 43.2.6
+  - Tell new players to be careful with ores in the beginning
+  - Added 1 iron ore and diorite to emergency items
+  - Bee nests can be obtained with an alchemists wand
+  - Disabled Xaeros updates - new installs only
+  - Remove all disk storage and automation from Refined Storage. This is more server friendly than Tom's and much faster. The reason for removing disk storage and automation is to not take away from Create.
+
 ## Create on a Potato PC: Sky Edition 1.19.2-1.2.2
 Feb. 06, 2023
 - Other Changes: 
@@ -239,7 +275,7 @@ Dec. 15, 2022
   - defaultoptions-forge-1.19-15.0.0.jar
   - DefaultWorldType-1.19.1-3.1.0.jar
   - drippyloadingscreen_forge_1.6.6_MC_1.19-1.19.2.jar
-  - EasierVillagerTrading-forge-1.19.2-1.2.2.jar
+  - EasierVillagerTrading-forge-1.19.2-1..jar
   - EasyEmerald-Forge-1.19.2-1.4.15.jar
   - fancymenu_forge_2.13.0_MC_1.19-1.19.2.jar
   - ftb-chunks-forge-1902.3.13-build.207.jar
