@@ -23,3 +23,8 @@ JEIEvents.information (event => {
 JEIEvents.information (event => {
 	event.addItem('minecraft:end_portal_frame', ['An End Portal Frame can be picked up with a Create Wrench and by shift-right-click on it.', '']);
 });
+
+// Show Bee Nests can be obtained
+JEIEvents.information (event => {
+	event.addItem('minecraft:bee_nest', ['Shift right-click with your Alchemist Wand on the right flower and you might get a bee nest.', '']);
+});
