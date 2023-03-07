@@ -11,7 +11,14 @@
         {
             "type": "patchouli:text",
             "title": "Contents",
-            "text": "$(li)$(l:getting_started#ftbquests)Quest Book$(/l) $(li)$(l:getting_started#create)Create Mod$(/l) $(li)$(l:getting_started#andesitealloy)Andesite Alloy$(/l)$(li)This is actually in the $(l:videos_farms)Useful Farms$(/l) chapter, but feel it is important enough to list here too. $(l:videos_farms#dripstone)Dripstone, Lava and More...$(/l)"
+            "text": "$(li)$(l)$(l:the_beginning#ores)Careful with Resources$(/l)$()$(li)$(l:the_beginning#ftbquests)Quest Book$(/l) $(li)$(l:the_beginning#create)Create Mod$(/l) $(li)$(l:the_beginning#andesitealloy)Andesite Alloy$(/l)$(li)This is actually in the $(l:videos_farms)Useful Farms$(/l) chapter, but feel it is important enough to list here too. $(l:videos_farms#dripstone)Dripstone, Lava and More...$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+            "item": "ftbquests:book",
+            "anchor": "ores",
+            "title": "Careful with Resources",
+            "text": "If you are not careful, you will run out of resources. Use your iron, zinc, andesite, and diorite very carefully! If you run out, then an emergency package can be obtained in the questbook. To receive the package, open the questbook, look in the upper-right and click on the heart icon (\"Emergency Items\" - now you must wait for 5 minutes.)"
         },
         {
             "type": "patchouli:spotlight",
