@@ -16,8 +16,8 @@
 	quests: [
 		{
 			title: "Quadrilium Armor"
-			x: 4.0d
-			y: -7.0d
+			x: 6.5d
+			y: -8.0d
 			shape: "diamond"
 			dependencies: [
 				"74BF4BAF8EBDEDEA"
@@ -366,8 +366,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -8.5d
+			x: 5.5d
+			y: -6.5d
 			id: "74BF4BAF8EBDEDEA"
 			tasks: [{
 				id: "415421449CB6D2F2"
@@ -396,8 +396,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -8.5d
+			x: 7.5d
+			y: -6.5d
 			id: "4F114D7856CE6FE3"
 			tasks: [
 				{
@@ -472,8 +472,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -7.0d
+			x: 8.0d
+			y: -8.0d
 			id: "546410869DD2EA05"
 			tasks: [{
 				id: "4B66FBDA00A9509B"
@@ -502,8 +502,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -5.0d
+			x: 6.5d
+			y: -10.0d
 			id: "3FD7CC98703018B1"
 			tasks: [{
 				id: "583D4C726D7A7393"
@@ -532,8 +532,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -7.0d
+			x: 5.0d
+			y: -8.0d
 			id: "033A920236D86E83"
 			tasks: [{
 				id: "0583DE18294A25B6"
@@ -568,7 +568,6 @@
 			dependencies: [
 				"4D2B419D0946089C"
 				"14A6727FC3F98588"
-				"6DF85BED919386A4"
 			]
 			dependency_requirement: "one_completed"
 			size: 1.5d
@@ -581,265 +580,6 @@
 				id: "7A664823B6DEF2D4"
 				type: "item"
 				item: "minecraft:netherite_block"
-			}]
-		}
-		{
-			title: "Amethyst Armor"
-			x: 10.5d
-			y: -7.0d
-			shape: "diamond"
-			size: 1.5d
-			id: "6DF85BED919386A4"
-			tasks: [
-				{
-					id: "796219330B4C37E5"
-					type: "item"
-					item: {
-						id: "easy_emerald:amethyst_head"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "40D88852F2911649"
-					type: "item"
-					item: {
-						id: "easy_emerald:amethyst_body"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "302597526BCEFFCB"
-					type: "item"
-					item: {
-						id: "easy_emerald:amethyst_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "68F475DDFD707950"
-					type: "item"
-					item: {
-						id: "easy_emerald:amethyst_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "10714B81485CD077"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "minecraft:soul_speed"
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: 9.5d
-			y: -8.5d
-			dependencies: ["6DF85BED919386A4"]
-			id: "71B766A38ABB806D"
-			tasks: [{
-				id: "31826BDFDBDDE746"
-				type: "item"
-				item: {
-					id: "easy_emerald:amethyst_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "3818DA615B470CBF"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:looting"
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: 11.5d
-			y: -8.5d
-			dependencies: ["6DF85BED919386A4"]
-			id: "033720BA03ABCDC1"
-			tasks: [
-				{
-					id: "33F960FC4B8128B4"
-					type: "item"
-					item: {
-						id: "easy_emerald:amethyst_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "7FDDE2951D9E3886"
-					type: "item"
-					item: {
-						id: "easy_emerald:amethyst_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "54125B0378D19336"
-					type: "item"
-					item: {
-						id: "easy_emerald:amethyst_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-			]
-			rewards: [{
-				id: "61DC42336A6EEB78"
-				type: "item"
-				item: {
-					id: "easy_emerald:amethyst_paxel"
-					Count: 1b
-					tag: {
-						RepairCost: 1
-						Damage: 0
-						Enchantments: [
-							{
-								lvl: 3s
-								id: "minecraft:efficiency"
-							}
-							{
-								lvl: 3s
-								id: "minecraft:unbreaking"
-							}
-							{
-								lvl: 1s
-								id: "minecraft:mending"
-							}
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 12.0d
-			y: -7.0d
-			dependencies: ["6DF85BED919386A4"]
-			id: "2F3413CA1571DC4F"
-			tasks: [{
-				id: "67CEB9F5E59E1AB3"
-				type: "item"
-				item: {
-					id: "easy_emerald:amethyst_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "3BF075DFEC38465B"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:unbreaking"
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: 9.0d
-			y: -7.0d
-			dependencies: ["6DF85BED919386A4"]
-			id: "3E379B76DB0259C7"
-			tasks: [{
-				id: "1B1639159294B02C"
-				type: "item"
-				item: {
-					id: "easy_emerald:amethyst_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "13569233E65BF241"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "minecraft:power"
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: 10.5d
-			y: -5.0d
-			dependencies: ["6DF85BED919386A4"]
-			id: "03DDE8ACC68DF2F8"
-			tasks: [{
-				id: "7DB29359A40852CA"
-				type: "item"
-				item: {
-					id: "easy_emerald:amethyst_excavator"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "33D5BB1BC5A9734D"
-				type: "item"
-				item: {
-					id: "minecraft:goat_horn"
-					Count: 1b
-					tag: {
-						instrument: "minecraft:seek_goat_horn"
-					}
-				}
 			}]
 		}
 		{

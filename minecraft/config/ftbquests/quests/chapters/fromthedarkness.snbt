@@ -248,7 +248,7 @@
 				id: "20E3342C745C866E"
 				type: "item"
 				item: {
-					id: "easy_emerald:copper_pickaxe"
+					id: "create_sa:copper_pickaxe"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -293,8 +293,8 @@
 		}
 		{
 			title: "FTB Chunks"
-			x: -5.5d
-			y: -2.0d
+			x: -5.1938775510204d
+			y: -1.8163265306122405d
 			description: [
 				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address."
 				""
@@ -316,8 +316,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 0.0d
+			x: -4.5d
+			y: 2.0d
 			description: [
 				"Initiate Commands by pressing the slash key '/' from within the world. Basic commands include:"
 				"\"/sethome [name]\" will set a waypoint for your home. Example: \"/sethome CM'sHome\" or \"/sethome\" will set the default \"Home\""
@@ -347,7 +347,7 @@
 		}
 		{
 			title: "Quest Basics - Step-by-Step"
-			x: -5.5d
+			x: -5.25d
 			y: 0.0d
 			shape: "diamond"
 			subtitle: "Always Start at the Diamond shaped quest"
@@ -371,7 +371,7 @@
 		}
 		{
 			title: "JEI Just Enough Items"
-			x: -5.5d
+			x: -6.0d
 			y: 2.0d
 			description: [
 				"JEI is an item and recipe viewing mod for Minecraft."
