@@ -10,6 +10,8 @@
 		{ id: "minecraft:oak_sapling", Count: 1b }
 		{ id: "minecraft:lava_bucket", Count: 1b }
 		{ id: "minecraft:water_bucket", Count: 1b }
+		{ id: "minecraft:raw_iron", Count: 1b }
+		{ id: "minecraft:diorite", Count: 1b }
 	]
 	emergency_items_cooldown: 300
 	drop_loot_crates: false
