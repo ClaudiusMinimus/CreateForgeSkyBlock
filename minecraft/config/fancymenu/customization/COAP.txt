@@ -44,11 +44,11 @@ customization {
   custom_color_hex = F0CA78
   orientation = top-left
   hidden = false
-  x = 140
-  width = 360
+  x = 152
+  width = 336
   action = deep_customization_element:drippy_overlay_progress_bar
   actionid = 2f68d149-8bf2-4b45-9e4f-589b7961de701675365033925
-  y = 294
+  y = 275
   height = 10
 }
 
@@ -73,12 +73,12 @@ customization {
 customization {
   orientation = top-right
   shadow = false
-  x = -242
+  x = -2
   action = addtext
-  actionid = 7357bf22-370e-4093-9699-d217746418411675393210821
-  y = 3
+  actionid = 58327f56-108d-41e3-8d4b-558fe89aa6961678223735859
+  y = 2
   scale = 1.0
-  alignment = left
-  value = Create on a Potato PC - Sky Edition 1.19.2-1.2.2
+  alignment = right
+  value = Create on a Potato PC - Sky Edition 1.19.2-1.3.0
 }
 

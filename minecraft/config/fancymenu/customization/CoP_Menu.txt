@@ -423,13 +423,13 @@ customization {
 customization {
   orientation = top-right
   shadow = false
-  x = -242
+  x = -3
   action = addtext
   actionid = 98415145-b3f2-4453-b502-3975b82fa4481640365180519
-  y = 3
+  y = 2
   scale = 1.0
-  alignment = left
-  value = Create on a Potato PC - Sky Edition 1.19.2-1.2.2
+  alignment = right
+  value = Create on a Potato PC - Sky Edition 1.19.2-1.3.0
 }
 
 customization {
