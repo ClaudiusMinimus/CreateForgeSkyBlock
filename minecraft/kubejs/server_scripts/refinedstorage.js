@@ -37,6 +37,7 @@ ServerEvents.recipes(event => {
         "refinedstorage:creative_fluid_storage_disk",
         "refinedstorage:1k_storage_disk",
         "refinedstorage:constructor",
+        "refinedstorage:portable_grid",
         "refinedstorage:interface",
         "refinedstorage:fluid_interface",
         "refinedstorage:fluid_grid",

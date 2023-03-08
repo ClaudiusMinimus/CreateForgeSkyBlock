@@ -1,6 +1,6 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-1.3.1
+## Create on a Potato PC: Sky Edition 1.19.2-1.3.2
 March 7, 2023
 - Mods Added:
   - refinedstorage-1.11.5.jar
@@ -164,7 +164,7 @@ Jan. 16, 2023
 ## Create on a Potato PC: Sky Edition 1.19.2-0.6.1
 Jan. 06, 2023
 - Mods Added:
-  - create_mechanical_extruder-1.19.2-1.3.1.g.jar
+  - create_mechanical_extruder-1.19.2-1.3.2.g.jar
   - lootr-1.19-0.3.22.59.jar
   - squatgrow-3.0.0-build.33+mc1.19.2.jar
   - swingthroughgrass-1.19.2-1.10.0.jar
