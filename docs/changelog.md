@@ -1,10 +1,11 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-1.3.2
-March 7, 2023
+## Create on a Potato PC: Sky Edition 1.19.2-1.3.3
+March 8, 2023
 - Mods Added:
-  - refinedstorage-1.11.5.jar
-  - refinedstorageaddons-0.9.0.jar
+  - refinedstorage-1.11.5.jar (added in 1.19.2-1.3.1)
+  - refinedstorageaddons-0.9.0.jar (added in 1.19.2-1.3.2)
+  - RSInfinityBooster-1.19.2-3.0+27.jar (added in 1.19.2-1.3.3)
 - Mods Updated:
   - architectury-6.5.69-forge.jar
   - balm-forge-1.19.2-4.5.6.jar
