@@ -1,9 +1,10 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-1.3.0
+## Create on a Potato PC: Sky Edition 1.19.2-1.3.1
 March 7, 2023
 - Mods Added:
   - refinedstorage-1.11.5.jar
+  - refinedstorageaddons-0.9.0.jar
 - Mods Updated:
   - architectury-6.5.69-forge.jar
   - balm-forge-1.19.2-4.5.6.jar
@@ -34,7 +35,7 @@ March 7, 2023
   - Added 1 iron ore and diorite to emergency items
   - Bee nests can be obtained with an alchemists wand
   - Disabled Xaeros updates - new installs only
-  - Remove all disk storage and automation from Refined Storage. This is more server friendly than Tom's and much faster. The reason for removing disk storage and automation is to not take away from Create.
+  - Remove all disk storage, fluid, and automation from Refined Storage. This is more server friendly than Tom's and much faster. The reason for removing disk storage and automation is to not take away from Create.
 
 ## Create on a Potato PC: Sky Edition 1.19.2-1.2.2
 Feb. 06, 2023
