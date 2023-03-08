@@ -120,7 +120,6 @@ ServerEvents.recipes(event => {
         "refinedstorage:cyan_relay",
         "refinedstorage:cyan_security_manager",
         "refinedstorage:cyan_wireless_transmitter",
-        "refinedstorage:destruction_core",
         "refinedstorage:destructor",
         "refinedstorage:detector",
         "refinedstorage:disk_drive",
