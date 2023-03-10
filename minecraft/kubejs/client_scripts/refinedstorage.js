@@ -34,8 +34,6 @@ const REMOVED_ITEMS = [
     "refinedstorage:1k_storage_disk",
     "refinedstorage:constructor",
     "refinedstorage:portable_grid",
-    "refinedstorage:interface",
-    "refinedstorage:fluid_interface",
     "refinedstorage:fluid_grid",
     "refinedstorage:wireless_fluid_grid",
     "refinedstorage:wireless_crafting_monitor",
