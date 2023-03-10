@@ -1,6 +1,6 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-1.3.4
+## Create on a Potato PC: Sky Edition 1.19.2-1.3.5
 March 8, 2023
 - Mods Added:
   - refinedstorage-1.11.5.jar (added in 1.19.2-1.3.1)
@@ -37,6 +37,11 @@ March 8, 2023
   - Added 1 iron ore and diorite to emergency items
   - Bee nests can be obtained with an alchemists wand
   - Disabled Xaeros updates - new installs only
+  - Removed duplicate quests for sifter
+  - Added curios support for powder power tokens and increased number of slots. (changed in 1.19.2-1.3.5)
+    - For existing single player worlds: Copy the 'minecraft/defaultconfigs/curios-server.toml' to '/minecraft/saves/[world name]/serverconfig/curios-server.toml'
+    - For existing server worlds: Copy the '/defaultconfigs/curios-server.toml' to '/[world name]/serverconfig/curios-server.toml'
+  - Added refined storage quests (changed in 1.19.2-1.3.5)
   - Remove all disk storage, fluid, and automation from Refined Storage. This is more server friendly than Tom's and much faster. The reason for removing disk storage and automation is to not take away from Create.
 
 ## Create on a Potato PC: Sky Edition 1.19.2-1.2.2
