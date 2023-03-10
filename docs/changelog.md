@@ -80,7 +80,7 @@ Feb. 04, 2023
   - Added quart sifting mesh for blaze powder, glowstone dust, and nether wart using soul sand.
   - Removed blaze powder and glowstone dust from brass mesh sand recipes
   - Cleaned up kubejs scripts
-  - Disabled silk touch for spawner pickup
+  - ~~Disabled silk touch for spawner pickup~~
   - Added World Hopping chapter to quests
   - Updated Armor, Tools, and  Weapons quests replacing Easy Emerald with Silent Gear
   - Updated Create quests - added new quests for sifter and extruder, fixed text in Mechanical Press
