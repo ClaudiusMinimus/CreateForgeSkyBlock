@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
 
 	// delete old angel ring recipe
-    event.remove('angelring:angel_ring');
+    event.remove({ output: 'angelring:angel_ring' })
     
     // new angel ring recipe
 	event.shaped('angelring:angel_ring', [
