@@ -51,10 +51,13 @@ server/patchouli_books
 instance.cfg
 mmc-pack.json
 modlist.html
+minecraft/.qmenu_opened.marker
+minecraft/ds_private_storage.json
 minecraft/icon.png
 minecraft/irisUpdateInfo.json
 minecraft/keys.txt
 minecraft/knownkeys.txt
+minecraft/config/defaultoptions/servers.dat
 minecraft/config/NoChatReports/NCR-Encryption.json
 minecraft/config/NoChatReports/NCR-ServerWhitelist.json
 minecraft/config/NoChatReports/README.md
@@ -75,6 +78,7 @@ server/*.zip
 
 # Stop ignoring these folders
 !minecraft/config/defaultoptions/
+!minecraft/config/defaultworldtype
 !minecraft/config/drippyloadingscreen/
 !minecraft/config/fancymenu/
 !minecraft/config/fpsreducer/
@@ -98,9 +102,3 @@ minecraft/config/fancymenu/locals/*
 !minecraft/config/NoChatReports/NCR-Client.json
 !server/config/bcc-common.toml
 !server/config/carrier.json
-
-!minecraft/config/defaultworldtype
-
-minecraft/.qmenu_opened.marker
-minecraft/ds_private_storage.json
-
