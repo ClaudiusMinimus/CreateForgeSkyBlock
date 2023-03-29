@@ -2,16 +2,16 @@
 
 console.info("Remove recipes");
 
-ServerEvents.recipes(event => {
-	// Change recipes here
+// ServerEvents.recipes(event => {
+// 	// Change recipes here
 
-	// array of items to remove
-	const REMOVED_ITEMS = ["create_sa:copper_pickaxe", "create_sa:copper_axe", "create_sa:copper_shovel", "create_sa:copper_hoe", "create_sa:copper_helmet", "create_sa:copper_chestplate", "create_sa:copper_leggings", "create_sa:copper_boots", "create_sa:copper_sword"];
+// 	// array of items to remove
+// 	const REMOVED_ITEMS = ["create_sa:copper_pickaxe", "create_sa:copper_axe", "create_sa:copper_shovel", "create_sa:copper_hoe", "create_sa:copper_helmet", "create_sa:copper_chestplate", "create_sa:copper_leggings", "create_sa:copper_boots", "create_sa:copper_sword"];
 
-	// remove items in array
-	REMOVED_ITEMS.forEach(id => event.remove({ output: id }));
+// 	// remove items in array
+// 	REMOVED_ITEMS.forEach(id => event.remove({ output: id }));
 
-});
+// });
 
 console.info("Remove reciped");
 
