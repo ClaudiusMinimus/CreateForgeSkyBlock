@@ -1,7 +1,7 @@
 {
 	id: "000000000000003C"
 	group: ""
-	order_index: 5
+	order_index: 6
 	filename: "hunter"
 	title: "Hunter"
 	icon: {
@@ -15,7 +15,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
+			x: 1.5d
 			y: -3.0d
 			id: "000000000000003D"
 			tasks: [{
@@ -35,7 +35,7 @@
 		}
 		{
 			icon: "minecraft:skeleton_skull"
-			x: 1.5d
+			x: 3.0d
 			y: -3.0d
 			dependencies: ["000000000000003D"]
 			id: "000000000000003F"
@@ -61,7 +61,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.5d
 			y: -3.0d
 			dependencies: ["000000000000003F"]
 			id: "0000000000000041"
@@ -110,7 +110,7 @@
 		}
 		{
 			title: "Novice Zombie Hunter"
-			x: 0.0d
+			x: 1.5d
 			y: -1.5d
 			id: "000000000000004B"
 			tasks: [{
@@ -129,7 +129,7 @@
 		}
 		{
 			title: "Apprentice Zombie Hunter"
-			x: 1.5d
+			x: 3.0d
 			y: -1.5d
 			dependencies: ["000000000000004B"]
 			id: "000000000000004D"
@@ -156,7 +156,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.5d
 			y: -1.5d
 			dependencies: ["000000000000004D"]
 			id: "000000000000004F"
@@ -196,7 +196,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 1.5d
 			y: 0.0d
 			id: "0000000000000057"
 			tasks: [{
@@ -215,7 +215,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 3.0d
 			y: 0.0d
 			dependencies: ["0000000000000057"]
 			id: "0000000000000059"
@@ -243,7 +243,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.5d
 			y: 0.0d
 			dependencies: ["0000000000000059"]
 			id: "000000000000005B"
@@ -302,7 +302,7 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: 1.5d
 			y: 1.5d
 			id: "0000000000000061"
 			tasks: [{
@@ -321,7 +321,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 3.0d
 			y: 1.5d
 			dependencies: ["0000000000000061"]
 			id: "0000000000000063"
@@ -349,7 +349,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.5d
 			y: 1.5d
 			dependencies: ["0000000000000063"]
 			id: "0000000000000065"
@@ -474,7 +474,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 1.5d
 			y: 3.0d
 			id: "0000000000000077"
 			tasks: [{
@@ -693,7 +693,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 1.5d
 			y: -4.5d
 			id: "000000000000045E"
 			tasks: [{
@@ -829,7 +829,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 3.0d
 			y: 3.0d
 			dependencies: ["0000000000000077"]
 			id: "615DAC7B98F88EA8"
@@ -846,7 +846,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.5d
 			y: 3.0d
 			dependencies: ["615DAC7B98F88EA8"]
 			id: "6EE3B63BB9F6E75E"
@@ -860,6 +860,67 @@
 				id: "1F17F0240EA879D1"
 				type: "item"
 				item: "create:creative_fluid_tank"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Are you going batty?"
+			description: ["Have you ever made a mob farm and it seems it is all going to bats? Bats dread the Dread Lamp, because they and other passive mobs cannot spawn!"]
+			id: "1DD7212A8131CC9F"
+			tasks: [{
+				id: "2231F73F74EF7FDF"
+				type: "item"
+				item: "torchmaster:dreadlamp"
+			}]
+			rewards: [{
+				id: "1DE1992BB7794480"
+				type: "item"
+				item: "minecraft:bat_spawn_egg"
+			}]
+		}
+		{
+			title: "Guardians of the Sea"
+			icon: "minecraft:prismarine_bricks"
+			x: 0.0d
+			y: -5.5d
+			id: "22E3CA39FF24696F"
+			tasks: [
+				{
+					id: "09B543D69238FC8B"
+					type: "kill"
+					entity: "minecraft:elder_guardian"
+					value: 1L
+				}
+				{
+					id: "6AE5563CD79CEC70"
+					type: "kill"
+					entity: "minecraft:guardian"
+					value: 100L
+				}
+			]
+			rewards: [{
+				id: "10A3CDE49C766B52"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			icon: "botania:gaia_head"
+			x: 0.0d
+			y: -7.0d
+			id: "7BE5142F4A70CA67"
+			tasks: [{
+				id: "4B4EC2618AD27958"
+				type: "kill"
+				entity: "botania:doppleganger"
+				value: 3L
+			}]
+			rewards: [{
+				id: "0B2B25BA08CE1500"
+				type: "item"
+				item: "botania:creative_pool"
 			}]
 		}
 	]

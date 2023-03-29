@@ -151,7 +151,13 @@
 			rewards: [{
 				id: "0000000000000020"
 				type: "item"
-				item: "create:empty_blaze_burner"
+				item: {
+					id: "silentgear:custom_ingot"
+					Count: 1b
+					tag: {
+						Material: "high_carbon_steel"
+					}
+				}
 			}]
 		}
 		{
@@ -189,6 +195,17 @@
 					type: "item"
 					item: "minecraft:rotten_flesh"
 					count: 4
+				}
+				{
+					id: "3648006D77161781"
+					type: "item"
+					item: {
+						id: "farmersdelight:skillet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -623,7 +640,7 @@
 			x: -2.25d
 			y: 0.0d
 			shape: "diamond"
-			description: ["If you just check this box and not open your guidebook, do not complain if you run out of ores!"]
+			description: ["If you just check this box and not open your guidebook, do not complain if you run out of ores playing skyblock! "]
 			size: 2.0d
 			id: "3BC70DC86FB889E6"
 			tasks: [{

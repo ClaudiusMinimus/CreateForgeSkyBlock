@@ -16,8 +16,6 @@
 			shape: "diamond"
 			subtitle: "Start Here"
 			description: [
-				"If you are playing on a Botania Garden of Glass world, then the above questline will be important. Botania will be how you obtain many of your items and materials. In this world, you do not start by punching a tree. Start with the heart shaped quest above."
-				""
 				"You Lexica Botania is an invaluable wealth of information - use it often!"
 				""
 				"Holding the Ctrl key when hovering the cursor over an item with an entry while the book is in the hotbar will open the item's entry. Shift right-clicking with the Lexica on a block will open the relevant page, if one exists, otherwise it will attempt to open a relevant wiki page in the user's web browser."
@@ -29,9 +27,9 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "1EFA3EC091D0814F"
-				type: "item"
-				item: "botania:living_root"
+				id: "640417B41565F33D"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -299,13 +297,7 @@
 			rewards: [{
 				id: "02C7AB0156A2E058"
 				type: "item"
-				item: {
-					id: "pickletweaks:reinforced_watering_can"
-					Count: 1b
-					tag: {
-						Water: 0b
-					}
-				}
+				item: "minecraft:pufferfish_bucket"
 				only_one: true
 			}]
 		}
@@ -852,13 +844,7 @@
 			rewards: [{
 				id: "711356EA4892BD42"
 				type: "item"
-				item: {
-					id: "sophisticatedstorage:iron_barrel"
-					Count: 1b
-					tag: {
-						woodType: "crimson"
-					}
-				}
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
 			}]
 		}
 		{
@@ -1005,7 +991,13 @@
 			rewards: [{
 				id: "25AB59BFD9C03A61"
 				type: "item"
-				item: "storagedrawers:emerald_storage_upgrade"
+				item: {
+					id: "powder_power:hammer_alchemist"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -1077,7 +1069,7 @@
 			rewards: [{
 				id: "466CC6B918F42935"
 				type: "item"
-				item: "conquest:invisible_light"
+				item: "torchmaster:feral_flare_lantern"
 				count: 8
 			}]
 		}
@@ -1105,6 +1097,12 @@
 						"botania:elven_unlock": 1b
 					}
 				}
+			}]
+			rewards: [{
+				id: "4BD69C28B59E227B"
+				type: "item"
+				item: "farmersdelight:dumplings"
+				count: 8
 			}]
 		}
 		{
@@ -1171,215 +1169,6 @@
 				id: "70E8D38A4109CB6E"
 				type: "item"
 				item: "minecraft:emerald_block"
-			}]
-		}
-		{
-			x: -6.5d
-			y: 10.5d
-			shape: "heart"
-			subtitle: "This branch is for Skyblock only"
-			description: [
-				"The first thing you will notice this is not like most Skyblock worlds. You have started on a 3x3x4 (L x W x H) dirt island. At the bottom is a block of Bedrock, on the lower sides are some Living Roots blocks, and finally, you have a single water source block. All of these items are vital for your success, so do not throw anything away!"
-				""
-				"Be sure you use /sethome, because if you fall off the side you will fall into the void and die. If you set home, then you can use /home while falling to teleport home before you fall out of the world. You will still die, but your grave will be at your set home spawn point."
-			]
-			dependencies: ["678645C952FCF8CC"]
-			id: "73551C3B7F10B61D"
-			tasks: [{
-				id: "6D84B1337BCB792F"
-				type: "checkmark"
-				title: "Garden of Glass - Your Island - Your Home!"
-			}]
-			rewards: [{
-				id: "2FA371C2B51165B0"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: -6.5d
-			y: 9.0d
-			description: ["To get started you need some cobblestone. An easy way to get early game cobble is to Shift-Right-Click on grass or dirt. You can then craft the pebbles into Cobblestone."]
-			dependencies: ["73551C3B7F10B61D"]
-			hide: true
-			id: "4186CEC215FCF826"
-			tasks: [{
-				id: "0AF35D4AC4D96732"
-				type: "item"
-				item: "botania:pebble"
-				count: 64L
-			}]
-			rewards: [{
-				id: "05D7D86D74E2AB42"
-				type: "item"
-				item: "minecraft:cobblestone"
-				count: 64
-			}]
-		}
-		{
-			x: -6.5d
-			y: 7.5d
-			description: [
-				"Next, you need to harvest the Living Root blocks. To do so, break the first layer of grass, but leave one grass block in the center so it will spread downward."
-				""
-				"One way to get to the Living Root blocks is to use the water as a ladder and swim under the island. Place three Cobblestone blocks directly below the Bedrock block, then place a Cobblestone on the near-side of the lowest previously place Cobblestones. You can now stand on that last Cobblestone."
-				""
-				"Build a platform out from the block you are standing on so that all the Living Root blocks cannot fall into the void when you break them."
-			]
-			dependencies: ["4186CEC215FCF826"]
-			hide: false
-			id: "39D22E9262F5E871"
-			tasks: [{
-				id: "0F6B09A5EFA30EB7"
-				type: "item"
-				item: "minecraft:dirt"
-				count: 8L
-			}]
-			rewards: [{
-				id: "650E344EE35640A0"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: -6.5d
-			y: 6.0d
-			description: [
-				"Now that you have access to the Living Root blocks you can break them with either your hand or with an axe. The Living Root blocks will drop as Living Root looking more like a twig."
-				""
-				"Once you have the Living Root blocks harvested, you probably want to also dig the bottom layers of dirt so you can build a dirt platform at the water level."
-			]
-			dependencies: [
-				"39D22E9262F5E871"
-				"0000000000000005"
-			]
-			hide: true
-			dependency_requirement: "one_completed"
-			id: "0DF574036AE67503"
-			tasks: [{
-				id: "189B39C2E46F1DEE"
-				type: "item"
-				item: "botania:living_root"
-			}]
-			rewards: [{
-				id: "1916B1814DC78C75"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: -5.0d
-			y: 6.0d
-			subtitle: "Use Living Root Sparingly!"
-			description: ["Using 4-Living Roots, craft an Oak Sapling and you are on your way to continuing the In the beginning... questline."]
-			dependencies: ["0DF574036AE67503"]
-			id: "03F8CD5F1A8EFB01"
-			tasks: [{
-				id: "39AD618CA2C66DA9"
-				type: "item"
-				item: "minecraft:oak_sapling"
-			}]
-			rewards: [{
-				id: "43B50F6097DD3690"
-				type: "item"
-				item: "minecraft:oak_sapling"
-			}]
-		}
-		{
-			x: -0.5d
-			y: 6.0d
-			description: ["Craft 10 Blaze Mesh from Blaze Powder."]
-			dependencies: ["465071169A856F47"]
-			id: "17A1BA526CB16EB9"
-			tasks: [{
-				id: "293472722232832D"
-				type: "item"
-				item: "botania:blaze_block"
-				count: 10L
-			}]
-			rewards: [{
-				id: "07D71B1ACA77ACF9"
-				type: "item"
-				item: {
-					id: "minecraft:golden_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 1.0d
-			y: 6.0d
-			description: ["Place the Blaze Mesh around a Pure Daisy to make Obsidian."]
-			dependencies: ["17A1BA526CB16EB9"]
-			id: "0EE80219369CCC15"
-			tasks: [{
-				id: "7E27654B5FF5B847"
-				type: "item"
-				item: "minecraft:obsidian"
-				count: 10L
-			}]
-			rewards: [
-				{
-					id: "4D6B0F8A8848913D"
-					type: "item"
-					item: {
-						id: "minecraft:flint_and_steel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "226754EBE26B4EF2"
-					type: "item"
-					item: "minecraft:pointed_dripstone"
-				}
-				{
-					id: "684FC7661DCDEAC7"
-					type: "item"
-					item: "minecraft:dripstone_block"
-				}
-			]
-		}
-		{
-			x: -2.0d
-			y: 6.0d
-			description: ["Did you know you can spawn a blaze with a Fel Pumpkin. Stack two iron bars and then place the pumpkin on the very top."]
-			dependencies: ["35839D1079D196A7"]
-			id: "465071169A856F47"
-			tasks: [{
-				id: "5BDA4E79D6597905"
-				type: "item"
-				item: "botania:fel_pumpkin"
-				count: 10L
-			}]
-			rewards: [{
-				id: "023773A9444AA505"
-				type: "item"
-				item: "minecraft:cactus"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 6.0d
-			shape: "gear"
-			description: ["You may want to start a basic mob farm soon as you are going to need string for a bed, bonemeal, and other mob drops to progress with Botania."]
-			dependencies: ["03F8CD5F1A8EFB01"]
-			id: "35839D1079D196A7"
-			tasks: [{
-				id: "5881C22209341885"
-				type: "checkmark"
-				title: "Start Basic Mob Farm"
-			}]
-			rewards: [{
-				id: "4F3ABF40958A85C0"
-				type: "item"
-				item: "minecraft:bone_block"
-				count: 8
 			}]
 		}
 	]

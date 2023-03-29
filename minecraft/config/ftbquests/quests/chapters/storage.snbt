@@ -1,7 +1,7 @@
 {
 	id: "22C5B5C762C6CE6B"
 	group: ""
-	order_index: 4
+	order_index: 5
 	filename: "storage"
 	title: "Storage"
 	icon: "minecraft:barrel"
@@ -194,6 +194,7 @@
 		{
 			x: -4.5d
 			y: 2.5d
+			description: ["Vaults are a multiblock storage blocks. Using a Stockpile Switch can show you how full it is."]
 			dependencies: [
 				"00000000000007A1"
 				"0A49C262F2AEAC73"
@@ -203,13 +204,20 @@
 				id: "78F41ACE29E00C47"
 				type: "item"
 				item: "create:item_vault"
-				count: 4L
+				count: 9L
 			}]
-			rewards: [{
-				id: "424510D188193BAC"
-				type: "item"
-				item: "minecraft:wither_rose"
-			}]
+			rewards: [
+				{
+					id: "424510D188193BAC"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "74A749AF4F163953"
+					type: "item"
+					item: "create:stockpile_switch"
+				}
+			]
 		}
 		{
 			x: -4.5d

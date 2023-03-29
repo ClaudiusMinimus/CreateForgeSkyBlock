@@ -10,8 +10,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -7.341836734693857d
-			y: 2.5204081632653015d
+			x: 0.0d
+			y: -4.0d
 			shape: "diamond"
 			subtitle: "Start Here"
 			description: [
@@ -169,8 +169,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 9.5d
+			x: -1.0d
+			y: 10.5d
 			dependencies: ["00000000000007A7"]
 			id: "000000000000079D"
 			tasks: [{
@@ -186,8 +186,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 8.5d
+			x: 1.0d
+			y: 10.5d
 			description: [
 				"The wrench has several uses:"
 				"1. Rotate kinetic blocks when you right click them. If the block will not rotate, then try a different surface plane."
@@ -228,8 +228,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 9.0d
+			x: 3.5d
+			y: 7.5d
 			dependencies: ["0000000000000797"]
 			id: "00000000000007A3"
 			tasks: [{
@@ -245,8 +245,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 10.5d
+			x: -3.0d
+			y: 13.0d
 			dependencies: ["00000000000008DB"]
 			id: "00000000000007A5"
 			tasks: [{
@@ -261,8 +261,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 8.5d
+			x: 0.0d
+			y: 9.5d
 			dependencies: ["0000000000000797"]
 			id: "00000000000007A7"
 			tasks: [{
@@ -364,8 +364,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: 4.0d
+			x: -5.0d
+			y: 3.5d
 			description: [
 				"Encased Fans work great for Bulk Smelting, Try setting up an automated washing system using one or more of the following: "
 				""
@@ -412,10 +412,10 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 2.5d
+			x: 5.5d
+			y: 7.5d
 			description: ["The Fluid Pipe for all your liquid needs. Well, not exactly, you still need a pump to actally move any fluids."]
-			dependencies: ["000000000000062C"]
+			dependencies: ["00000000000007A3"]
 			id: "00000000000007BD"
 			tasks: [{
 				id: "00000000000007BE"
@@ -430,8 +430,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 1.5d
+			x: 7.5d
+			y: 7.5d
 			description: ["The Mechanical Pump when connected to a fluid source and a pipe will transfer liquids. The pump is directional and requires Rotational Force to work."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007BF"
@@ -448,8 +448,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 1.0d
+			x: 5.5d
+			y: 6.0d
 			description: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in REI to learn more how to do this."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007C1"
@@ -472,8 +472,8 @@
 			]
 		}
 		{
-			x: -11.0d
-			y: 3.5d
+			x: 5.5d
+			y: 9.0d
 			description: ["The Smart Fluid Pipe is well... smart! Think of it as a way to filter what fluids are transfered."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007C5"
@@ -490,8 +490,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 2.5d
+			x: 8.0d
+			y: 5.0d
 			description: ["The Spout is for refilling your fluid items. Can also be automated."]
 			dependencies: ["00000000000007CD"]
 			id: "00000000000007C7"
@@ -507,8 +507,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 4.0d
+			x: -6.5d
+			y: 6.0d
 			description: ["The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."]
 			dependencies: ["00000000000007A1"]
 			id: "00000000000007C9"
@@ -524,8 +524,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 4.5d
+			x: 1.0d
+			y: 6.0d
 			shape: "square"
 			description: ["The Mechanical Drill can be used for mining, but in early game can be used as part of a stationary cobble generator"]
 			dependencies: ["0000000000000799"]
@@ -550,8 +550,8 @@
 			]
 		}
 		{
-			x: -11.5d
-			y: 2.5d
+			x: 7.0d
+			y: 6.0d
 			description: ["The Fluid Tank can be a single block or a multi-block structure."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007CD"
@@ -569,8 +569,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 3.0d
+			x: 1.5d
+			y: 5.0d
 			description: ["The Gearbox allows for changing direction horizontally."]
 			dependencies: ["0000000000000799"]
 			id: "00000000000007CF"
@@ -587,8 +587,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 3.0d
+			x: 3.0d
+			y: 5.5d
 			shape: "square"
 			description: ["The Vertical Gearbox allows for changing direction vertically."]
 			dependencies: ["00000000000007CF"]
@@ -606,8 +606,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 4.0d
+			x: 7.0d
+			y: 9.0d
 			dependencies: ["00000000000007BD"]
 			id: "0000000000000855"
 			tasks: [{
@@ -622,8 +622,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 4.5d
+			x: 1.5d
+			y: 4.0d
 			dependencies: ["0000000000000799"]
 			id: "00000000000008C9"
 			tasks: [{
@@ -648,7 +648,7 @@
 		}
 		{
 			x: 5.0d
-			y: 2.0d
+			y: 2.5d
 			dependencies: ["00000000000007B4"]
 			id: "00000000000008CB"
 			tasks: [{
@@ -670,8 +670,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 12.0d
+			x: -3.0d
+			y: 14.5d
 			dependencies: ["00000000000007A5"]
 			id: "00000000000008CF"
 			tasks: [{
@@ -686,7 +686,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.0d
 			y: 13.0d
 			dependencies: ["00000000000008DD"]
 			id: "00000000000008D1"
@@ -704,7 +704,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -3.0d
 			y: 7.5d
 			dependencies: ["00000000000007A1"]
 			id: "00000000000008D6"
@@ -745,11 +745,8 @@
 		}
 		{
 			x: -3.0d
-			y: 9.0d
-			dependencies: [
-				"00000000000008D6"
-				"0000000000000797"
-			]
+			y: 10.5d
+			dependencies: ["00000000000008D6"]
 			id: "00000000000008DB"
 			tasks: [{
 				id: "00000000000008DC"
@@ -764,8 +761,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 10.5d
+			x: 0.0d
+			y: 13.0d
 			dependencies: ["00000000000007A5"]
 			id: "00000000000008DD"
 			tasks: [{
@@ -782,8 +779,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 14.5d
+			x: -4.0d
+			y: 17.0d
 			dependencies: ["00000000000008E8"]
 			id: "00000000000008DF"
 			tasks: [{
@@ -798,9 +795,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 9.5d
-			dependencies: ["00000000000008DD"]
+			x: -7.5d
+			y: 8.0d
+			dependencies: ["51FE487A5586AF80"]
 			id: "00000000000008E1"
 			tasks: [{
 				id: "00000000000008E2"
@@ -815,8 +812,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 14.5d
+			x: -2.0d
+			y: 17.0d
 			dependencies: ["00000000000008E8"]
 			id: "00000000000008E3"
 			tasks: [{
@@ -832,8 +829,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 13.5d
+			x: -3.0d
+			y: 16.0d
 			dependencies: ["00000000000008CF"]
 			id: "00000000000008E8"
 			tasks: [{
@@ -848,8 +845,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 7.0d
+			x: -7.5d
+			y: 4.5d
 			dependencies: ["00000000000008F2"]
 			id: "00000000000008EC"
 			tasks: [{
@@ -866,8 +863,11 @@
 		}
 		{
 			x: -4.5d
-			y: 9.0d
-			dependencies: ["00000000000008DB"]
+			y: 10.5d
+			dependencies: [
+				"00000000000008DB"
+				"51FE487A5586AF80"
+			]
 			id: "00000000000008EE"
 			tasks: [{
 				id: "00000000000008EF"
@@ -881,8 +881,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 6.0d
+			x: -1.5d
+			y: 5.5d
 			dependencies: ["0000000000000799"]
 			id: "00000000000008F0"
 			tasks: [{
@@ -898,8 +898,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 6.5d
+			x: -6.5d
+			y: 5.0d
 			description: ["Chutes are used to transport items to and from storage containers. Can interact with Funnels and Fans."]
 			dependencies: ["00000000000007A1"]
 			id: "00000000000008F2"
@@ -925,8 +925,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 14.5d
+			x: 2.0d
+			y: 14.0d
 			description: ["Have you ever needed a reach-assist? Just place in your off-hand and your main hand will reach further. Now ain't that cool!"]
 			dependencies: ["00000000000008D1"]
 			id: "1BBEEF19114688A9"
@@ -957,13 +957,10 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -6.0d
 			y: 7.0d
 			description: ["Place under a Basin for many recipes, but you are not quite done yet. It's off to the Nether!"]
-			dependencies: [
-				"00000000000007A1"
-				"00000000000008D6"
-			]
+			dependencies: ["00000000000007A1"]
 			id: "6B13CAC5E656A56E"
 			tasks: [{
 				id: "03CCC3CFA1545DE2"
@@ -977,8 +974,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 8.5d
+			x: -7.5d
+			y: 7.0d
 			description: [
 				"Did you know the Blaze Burner is kind of a specialty Blaze capturing device?"
 				""
@@ -1001,8 +998,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 10.0d
+			x: -9.0d
+			y: 7.0d
 			dependencies: ["5AF43A02E87E4DF8"]
 			id: "5978B0740E745266"
 			tasks: [{
@@ -1017,8 +1014,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 11.5d
+			x: -10.5d
+			y: 7.0d
 			description: [
 				"Did someone say make cake?"
 				""
@@ -1039,8 +1036,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 15.0d
+			x: -3.0d
+			y: 17.5d
 			description: ["This can help with your OCD wanting blocks to be symmetrical!"]
 			dependencies: ["00000000000008E8"]
 			id: "5C6483EDD2B8F901"
@@ -1110,8 +1107,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 2.0d
+			x: -1.5d
+			y: 4.0d
 			dependencies: ["0000000000000799"]
 			id: "495A497F82554F9A"
 			tasks: [{
@@ -1127,8 +1124,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 13.0d
+			x: 4.0d
+			y: 15.0d
 			dependencies: ["00000000000008D1"]
 			id: "0D63EF41017B4EC9"
 			tasks: [{
@@ -1136,24 +1133,32 @@
 				type: "item"
 				item: "create:crushing_wheel"
 			}]
-			rewards: [{
-				id: "462C861464D608FA"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 5s
-							id: "minecraft:sharpness"
-						}]
+			rewards: [
+				{
+					id: "462C861464D608FA"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:sharpness"
+							}]
+						}
 					}
 				}
-			}]
+				{
+					id: "35E493FBA963AC3F"
+					type: "item"
+					item: "create:crafter_slot_cover"
+					count: 6
+				}
+			]
 		}
 		{
-			x: -3.0d
-			y: 10.5d
+			x: -4.5d
+			y: 12.0d
 			description: ["Smart Chutes are vertical Chutes with additional controls. The animation when pressing the \"w\" key while hovering shows how to use this new block."]
 			dependencies: ["00000000000007A5"]
 			id: "415DC4075FB46595"
@@ -1214,8 +1219,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.0d
+			x: -3.0d
+			y: 0.5d
 			dependencies: ["000000000000078F"]
 			id: "7C2067E003760D5E"
 			tasks: [{
@@ -1230,8 +1235,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 7.5d
+			x: 1.0d
+			y: 8.5d
 			description: ["Weighted Ejectors launch items to a predetermined target."]
 			dependencies: ["00000000000007A7"]
 			id: "70CC5D09206C01E6"
@@ -1245,23 +1250,6 @@
 				type: "item"
 				item: "minecraft:potato"
 				count: 64
-			}]
-		}
-		{
-			x: 4.5d
-			y: 13.0d
-			dependencies: ["00000000000008D1"]
-			id: "51CA42B8F1642023"
-			tasks: [{
-				id: "0746AD895CC9209D"
-				type: "item"
-				item: "create:crafter_slot_cover"
-				count: 6L
-			}]
-			rewards: [{
-				id: "067E861B73D6DABC"
-				type: "item"
-				item: "create:schematic_and_quill"
 			}]
 		}
 		{
@@ -1288,7 +1276,7 @@
 		}
 		{
 			x: 3.0d
-			y: 11.5d
+			y: 11.0d
 			dependencies: ["00000000000008D1"]
 			id: "0AC25E42FE36BE47"
 			tasks: [{
@@ -1355,7 +1343,7 @@
 		}
 		{
 			x: -1.5d
-			y: 9.0d
+			y: 12.0d
 			dependencies: ["00000000000007A5"]
 			id: "56481651F25FCCC9"
 			tasks: [{
@@ -1370,8 +1358,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 5.0d
+			x: -6.0d
+			y: 4.0d
 			description: ["The Rope Pulley allows you to make easy-to-craft early game elevators."]
 			dependencies: ["00000000000007A1"]
 			id: "28D15A9B43C825CE"
@@ -1405,8 +1393,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 7.5d
+			x: -1.0d
+			y: 8.5d
 			description: ["To learn more about the Toolbox, open your Create on a Potato PC book to Videos > Create > 0.3.2f update"]
 			dependencies: ["00000000000007A7"]
 			id: "5489879D11B3894A"
@@ -1431,8 +1419,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 12.0d
+			x: -4.5d
+			y: 14.0d
 			dependencies: ["00000000000007A5"]
 			id: "124D8B7C8B0F9120"
 			tasks: [{
@@ -1535,26 +1523,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 7.5d
-			dependencies: ["00000000000007A1"]
-			id: "51ED92A01E1B7A15"
-			tasks: [{
-				id: "4C73AD10666BA5CE"
-				type: "item"
-				item: "create:item_vault"
-				count: 4L
-			}]
-			rewards: [{
-				id: "59C7DCEF779BC040"
-				type: "item"
-				item: "create:item_vault"
-				count: 4
-			}]
-		}
-		{
-			x: 4.0d
-			y: 15.5d
+			x: 5.5d
+			y: 15.0d
 			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 			dependencies: ["00000000000008D1"]
 			id: "03B81A645C9AA3F7"
@@ -1587,8 +1557,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 14.0d
+			x: 6.5d
+			y: 13.0d
 			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 			dependencies: ["00000000000008D1"]
 			id: "7DC3C9C543BFAE8E"
@@ -1620,8 +1590,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 14.5d
+			x: 6.0d
+			y: 14.0d
 			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 			dependencies: ["00000000000008D1"]
 			id: "285AF2D75FD9809C"
@@ -1655,8 +1625,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 16.5d
+			x: 8.5d
+			y: 15.5d
 			description: ["Add this upgraded jetpack to your back slot in Curios, so you can still wear chest armor, and most important provides flight over the void. You can also toggle hover mode, which makes for softer landings!"]
 			dependencies: [
 				"7DC3C9C543BFAE8E"
@@ -1691,8 +1661,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 6.0d
+			x: -1.0d
+			y: 2.5d
+			shape: "square"
 			description: ["Instead of a cobble generator, try the Mechanical Extruder, which extrudes various stone blocks. Check JEI for all of the recipes."]
 			dependencies: ["0000000000000799"]
 			id: "4A8320F850B32E7A"
@@ -1769,6 +1740,412 @@
 				type: "item"
 				item: "minecraft:soul_sand"
 				count: 16
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["21DE6418AF3C338D"]
+			id: "1BFD9E5488F243DE"
+			tasks: [{
+				id: "25A0D7C985C8E2E0"
+				type: "item"
+				item: "createaddition:barbed_wire"
+				count: 8L
+			}]
+			rewards: [{
+				id: "11D02A6DC6DDC42C"
+				type: "item"
+				item: "createaddition:zinc_sheet"
+				count: 4
+			}]
+		}
+		{
+			x: -6.5d
+			y: 10.0d
+			description: ["A handy dandy way to toggle multiple lamps"]
+			dependencies: ["51FE487A5586AF80"]
+			id: "7055849BBEE12BB5"
+			tasks: [{
+				id: "6623313E16443005"
+				type: "item"
+				item: "create:rose_quartz_lamp"
+				count: 2L
+			}]
+			rewards: [{
+				id: "5E2CC9F49C3DA1E3"
+				type: "item"
+				item: "create:rose_quartz_lamp"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.5d
+			subtitle: "Nixie Tubes can display a redstone signal strength and can be used for making custom signs"
+			dependencies: ["51FE487A5586AF80"]
+			id: "07D9EBE35C2DDCBE"
+			tasks: [{
+				id: "316629B525BFF054"
+				type: "item"
+				item: "create:nixie_tube"
+				count: 4L
+			}]
+			rewards: [{
+				id: "37093C354C239E8F"
+				type: "item"
+				item: "createaddition:redstone_relay"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.0d
+			subtitle: "Used with Display Boards"
+			dependencies: ["00000000000007A3"]
+			id: "5DBFF42322BE1A6C"
+			tasks: [{
+				id: "36C561548D15493C"
+				type: "item"
+				item: "create:display_link"
+			}]
+			rewards: [{
+				id: "2625A48853931B40"
+				type: "item"
+				item: "create:display_board"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: 14.5d
+			subtitle: "Every piggy needs one"
+			description: ["Did you know they let pigs operate trains? I thought is was scary when I learned pigs could fly. Well, every train needs one controller."]
+			dependencies: [
+				"00000000000008E8"
+				"0D77CE91690DFD0F"
+			]
+			id: "46EB239376ACBF94"
+			tasks: [{
+				id: "675F657263A13862"
+				type: "item"
+				item: "create:controls"
+			}]
+			rewards: [{
+				id: "73DB694A1ED3B5A6"
+				type: "item"
+				item: "create:black_seat"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 14.5d
+			subtitle: "Every train needs one"
+			description: ["After placing the Train Station, open the GUI to Assemble a train. Place this block on the blue highlight on the tracks and voila, you have started building your first train!"]
+			dependencies: ["00000000000008DD"]
+			id: "0D77CE91690DFD0F"
+			tasks: [{
+				id: "03B98F8F49AFF975"
+				type: "item"
+				item: "create:railway_casing"
+			}]
+			rewards: [
+				{
+					id: "2BF6140964052B30"
+					type: "item"
+					item: "create:schedule"
+				}
+				{
+					id: "76C8D1BA55F5E074"
+					type: "item"
+					item: "create:track_station"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 16.0d
+			description: ["If you put the Metal Girders (or any other block) in your off-hand, they will be placed under the tracks when needed. It takes practice laying rail tracks. Choo choo!"]
+			dependencies: ["0D77CE91690DFD0F"]
+			id: "50FD84433C69064C"
+			tasks: [{
+				id: "2DF1D759C2B08103"
+				type: "item"
+				item: "create:track"
+				count: 64L
+			}]
+			rewards: [{
+				id: "5F4F23FEAB888192"
+				type: "item"
+				item: "create:metal_girder"
+				count: 16
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			id: "43CADB3EE8D1312A"
+			tasks: [{
+				id: "2A9D7CDCEEE95C76"
+				type: "item"
+				item: "create:sticky_mechanical_piston"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 9.0d
+			subtitle: "This is a MUST have!"
+			description: [
+				"The Stockpile Switch is one of the most important blocks for automation, but also for optimizing the stress units. The block emits a redstone signal that if set up properly can automatically turn off machines not in use."
+				""
+				"The benefits of this block cannot be understated! Learn about it and use often!"
+			]
+			dependencies: ["51FE487A5586AF80"]
+			id: "6920E14D5A39D522"
+			tasks: [{
+				id: "701A78D40FC72203"
+				type: "item"
+				item: "create:stockpile_switch"
+			}]
+			rewards: [{
+				id: "705FD49043A671F8"
+				type: "item"
+				item: "create:stockpile_switch"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["000000000000062C"]
+			id: "6F05C2D84C3BDCFF"
+			tasks: [{
+				id: "1754947157614C75"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+			rewards: [
+				{
+					id: "25A00AE5AD9B6170"
+					type: "item"
+					item: "create:schematic_table"
+				}
+				{
+					id: "6CE617832CDA80CD"
+					type: "item"
+					item: "create:schematic_and_quill"
+				}
+				{
+					id: "1EDC7124F070BABF"
+					type: "item"
+					item: "create:empty_schematic"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			subtitle: "Satisfying another Blaze's thirst!"
+			description: [
+				"Very useful block for rolling ingots into wires, plates, rods, and straws. "
+				""
+				"Straws? "
+				""
+				"With a straw you can pipe lava to a Blaze Burner"
+			]
+			dependencies: ["00000000000007A1"]
+			id: "21DE6418AF3C338D"
+			tasks: [{
+				id: "432AAC2C2E764C2E"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "33CF878DC3241566"
+				type: "item"
+				item: "createaddition:straw"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: 8.0d
+			subtitle: "Electrifying!"
+			description: ["As you progress, the Electron Tube is a very common component for crafting more advanced items."]
+			dependencies: ["00000000000007A1"]
+			id: "51FE487A5586AF80"
+			tasks: [{
+				id: "0E579AD0464822E0"
+				type: "item"
+				item: "create:electron_tube"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0E3AD8F44B7789D6"
+				type: "item"
+				item: "create:electron_tube"
+				count: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: 14.5d
+			subtitle: "Bringing out the spidey in you!"
+			dependencies: ["00000000000008D1"]
+			id: "2F34516FAB3D00F1"
+			tasks: [{
+				id: "11CECEA970F6AF38"
+				type: "item"
+				item: {
+					id: "create_sa:grapplin_whisk"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1A221C6CDCB7F4DC"
+					type: "item"
+					item: {
+						id: "create_sa:slime_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24AA5ECCDB32B204"
+					type: "item"
+					item: {
+						id: "create_sa:slime_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 15.5d
+			dependencies: ["00000000000008CF"]
+			id: "603772D5F861B713"
+			tasks: [{
+				id: "420BC74B53D7FE42"
+				type: "item"
+				item: {
+					id: "create_sa:portable_drill"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7432753E19F38297"
+					type: "item"
+					item: {
+						id: "create_sa:small_filling_tank"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "19B4E7258BCAC433"
+					type: "item"
+					item: {
+						id: "create_sa:small_fueling_tank"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 12.0d
+			subtitle: "You're Fired!"
+			description: ["Kind of self explanitory - you light things on fire and have fun doing it!"]
+			dependencies: ["00000000000008D1"]
+			id: "2613E24F95C84B21"
+			tasks: [{
+				id: "5429B753400B7CCA"
+				type: "item"
+				item: {
+					id: "create_sa:flamethrower"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "467A23C3BF1B1FC2"
+				type: "item"
+				item: {
+					id: "create_sa:medium_fueling_tank"
+					Count: 1b
+					tag: {
+						tagStock: 1600.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 10.5d
+			dependencies: ["00000000000008D1"]
+			id: "7A25D9B9DC2082DE"
+			tasks: [{
+				id: "6C824C831DD3F20F"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "555828E14197E3CB"
+				type: "item"
+				item: "createaddition:gold_spool"
+				count: 4
+			}]
+		}
+		{
+			x: 5.0d
+			y: 11.0d
+			subtitle: "Feel the Power!"
+			description: [
+				"You will need several of these to power your Refined Storage system. The bigger the system, the more Alternators you will need."
+				""
+				"We will start you out with one Accumulator. These stack to be a multiblock and can be very nice to have in emergencies!"
+			]
+			dependencies: ["00000000000008D1"]
+			id: "327A1EF2D2AD9DDD"
+			tasks: [{
+				id: "08D45A3A1B0DFAC5"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "003B05AAEB04F9FF"
+				type: "item"
+				item: "createaddition:modular_accumulator"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 12.0d
+			subtitle: "All Charged Up!"
+			description: [
+				"Can't figure out how to charge your wireless device? Tesla to the recue!"
+				""
+				"Remember, ponder is your friend."
+			]
+			dependencies: ["00000000000008D1"]
+			id: "2FC7139EC54C63DD"
+			tasks: [{
+				id: "388D454C2E41D10A"
+				type: "item"
+				item: "createaddition:tesla_coil"
+			}]
+			rewards: [{
+				id: "14485B145B140177"
+				type: "item"
+				item: "create:depot"
 			}]
 		}
 	]
