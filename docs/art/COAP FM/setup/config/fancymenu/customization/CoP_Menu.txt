@@ -379,7 +379,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = config/fancymenu/assets/buttons/cfh.png
-  description = Create on a Potato PC: Sky Edition's Curseforge page
+  description = 's Curseforge page
   label = 
   loopbackgroundanimations = true
   x = 131

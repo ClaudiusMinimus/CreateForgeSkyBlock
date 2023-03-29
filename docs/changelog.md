@@ -1,6 +1,6 @@
 # Create on a Potato PC: Sky Edition Change Log
 
-## Create on a Potato PC: Sky Edition 1.19.2-1.4.0
+## Create on a Potato PC: Ultimate 1.19.2-1.4.0
 Mar. 28, 2023
 - Mods Added: (the following mods are merged from Forge Edition)
   - AngelRing2-1.19.2-2.1.5.jar
@@ -53,6 +53,7 @@ Mar. 28, 2023
   - New Angel Ring recipe
   - Added Bort and Zinc to Orechid
   - Added Create S&A Copper Tools back
+  - New art and new name Create on a Potato PC: Ultimate
 
 ## Create on a Potato PC: Sky Edition 1.19.2-1.3.5
 March 8, 2023
