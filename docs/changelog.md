@@ -1,5 +1,59 @@
 # Create on a Potato PC: Sky Edition Change Log
 
+## Create on a Potato PC: Sky Edition 1.19.2-1.4.0
+Mar. 28, 2023
+- Mods Added: (the following mods are merged from Forge Edition)
+  - AngelRing2-1.19.2-2.1.5.jar
+  - Botania-1.19.2-438-FORGE.jar
+  - CraftPresence-2.0.0-rc.1+1.19.2.jar
+  - crashutilities-6.2.jar
+  - FarmersDelight-1.19-1.2.0.jar
+  - JustEnoughResources-1.19.2-1.2.2.200.jar
+  - mcw-windows-2.1.1-mc1.19.2forge.jar
+  - RapidLeafDecay-1.19.2-2.0.2.jar
+  - RSInfinityBooster-1.19.2-3.0+27.jar
+  - SoL-Carrot-1.19.2-1.14.0.jar
+  - sophisticatedbackpacks-1.19.2-3.18.40.779.jar
+  - sophisticatedcore-1.19.2-0.5.38.203.jar
+  - torchmaster-19.2.0.jar
+  - VTweaks-1.19.2-4.0.5.jar
+- Mods Updated:
+  - balm-forge-1.19.2-4.5.7.jar
+  - BetterCompatibilityChecker-1.0.10-build.50+mc1.19.2.jar
+  - clienttweaks-forge-1.19.2-8.1.1.jar
+  - comforts-forge-6.0.4+1.19.2.jar
+  - configured-2.1.1-1.19.2.jar
+  - create-stuff-additions1.19.2_v2.0.2b.jar
+  - createaddition-1.19.2-20230315b.jar
+  - defaultoptions-forge-1.19-15.0.1.jar
+  - extremesoundmuffler-3.36-forge-1.19.2.jar
+  - ftb-chunks-forge-1902.3.18-build.248.jar
+  - ftb-library-forge-1902.3.16-build.193.jar
+  - ftb-quests-forge-1902.4.10-build.202.jar
+  - ftb-ranks-forge-1902.1.15-build.77.jar
+  - JCPlugin-1.17.x-1.19.x-4.0.4-Forge.jar
+  - jei-1.19.2-forge-11.6.0.1013.jar
+  - kotlinforforge-3.11.0-all.jar
+  - libraryferret-forge-1.19.2-4.0.0.jar
+  - Placebo-1.19.2-7.1.7.jar
+  - repurposed_structures_forge-6.3.18+1.19.2.jar
+  - rubidium-0.6.2a.jar
+  - SkyblockBuilder-1.19.2-4.2.10.jar
+  - toms_storage-1.19-1.5.3.jar
+  - WitherSkeletonTweaks-1.19.2-8.0.2.jar
+  - Xaeros_Minimap_23.3.2_Forge_1.19.1.jar
+  - XaerosWorldMap_1.29.4_Forge_1.19.1.jar
+- Mods Removed:
+- Other Changes:
+  - Imported Botania and updated quests from CCA
+  - Added/updated a lot of quests to reflect the imported mods
+  - Cleaned up Create quest map
+  - Added default config for Silent Gear to allow mixing materials for crafting
+  - Added Silent Gear seed recipes
+  - New Angel Ring recipe
+  - Added Bort and Zinc to Orechid
+  - Added Create S&A Copper Tools back
+
 ## Create on a Potato PC: Sky Edition 1.19.2-1.3.5
 March 8, 2023
 - Mods Added:
