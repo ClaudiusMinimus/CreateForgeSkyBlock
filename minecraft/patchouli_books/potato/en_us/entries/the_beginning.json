@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Sky Edition heavily relies on Create and Create Sifter for most everything. Lots of recipes have been added to help you progress. Everything you need to get started in on Potato Island. Protect your sheep, save everything, start looking for resources, and utilize JEI and your quest book! You should be able to get a $(l:tips_tricks)cobble generator$(/l) going pretty quick."
+            "text": "Playing skyblock, Ultimate heavily relies on Create and Create Sifter for most everything. Lots of recipes have been added to help you progress. Everything you need to get started in on Potato Island. Protect your sheep, save everything, start looking for resources, and utilize JEI and your quest book! You should be able to get a $(l:tips_tricks)cobble generator$(/l) going pretty quick."
         },
         {
             "type": "patchouli:text",
@@ -18,7 +18,7 @@
             "item": "ftbquests:book",
             "anchor": "ores",
             "title": "Careful with Resources",
-            "text": "If you are not careful, you will run out of resources. Use your iron, zinc, andesite, and diorite very carefully! If you run out, then an emergency package can be obtained in the questbook. To receive the package, open the questbook, look in the upper-right and click on the heart icon (\"Emergency Items\" - now you must wait for 5 minutes.)"
+            "text": "If you are playing skyblock and are not careful, you will run out of resources. Use your iron, zinc, andesite, and diorite very carefully! If you run out, then an emergency package can be obtained in the questbook. To receive the package, open the questbook, look in the upper-right and click on the heart icon (\"Emergency Items\" - now you must wait for 5 minutes.)"
         },
         {
             "type": "patchouli:spotlight",
