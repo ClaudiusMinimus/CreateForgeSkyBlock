@@ -1,5 +1,16 @@
 # Create on a Potato PC: Sky Edition Change Log
 
+**IMPORTANT For those upgrading from the Forge Edition**
+Going forward, this is the only supported Create on a Potato PC pack. The Sky Edition and Forge Editions are now merged into this Ultimate Edition.
+ - Inventory is now stored using only vanilla and Create Vaults (72 slots instead of the default 20) and Create Tanks. To keep from losing your stuff, you must export everything in the following storage systems:
+    - Refined Storage Disk Storage - including fluids
+    - Better Crates
+    - Sophisticated Storage
+    - Storage Drawers
+ - Automation is also removed from Refined Storage to remove bloat and use Create's automation.
+
+ Please look carefully over the change log for this release. While this pack is a merger of Forge and Sky, it is based mostly on Sky and therefore inherits Sky's versioning.
+
 ## Create on a Potato PC: Ultimate 1.19.2-1.4.1
 Mar. 28, 2023
 - Mods Added: (the following mods are merged from Forge Edition)
