@@ -53,7 +53,7 @@ customization {
   y = 79
   scale = 1.0
   refresh = false
-  text = Sky Edition
+  text = Ultimate
   bouncing = true
 }
 
