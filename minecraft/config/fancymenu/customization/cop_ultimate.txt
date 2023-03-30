@@ -484,3 +484,19 @@ customization {
   height = 15
 }
 
+customization {
+  orientation = bottom-centered
+  basecolor = #E4B962
+  shadow = true
+  splashfilepath = kubejs/assets/minecraft/texts/splashes.txt
+  rotation = 0.0
+  scale = 1.5
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 60
+  actionid = 779751bd-5774-4aaf-ab4b-2118afc17bf71680141379333
+  action = addsplash
+  y = -83
+}
+
