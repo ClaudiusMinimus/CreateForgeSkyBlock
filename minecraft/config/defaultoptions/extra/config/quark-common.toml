@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
@@ -165,6 +165,12 @@
 	[building.thatch]
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
+		#This feature disables itself if any of the following mods are loaded: 
+		# - goated
+		# - environmental
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 	[building.rope]
 		#Set to true to allow ropes to move Tile Entities even if Pistons Push TEs is disabled.
@@ -259,7 +265,7 @@
 	"Hotbar Changer" = false
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
-	"Automatic Took Restock" = true
+	"Automatic Tool Restock" = true
 
 	[management.quick_armor_swapping]
 		"Swap Off Hand" = true
@@ -283,7 +289,7 @@
 	[management.easy_transfering]
 		"Enable Shift Lock" = true
 
-	[management.automatic_took_restock]
+	[management.automatic_tool_restock]
 		#This feature disables itself if any of the following mods are loaded: 
 		# - inventorytweaks
 		#This is done to prevent content overlap.
@@ -435,6 +441,8 @@
 		#When enabled, Efficiency VI Diamond and Netherite pickaxes can instamine Deepslate when under Haste 2
 		"Deepslate Tweak" = true
 		"Deepslate Tweak Needs Haste2" = true
+		#Also applies a random curse along each book
+		"Curse Gear" = false
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = true
@@ -1210,6 +1218,14 @@
 		"Ancient City Loot Weight" = 8
 		#Allowed values: [0,)
 		"Ancient City Loot Quality" = 1
+
+	[world.glimmering_weald]
+		#Experimental, dont change if you dont know what you are doing. Depth max value until which biome will spawn. Increasing will make biome appear more often
+		#Allowed values: [-2,2]
+		"Max Weirdness Range" = 2.0
+		#Experimental, dont change if you dont know what you are doing. Depth min value from which biome will spawn. Decreasing will make biome appear more often
+		#Allowed values: [-2,2]
+		"Min Depth Range" = 1.5499999523162842
 
 [mobs]
 	Wraith = true
