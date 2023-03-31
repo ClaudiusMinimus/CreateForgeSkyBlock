@@ -11,6 +11,21 @@ Going forward, this is the only supported Create on a Potato PC pack. The Sky Ed
 
  Please look carefully over the change log for this release. While this pack is a merger of Forge and Sky, it is based mostly on Sky and therefore inherits Sky's versioning.
 
+ ## Create on a Potato PC: Ultimate 1.19.2-1.5.0
+ Mar. 31, 2023
+ - Mods Added:
+  - sliceanddice-2.0.3.jar
+ - Mods Updated:
+  - lootr-1.19-0.4.23.60.jar
+  - Quark-3.4-395.jar
+  - refinedstorage-1.11.6.jar
+  - repurposed_structures_forge-6.3.20+1.19.2.jar
+  - sophisticatedbackpacks-1.19.2-3.18.43.801.jar
+  - sophisticatedcore-1.19.2-0.5.46.230.jar
+ - Mods Removed:
+ - Other Changes:
+   - Added slice and dice quests
+
 ## Create on a Potato PC: Ultimate 1.19.2-1.4.1
 Mar. 28, 2023
 - Mods Added: (the following mods are merged from Forge Edition)

@@ -68,68 +68,8 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  orientation = mid-left
-  x = 95
-  action = movebutton
-  y = 38
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  width = 69
-  action = resizebutton
-  height = 21
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/assets/menubuttons/accessibilityh.png
-  backgroundnormal = config/fancymenu/assets/menubuttons/accessibility.png
-}
-
-customization {
   identifier = %id=376322%
   action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = mid-left
-  x = 175
-  action = movebutton
-  y = 13
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 68
-  action = resizebutton
-  height = 21
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/assets/menubuttons/optionsh.png
-  backgroundnormal = config/fancymenu/assets/menubuttons/options.png
 }
 
 customization {
@@ -163,36 +103,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = mid-left
-  x = 95
-  action = movebutton
-  y = 63
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  width = 70
-  action = resizebutton
-  height = 21
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/assets/menubuttons/languageh.png
-  backgroundnormal = config/fancymenu/assets/menubuttons/language.png
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-left
   x = 95
@@ -223,6 +133,101 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-left
+  x = 95
+  action = movebutton
+  y = 38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 69
+  action = resizebutton
+  height = 21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/menubuttons/accessibilityh.png
+  backgroundnormal = config/fancymenu/assets/menubuttons/accessibility.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 175
+  action = movebutton
+  y = 13
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 68
+  action = resizebutton
+  height = 21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/menubuttons/optionsh.png
+  backgroundnormal = config/fancymenu/assets/menubuttons/options.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-left
+  x = 95
+  action = movebutton
+  y = 63
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 70
+  action = resizebutton
+  height = 21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/menubuttons/languageh.png
+  backgroundnormal = config/fancymenu/assets/menubuttons/language.png
+}
+
+customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-left
   x = 95
@@ -250,16 +255,6 @@ customization {
   action = setbuttontexture
   backgroundhovered = config/fancymenu/assets/menubuttons/modsh.png
   backgroundnormal = config/fancymenu/assets/menubuttons/mods.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=376346%
-  action = hidebutton
 }
 
 customization {
@@ -375,7 +370,7 @@ customization {
   label = 
   loopbackgroundanimations = true
   x = 115
-  width = 7
+  width = 5
   actionid = ce05fac1-ae48-4b22-889f-df008f4938841640359924997
   action = addbutton
   y = -29
@@ -429,7 +424,7 @@ customization {
   y = 2
   scale = 1.0
   alignment = right
-  value = Create on a Potato PC - Ultimate 1.19.2-1.4.1
+  value = Create on a Potato PC - Ultimate 1.19.2-1.5.0
 }
 
 customization {
@@ -451,7 +446,7 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = bottom-left
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = config/fancymenu/assets/buttons/youtubeh.png
@@ -461,14 +456,14 @@ customization {
   width = 15
   actionid = 05951756-306a-4be1-b15a-94e0ed4396d91675374807235
   action = addbutton
-  y = 330
+  y = -30
   backgroundnormal = config/fancymenu/assets/buttons/youtube.png
   value = https://www.youtube.com/channel/UCqt9gDYjXdLGfupq8h32oPQ
   height = 15
 }
 
 customization {
-  orientation = top-left
+  orientation = bottom-left
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = config/fancymenu/assets/buttons/twitchh.png
@@ -478,7 +473,7 @@ customization {
   width = 15
   actionid = 8bc75cb1-3113-444d-ae70-a66798f1ab721675374812775
   action = addbutton
-  y = 330
+  y = -29
   backgroundnormal = config/fancymenu/assets/buttons/twitch.png
   value = https://www.twitch.tv/claudiusminimus
   height = 15
