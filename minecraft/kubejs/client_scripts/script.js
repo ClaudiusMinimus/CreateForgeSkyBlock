@@ -2,10 +2,10 @@
 
 // console.info("Hello, World! (You will see this line every time client resources reload)")
 
-const REMOVED_ITEMS = ["create_sa:copper_pickaxe", "create_sa:copper_axe", "create_sa:copper_shovel", "create_sa:copper_hoe", "create_sa:copper_helmet", "create_sa:copper_chestplate", "create_sa:copper_leggings", "create_sa:copper_boots", "create_sa:copper_sword"];
+const REMOVED_JEI_ITEMS = ['angelring:leadstone_angel_ring','angelring:hardened_angel_ring','angelring:reinforced_angel_ring','angelring:resonant_angel_ring','angelring:energetic_angel_ring'];
 
-// loop over REMOVED_ITEMS array
-REMOVED_ITEMS.forEach((id) => {
+// loop over REMOVED_JEI_ITEMS array
+REMOVED_JEI_ITEMS.forEach((id) => {
 	// Remove recipes from JEI		
 	JEIEvents.hideItems(
 		('jei.hide.items', event => {
