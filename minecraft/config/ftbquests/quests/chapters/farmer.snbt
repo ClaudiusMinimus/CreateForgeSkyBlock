@@ -284,6 +284,8 @@
 				"7E675FAAD105C4B4"
 				"54B3A3C29592C78B"
 				"323EB0C6DA70DE9C"
+				"655CF89B7D59F2B9"
+				"75F5A704EA52B26E"
 			]
 			size: 1.5d
 			id: "000000000000069A"
@@ -581,6 +583,39 @@
 				id: "1974BF576908065A"
 				type: "item"
 				item: "farmersdelight:rice_bale"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 5.5d
+			dependencies: ["0000000000000799"]
+			id: "75F5A704EA52B26E"
+			tasks: [{
+				id: "35C1115E51246A2F"
+				type: "item"
+				item: "sliceanddice:slicer"
+			}]
+			rewards: [{
+				id: "382E7F331B821492"
+				type: "item"
+				item: "minecraft:bookshelf"
+				count: 3
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			dependencies: ["00000000000007BD"]
+			id: "655CF89B7D59F2B9"
+			tasks: [{
+				id: "0C07132F6EEEA612"
+				type: "item"
+				item: "sliceanddice:sprinkler"
+			}]
+			rewards: [{
+				id: "2F68CAF09C9980D7"
+				type: "item"
+				item: "sliceanddice:fertilizer_bucket"
 			}]
 		}
 	]
