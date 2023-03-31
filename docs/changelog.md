@@ -11,7 +11,7 @@ Going forward, this is the only supported Create on a Potato PC pack. The Sky Ed
 
  Please look carefully over the change log for this release. While this pack is a merger of Forge and Sky, it is based mostly on Sky and therefore inherits Sky's versioning.
 
- ## Create on a Potato PC: Ultimate 1.19.2-1.5.0
+ ## Create on a Potato PC: Ultimate 1.19.2-1.5.1
  Mar. 31, 2023
  - Mods Added:
   - sliceanddice-2.0.3.jar
@@ -77,6 +77,7 @@ Mar. 28, 2023
   - Added default config for Silent Gear to allow mixing materials for crafting
   - Added Silent Gear seed recipes
   - New Angel Ring recipe
+  - Disabled Angel Ring upgrades
   - Added Bort and Zinc to Orechid
   - Added Create S&A Copper Tools back
   - New art and new name Create on a Potato PC: Ultimate
